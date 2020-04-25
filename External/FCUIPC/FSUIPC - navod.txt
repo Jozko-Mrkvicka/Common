@@ -1,0 +1,43 @@
+1.)
+- FSUIPC som stiahol zo stanky http://www.schiratti.com/dowson.html
+- zlozka FSUIPC.zip obsahuje instalaciu kniznice FSUIPC.dll, tato verzia funguje s MS FS 2004
+- na konci instalacie sa to bude chciet zaregistrovat, tak klikni na "cancel", neregistrovana verzia 
+  je zadarmo a vsetko mi funguje bez problemov (zatial), takze mame o starost menej 
+- nainstaluje sa to do zlozky "Modules", pribudnu tam aj dajake .pdf, ale to nas nezaujima
+
+2.)
+- zlozka FSUIPC_SDK.zip obsahuje program FS Interrogate, je to taka sikovna utilitka na prehrabovanie sa
+  v premennych, nie je to nutne ale ak chces tak sa na to pozri, moze sa ti to hodit
+- dalej sa tam nachadza "FSUIPC4 Offset Status.pdf", v nom je popis vsetkych premennych ktore FS obsahuje,
+  doporucujem si to prestudovat
+- posledna a aj najdolezitejsia vec je zlozka UIPC_SDK_C.zip, okrem ineho obsahuje "FSUIPC_User.h" 
+  , "FSUIPC_User.lib" a ReadThis.txt
+
+3.)
+- ja to pisem vo Visual Studiu 2010 Express Edition (zadarmo), v DEV C++ sa mi to zatial nepodarilo
+  rozbehnut, gcc nie je moja silna stranka
+- vytvoris novy projekt, vytvoris novy zdrojovy subor
+- vlozis tam "FSUIPC_User.h" 
+- vlozis tam "windows.h" kvoli premennym BOOL, DWORD apod.
+- do projektu pridas kniznicu FSUIPC_User.lib (prave tlacitko na projekt, add file ...)
+- je tam mensi problem s tym ze pri preklade si kompilator vyzaduje kniznicu libc.lib,
+  ona tam akosi nie je/ nevsimol som si ju/ nerozumiem tomu :-), tomuto problemu sa vyhnes tak,
+  ze tuto kniznicu zakazes (prave tlacitko na projekt-> vlastnosti -> linker -> input -> do policka
+  ignore specific library napises libc.lib), mozno to nie je metodicky spravne ale funguje to a o to
+  tu momentalne ide 
+- teraz by uz kompilator mal prelozit program bez problemov
+
+4.)
+- k dispozicii su procedury : 
+    FSUIPC_Open -  vytvorenie "spojenia" s FS
+    FSUIPC_Close - zavrie spojenie s FS
+    FSUIPC_Read / FSUIPC_Write - cita/ zapisuje hodnoty do premennych, 
+    FSUIPC_Process - tato procedura musi byt zavolana vzdy po pouziti procedur Read/Write,
+                     aby sa zmeny uskutocnili
+- v subore ReadThis.txt z bodu 2 je podrobnejsi popis tychto procedur
+
+5.)
+- prikladam dva demonstracne programy "FS Demo1.exe" a "FS Demo2.exe", ktore zobrazuju niektore
+  zakladne hodnoty letovych a navigacnych pristojov
+- programy mozu bezat paralelne, FS sa tomu nebrani
+- na spravny beh programu je potrebna nainstalovana kniznica FSUIPC.dll a zapnuty MS FS 2004

@@ -1,0 +1,19 @@
+q = 1<<n
+
+int x = 1;
+x <<= n;
+
+00000010000
+       _n__
+
+
+// set
+reg |= (1<<bit);
+
+// reset
+reg &= ~(1<<bit);
+
+
+
+// toggle
+reg ^= (1<<bit);
