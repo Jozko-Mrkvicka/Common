@@ -15,16 +15,25 @@ ASSIGN ALT+G GROUP;
 ASSIGN ALT+D DELETE;
 ASSIGN ALT+N NAME;
 ASSIGN ALT+C COPY;
+ASSIGN ALT+V PASTE;
 ASSIGN ALT+S SHOW;
 
-# velkost mriezky
-ASSIGN ALT+1 grid inch lines on 0.1;
-ASSIGN ALT+2 grid inch lines on 0.05;
-ASSIGN ALT+3 grid inch lines on 0.025;
-ASSIGN ALT+4 grid inch lines on 0.0125;
-ASSIGN ALT+5 grid mm lines on 0.1;
+# Grid
+ASSIGN ALT+1 GRID OFF
+ASSIGN ALT+2 GRID INCH LINES ON 0.1;
+ASSIGN ALT+3 GRID INCH LINES ON 0.05;
+ASSIGN ALT+4 GRID INCH LINES ON 0.025;
+ASSIGN ALT+5 GRID INCH LINES ON 0.0125;
+ASSIGN ALT+6 GRID INCH LINES ON 0.00625;
+ASSIGN ALT+7 GRID INCH LINES ON 0.003125;
 
+
+#############################################
+#               Board Editor
+#############################################
 BRD:
+ASSIGN ALT+R ROUTE;
+ASSIGN ALT+T RIPUP;
 # ASSIGN C+E ERRORS;
 # ASSIGN CS+D 'DRC;';  # Executes DRC without opening DRC dialog. For dialog sk
 # #ASSIGN CS+D DRC;    # Opens DRC dialog.
@@ -36,18 +45,148 @@ BRD:
 # ASSIGN CS+S SMASH;
 # ASSIGN A+S SIGNAL;
 
+# Common layers
+ASSIGN BACKSPACE DISPLAY LAST
 
+ASSIGN CTRL+F9    DISPLAY  ALL  -Document
+ASSIGN SHIFT+F9   DISPLAY  NONE Dimension Holes Unrouted
+
+ASSIGN CTRL+F10   DISPLAY  Pads  Vias
+ASSIGN SHIFT+F10  DISPLAY -Pads -Vias 
+
+ASSIGN CTRL+F11   DISPLAY  Document
+ASSIGN SHIFT+F11  DISPLAY -Document  
+
+
+# Top layers
+ASSIGN CTRL+F1  DISPLAY  Top  Unrouted
+ASSIGN SHIFT+F1 DISPLAY -Top -Unrouted
+
+ASSIGN CTRL+F2  DISPLAY  tPlace  tOrigins
+ASSIGN SHIFT+F2 DISPLAY -tPlace -tOrigins
+
+
+# Bottom layers
+ASSIGN CTRL+F5  DISPLAY  Bottom  Unrouted
+ASSIGN SHIFT+F5 DISPLAY -Bottom -Unrouted
+
+ASSIGN CTRL+F6  DISPLAY  bPlace  bOrigins
+ASSIGN SHIFT+F6 DISPLAY -bPlace -bOrigins
+
+
+# ASSIGN CTRL+  DISPLAY  Dimension
+# ASSIGN SHIFT+ DISPLAY -Dimension 
+
+# ASSIGN CTRL+  DISPLAY  tNames
+# ASSIGN SHIFT+ DISPLAY -tNames    
+
+# ASSIGN CTRL+  DISPLAY  bNames
+# ASSIGN SHIFT+ DISPLAY -bNames    
+
+# ASSIGN CTRL+  DISPLAY  tValues
+# ASSIGN SHIFT+ DISPLAY -tValues   
+
+# ASSIGN CTRL+  DISPLAY  bValues
+# ASSIGN SHIFT+ DISPLAY -bValues   
+
+# ASSIGN CTRL+  DISPLAY  tStop
+# ASSIGN SHIFT+ DISPLAY -tStop     
+
+# ASSIGN CTRL+  DISPLAY  bStop
+# ASSIGN SHIFT+ DISPLAY -bStop     
+
+# ASSIGN CTRL+  DISPLAY  tCream
+# ASSIGN SHIFT+ DISPLAY -tCream    
+
+# ASSIGN CTRL+  DISPLAY  bCream
+# ASSIGN SHIFT+ DISPLAY -bCream    
+
+# ASSIGN CTRL+  DISPLAY  tFinish
+# ASSIGN SHIFT+ DISPLAY -tFinish   
+
+# ASSIGN CTRL+  DISPLAY  bFinish
+# ASSIGN SHIFT+ DISPLAY -bFinish   
+
+# ASSIGN CTRL+  DISPLAY  tGlue
+# ASSIGN SHIFT+ DISPLAY -tGlue     
+
+# ASSIGN CTRL+  DISPLAY  bGlue
+# ASSIGN SHIFT+ DISPLAY -bGlue     
+
+# ASSIGN CTRL+  DISPLAY  tTest
+# ASSIGN SHIFT+ DISPLAY -tTest     
+
+# ASSIGN CTRL+  DISPLAY  bTest
+# ASSIGN SHIFT+ DISPLAY -bTest     
+
+# ASSIGN CTRL+  DISPLAY  tKeepout
+# ASSIGN SHIFT+ DISPLAY -tKeepout  
+
+# ASSIGN CTRL+  DISPLAY  bKeepout
+# ASSIGN SHIFT+ DISPLAY -bKeepout  
+
+# ASSIGN CTRL+  DISPLAY  tRestrict
+# ASSIGN SHIFT+ DISPLAY -tRestrict 
+
+# ASSIGN CTRL+  DISPLAY  bRestrict
+# ASSIGN SHIFT+ DISPLAY -bRestrict 
+
+# ASSIGN CTRL+  DISPLAY  vRestrict
+# ASSIGN SHIFT+ DISPLAY -vRestrict 
+
+# ASSIGN CTRL+  DISPLAY  Drills
+# ASSIGN SHIFT+ DISPLAY -Drills    
+
+# ASSIGN CTRL+  DISPLAY  Holes
+# ASSIGN SHIFT+ DISPLAY -Holes     
+
+# ASSIGN CTRL+  DISPLAY  Milling
+# ASSIGN SHIFT+ DISPLAY -Milling   
+
+# ASSIGN CTRL+  DISPLAY  Measures
+# ASSIGN SHIFT+ DISPLAY -Measures  
+
+# ASSIGN CTRL+  DISPLAY  Reference
+# ASSIGN SHIFT+ DISPLAY -Reference 
+
+# ASSIGN CTRL+  DISPLAY  tDocu
+# ASSIGN SHIFT+ DISPLAY -tDocu     
+
+# ASSIGN CTRL+  DISPLAY  bDocu
+# ASSIGN SHIFT+ DISPLAY -bDocu     
+
+
+#############################################
+#             Schematics Editor
+#############################################
 SCH:
-ASSIGN ALT+E net;
-# ASSIGN CS+E ERC;
-# ASSIGN CS+I INVOKE;
-# ASSIGN CS+V VALUE;
-# ASSIGN CS+S SMASH;
-# ASSIGN A+N NET;
+ASSIGN ALT+Q MOVE;
+ASSIGN ALT+W NET;
+ASSIGN ALT+E SPLIT;
+ASSIGN ALT+G GROUP;
+ASSIGN ALT+D DELETE;
+ASSIGN ALT+N NAME;
+ASSIGN ALT+C COPY;
+ASSIGN ALT+S SHOW;
 
+
+#############################################
+#              Library Editor
+#############################################
 LBR:
-# ASSIGN C+E EDIT;
+ASSIGN ALT+Q MOVE;
+ASSIGN ALT+W NET;
+ASSIGN ALT+E SPLIT;
+ASSIGN ALT+G GROUP;
+ASSIGN ALT+D DELETE;
+ASSIGN ALT+N NAME;
+ASSIGN ALT+C COPY;
+ASSIGN ALT+S SHOW;
 
+
+#############################################
+#               Device Editor
+#############################################
 DEV:
 # ASSIGN A+C CONNECT;
 # ASSIGN A+P PACKAGE;
@@ -56,6 +195,3 @@ SYM:
 # ASSIGN A+P PIN;
 
 PAC:
-# ASSIGN C+H HOLE;
-# ASSIGN A+P PAD;
-# ASSIGN A+S SMD;
