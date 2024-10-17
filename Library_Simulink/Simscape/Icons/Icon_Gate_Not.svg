@@ -1,0 +1,9 @@
+<?xml-stylesheet href="defaultstyles.css" type="text/css"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:d="http://www.mathworks.com/blockgraphics" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg_3" width="50" height="50" d:options="PreserveAspect:On;ScalingOnResizeMax:2.0;Rotate:Off;Resize:FitToBlock;Frame:Off">
+	<g id="layer_4" title="layer_0">
+		<ellipse id="ellipse_47" class="ellipse" style="stroke-width: 3;" cx="45" cy="23" rx="5" ry="5"/>
+		<line id="line_67" class="line" style="stroke-width: 3;" x1="0" y1="0" x2="0" y2="50"/>
+		<line id="line_154" class="line" style="stroke-width: 3;" d:options="Port:B0;" x1="0" y1="50" x2="40" y2="24"/>
+		<line id="line_179" class="line" style="stroke-width: 3;" d:options="Port:T0;" x1="0" y1="0" x2="40" y2="22"/>
+	</g>
+</svg>

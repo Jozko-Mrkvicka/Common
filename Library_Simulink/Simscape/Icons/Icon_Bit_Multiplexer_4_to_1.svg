@@ -1,0 +1,46 @@
+<?xml-stylesheet href="defaultstyles.css" type="text/css"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:d="http://www.mathworks.com/blockgraphics" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg_3" width="318" height="216" d:options="PreserveAspect:On;ScalingOnResizeMax:2.0;Rotate:Off;Resize:FitToBlock">
+	<defs>
+		<style>
+			.font-size-extra-small {
+				font-size:21px;}
+			.font-size-extra-large {
+				font-size:54px;}
+					</style>
+	</defs>
+	<g id="layer_4" title="layer_0">
+		<text id="text_5" class="text font-size-extra-large" style="font-weight:bold;" x="104.51" y="78">
+			<tspan dx="0" dy="48.8" x="104.51">MUX</tspan>
+		</text>
+		<text id="text_6" class="text font-size-extra-small" x="143.07" y="3.83">
+			<tspan dx="0" dy="19.14" x="143.07">VCC</tspan>
+		</text>
+		<text id="text_7" class="text font-size-extra-small" x="5.92" y="21.16">
+			<tspan dx="0" dy="19.14" x="5.92">Addr_1</tspan>
+		</text>
+		<text id="text_8" class="text font-size-extra-small" x="5.92" y="51.16">
+			<tspan dx="0" dy="19.14" x="5.92">Addr_0</tspan>
+		</text>
+		<text id="text_9" class="text font-size-extra-small" x="5.59" y="81.28">
+			<tspan dx="0" dy="19.14" x="5.59">Data_3</tspan>
+		</text>
+		<text id="text_10" class="text font-size-extra-small" x="5.59" y="111.28">
+			<tspan dx="0em" dy="19.14" x="5.59">Data_2</tspan>
+			<tspan dx="0" dy="1.15em" x="5.59"/>
+		</text>
+		<text id="text_11" class="text font-size-extra-small" x="5.59" y="141.28">
+			<tspan dx="0em" dy="19.14" x="5.59">Data_1</tspan>
+			<tspan dx="0" dy="1.15em" x="5.59"/>
+		</text>
+		<text id="text_12" class="text font-size-extra-small" x="5.59" y="171.28">
+			<tspan dx="0em" dy="19.14" x="5.59">Data_0</tspan>
+			<tspan dx="0" dy="1.15em" x="5.59"/>
+		</text>
+		<text id="text_13" class="text font-size-extra-small" x="267.8" y="96.28">
+			<tspan dx="0" dy="19.14" x="267.8">Data</tspan>
+		</text>
+		<text id="text_14" class="text font-size-extra-small" x="141.67" y="188.41">
+			<tspan dx="0" dy="19.14" x="141.67">GND</tspan>
+		</text>
+	</g>
+</svg>

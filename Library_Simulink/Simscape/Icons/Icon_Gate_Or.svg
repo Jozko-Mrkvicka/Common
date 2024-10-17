@@ -1,0 +1,10 @@
+<?xml-stylesheet href="defaultstyles.css" type="text/css"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:d="http://www.mathworks.com/blockgraphics" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg_3" width="100" height="100" d:options="PreserveAspect:On;ScalingOnResizeMax:2.0;Rotate:Off;Resize:FitToBlock;Frame:Off">
+	<g id="layer_4" title="layer_0">
+		<line id="line_52" class="line" style="stroke-width: 3;" x1="0" y1="100" x2="60" y2="100"/>
+		<line id="line_71" class="line" style="stroke-width: 3;" x1="0" y1="0" x2="60" y2="0"/>
+		<path id="path_193" class="path" style="stroke-width: 3;" d=" M 100.00027247293215,50.000048742946554 Q 94.00006951154859,32.498806204044946 83.99973124257593,19.997918676258067 Q 73.99939297360328,7.4970311484712004 59.99891939704154,-0.003501368200922836"/>
+		<path id="path_234" class="path" style="stroke-width: 3;" d=" M 100.0010634899792,50 Q 94.0003218755004,67.49919002319771 83.99908585136906,79.99861146833894 Q 73.99784982723772,92.49803291348016 59.996119393453824,99.9976857805649"/>
+		<path id="path_254" class="path" style="stroke-width: 3;" d=" M 0,0 Q 10,25 10,50 Q 10,75 0,100"/>
+	</g>
+</svg>

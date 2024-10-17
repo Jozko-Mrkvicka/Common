@@ -1,0 +1,8 @@
+<?xml-stylesheet href="defaultstyles.css" type="text/css"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:d="http://www.mathworks.com/blockgraphics" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg_3" width="400" height="600" d:options="PreserveAspect:On;ScalingOnResizeMax:2.0;Rotate:Off;Resize:FitToBlock;Frame:Off">
+	<g id="layer_4" title="layer_0">
+		<ellipse id="ellipse_20" class="ellipse" style="stroke-width:12;" cx="364" cy="324" rx="36" ry="36"/>
+		<path id="ellipse_37" class="path" style="fill:rgb(255, 255, 255);stroke-width:12;" d=" M 200.00480884147217,0.003977661132812393 C 275.11431967345646,0.003977661132812393 336.0026086343938,134.31855272113282 336.0026086343938,300.0039776611328 C 336.0026086343938,465.68940260113277 275.11431967345646,600.0039776611328 200.00480884147217,600.0039776611328"/>
+		<path id="path_69" class="path" style="fill:rgb(255, 255, 255);stroke-width:12;" d=" M 199.99852221873118,599.9999985960443 L 0,599.9999985960443 L 0,-0.0012810604405335138 L 199.99852221873118,-0.0012810604405335138"/>
+	</g>
+</svg>

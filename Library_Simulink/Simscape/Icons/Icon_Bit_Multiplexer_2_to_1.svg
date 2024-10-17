@@ -1,0 +1,34 @@
+<?xml-stylesheet href="defaultstyles.css" type="text/css"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:d="http://www.mathworks.com/blockgraphics" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg_3" width="306" height="204" d:options="PreserveAspect:On;ScalingOnResizeMax:2.0;Rotate:Off;Resize:FitToBlock">
+	<defs>
+		<style>
+			.font-size-extra-small {
+				font-size:21px;}
+			.font-size-extra-large {
+				font-size:54px;}
+					</style>
+	</defs>
+	<g id="layer_4" title="layer_0">
+		<text id="text_5" class="text font-size-extra-large" style="font-weight:bold;" x="92.66" y="71.68">
+			<tspan dx="0" dy="48.94" x="92.66">MUX</tspan>
+		</text>
+		<text id="text_6" class="text font-size-extra-small" x="3.99" y="36.3">
+			<tspan dx="0" dy="19.15" x="3.99">Addr</tspan>
+		</text>
+		<text id="text_7" class="text font-size-extra-small" x="3.46" y="96.3">
+			<tspan dx="0" dy="19.15" x="3.46">Data_1</tspan>
+		</text>
+		<text id="text_8" class="text font-size-extra-small" x="3.46" y="156.3">
+			<tspan dx="0" dy="19.15" x="3.46">Data_0</tspan>
+		</text>
+		<text id="text_9" class="text font-size-extra-small" x="127.57" y="179.26">
+			<tspan dx="0" dy="19.15" x="127.57">GND</tspan>
+		</text>
+		<text id="text_10" class="text font-size-extra-small" x="257.19" y="96.3">
+			<tspan dx="0" dy="19.15" x="257.19">Data</tspan>
+		</text>
+		<text id="text_11" class="text font-size-extra-small" x="128.1" y="1.6">
+			<tspan dx="0" dy="19.15" x="128.1">VCC</tspan>
+		</text>
+	</g>
+</svg>
