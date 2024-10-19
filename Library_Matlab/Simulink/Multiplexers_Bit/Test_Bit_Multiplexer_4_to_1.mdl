@@ -44,7 +44,7 @@ __MWOPC_PART_BEGIN__ /metadata/coreProperties.xml
   <dcterms:created xsi:type="dcterms:W3CDTF">2017-04-08T20:24:40Z</dcterms:created>
   <dc:creator>N</dc:creator>
   <cp:lastModifiedBy>Jozko Mrkvicka</cp:lastModifiedBy>
-  <dcterms:modified xsi:type="dcterms:W3CDTF">2024-10-17T22:04:46Z</dcterms:modified>
+  <dcterms:modified xsi:type="dcterms:W3CDTF">2024-10-19T21:22:53Z</dcterms:modified>
   <cp:revision>21.1</cp:revision>
   <cp:version>R2023a</cp:version>
 </cp:coreProperties>
@@ -60,7 +60,7 @@ __MWOPC_PART_BEGIN__ /metadata/mwcoreProperties.xml
 __MWOPC_PART_BEGIN__ /metadata/mwcorePropertiesExtension.xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <mwcoreProperties xmlns="http://schemas.mathworks.com/package/2014/corePropertiesExtension">
-  <uuid>48fa6165-3204-461e-8bd6-8bb4088e23b0</uuid>
+  <uuid>c2f234eb-6ba7-4c9c-981b-cdf600f25009</uuid>
 </mwcoreProperties>
 
 __MWOPC_PART_BEGIN__ /metadata/mwcorePropertiesReleaseInfo.xml
@@ -112,7 +112,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
 <?xml version="1.0" encoding="utf-8"?>
 <ModelInformation Version="1.0">
   <Model>
-    <P Name="ModelUUID">08d5cb3d-4e92-4fa1-a72a-adfe73d6b2a0</P>
+    <P Name="ModelUUID">31a540da-7221-4616-bdd3-bb397a5bf763</P>
     <P Name="LastSavedArchitecture">win64</P>
     <ConfigManagerSettings>
       <P Name="ModifiedByFormat">%&lt;Auto&gt;</P>
@@ -931,25 +931,25 @@ __MWOPC_PART_BEGIN__ /simulink/graphicalInterface.xml
   <P Name="NumParameterArguments">0</P>
   <P Name="NumExternalFileReferences">3</P>
   <ExternalFileReference>
-    <P Name="Reference">Bit_Multiplexers_Lib/Bit_MltPlx_8_Nand</P>
-    <P Name="Path">$bdroot/Bit_Multiplexer_8_to_1_NAND</P>
-    <P Name="SID">425</P>
+    <P Name="Reference">Bit_Multiplexers_Lib/Bit_Mux_4</P>
+    <P Name="Path">$bdroot/4_to_1_Bit_Multiplexer</P>
+    <P Name="SID">301</P>
     <P Name="Type">LIBRARY_BLOCK</P>
   </ExternalFileReference>
   <ExternalFileReference>
     <P Name="Reference">simulink/Logic and Bit
 Operations/Integer to Bit
 Converter</P>
-    <P Name="Path">$bdroot/Integer to Bit Converter1</P>
-    <P Name="SID">110</P>
+    <P Name="Path">$bdroot/Integer to Bit Converter3</P>
+    <P Name="SID">118</P>
     <P Name="Type">LIBRARY_BLOCK</P>
   </ExternalFileReference>
   <ExternalFileReference>
     <P Name="Reference">simulink/Logic and Bit
 Operations/Integer to Bit
 Converter</P>
-    <P Name="Path">$bdroot/Integer to Bit Converter7</P>
-    <P Name="SID">416</P>
+    <P Name="Path">$bdroot/Integer to Bit Converter4</P>
+    <P Name="SID">410</P>
     <P Name="Type">LIBRARY_BLOCK</P>
   </ExternalFileReference>
   <P Name="OrderedModelArguments">1</P>
@@ -969,8 +969,8 @@ __MWOPC_PART_BEGIN__ /simulink/hdlParams.xml
 __MWOPC_PART_BEGIN__ /simulink/modelDictionary.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <MF0 version="1.1" defaultPackage="slid" packageUris="http://schema.mathworks.com/mf0/slid/R2023a_20220628">
-  <System type="System" uuid="3c64fc4d-ac86-4bf1-8c09-0ee20b72216c">
-    <Interface type="Interface" uuid="d5c84c64-4e94-427c-811a-1ea1f3d7a362"/>
+  <System type="System" uuid="7f5043ff-3b34-4fdb-ad79-b5e9a8f90be4">
+    <Interface type="Interface" uuid="713fdb6d-263b-4a96-a278-54f60aade6d6"/>
   </System>
 </MF0>
 __MWOPC_PART_BEGIN__ /simulink/plugins/SimscapeModelParametersPlugin.xml
@@ -982,50 +982,50 @@ __MWOPC_PART_BEGIN__ /simulink/plugins/SimscapeModelParametersPlugin.xml
 __MWOPC_PART_BEGIN__ /simulink/ScheduleCore.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <sltp_graph version="1.1" packageUris="http://schema.mathworks.com/mf0/sltp_mm/R2023a_202209151115">
-  <sltp.mm.core.Context type="sltp.mm.core.Context" uuid="d2ca2bcd-b386-44d3-aaf7-f3a1cbc5f51b">
-    <defaultEventBehavior type="sltp.mm.core.EventBehavior" uuid="36f1aeb1-74e2-49af-8eca-867e2eac0a24"/>
-    <editorState type="sltp.mm.core.EditorState" uuid="14747888-3c14-40cb-aa63-cf8766acc98d">
-      <panelState type="sltp.mm.core.EditorPanelState" uuid="cdb1a676-846b-4364-95e3-e311895b9b21"/>
+  <sltp.mm.core.Context type="sltp.mm.core.Context" uuid="bff7c2e4-559a-4baa-98b2-88e40ac6d159">
+    <defaultEventBehavior type="sltp.mm.core.EventBehavior" uuid="f0dfc3a5-594c-40ab-8be4-8e8ef7ad79f0"/>
+    <editorState type="sltp.mm.core.EditorState" uuid="28bde4cf-0ef6-44d4-ab95-011801fadef0">
+      <panelState type="sltp.mm.core.EditorPanelState" uuid="ba21e57a-84e2-48ae-a407-04769447e387"/>
     </editorState>
-    <rootTask type="sltp.mm.core.Task" uuid="93b09c0c-162f-45a6-b513-6164a625d8c5">
-      <context type="sltp.mm.core.Context" uuid="d2ca2bcd-b386-44d3-aaf7-f3a1cbc5f51b"/>
+    <rootTask type="sltp.mm.core.Task" uuid="27e7e40b-0e23-4fbb-8e09-66cacb862bf3">
+      <context type="sltp.mm.core.Context" uuid="bff7c2e4-559a-4baa-98b2-88e40ac6d159"/>
       <explicit>false</explicit>
       <name>Default</name>
       <priority>-2147483648</priority>
-      <subgraph type="sltp.mm.core.Graph" uuid="36f1b53a-835f-4e84-ba1c-bf8317d654ea"/>
+      <subgraph type="sltp.mm.core.Graph" uuid="df2604c9-8543-4cb1-b063-c4a8b9ad3ebe"/>
     </rootTask>
   </sltp.mm.core.Context>
 </sltp_graph>
 __MWOPC_PART_BEGIN__ /simulink/ScheduleEditor.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <sltp_editor version="1.1" packageUris="http://schema.mathworks.com/mf0/DiagramEditor/R2019a_20181107 http://schema.mathworks.com/mf0/SltpSyntax/R2023a_202207220222">
-  <diagram.editor.model.Diagram type="diagram.editor.model.Diagram" uuid="8a41e4f2-c36d-40ff-bc7a-06229d44acdb">
-    <syntaxElement type="sltp.mm.syntax.Graph" uuid="4c32f62e-e933-40db-a83f-a216f461a9a2"/>
+  <diagram.editor.model.Diagram type="diagram.editor.model.Diagram" uuid="b8fbe4f6-04ac-4c10-8f7f-14653a8f69bd">
+    <syntaxElement type="sltp.mm.syntax.Graph" uuid="7be72383-50ef-4f2f-bdba-e5e7ff44c038"/>
     <title>Default</title>
     <type>graph.Graph</type>
   </diagram.editor.model.Diagram>
-  <sltp.mm.syntax.Context type="sltp.mm.syntax.Context" uuid="b48e692f-0bca-44e8-8f0a-4e6866dd1a84">
-    <rootGraph type="sltp.mm.syntax.Graph" uuid="4c32f62e-e933-40db-a83f-a216f461a9a2">
+  <sltp.mm.syntax.Context type="sltp.mm.syntax.Context" uuid="a2f07a25-bc71-4d5f-a509-6ebd4bc261f2">
+    <rootGraph type="sltp.mm.syntax.Graph" uuid="7be72383-50ef-4f2f-bdba-e5e7ff44c038">
       <priorityDirection>HighNumberFirst</priorityDirection>
       <title>Default</title>
-      <diagramElement type="diagram.editor.model.Diagram" uuid="8a41e4f2-c36d-40ff-bc7a-06229d44acdb"/>
+      <diagramElement type="diagram.editor.model.Diagram" uuid="b8fbe4f6-04ac-4c10-8f7f-14653a8f69bd"/>
     </rootGraph>
   </sltp.mm.syntax.Context>
 </sltp_editor>
 __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
-  <P Name="Location">[505, 64, 1777, 1107]</P>
+  <P Name="Location">[991, 0, 1920, 1080]</P>
   <P Name="Open">on</P>
+  <P Name="ZoomFactor">133</P>
   <P Name="ReportName">simulink-default.rpt</P>
   <P Name="SIDHighWatermark">425</P>
-  <Block BlockType="Reference" Name="Bit_Multiplexer_8_to_1_NAND" SID="425">
-    <PortCounts in="11" out="1"/>
-    <P Name="Position">[705, 287, 860, 453]</P>
-    <P Name="ZOrder">699</P>
-    <P Name="HideAutomaticName">off</P>
-    <P Name="LibraryVersion">15.68</P>
-    <P Name="SourceBlock">Bit_Multiplexers_Lib/Bit_MltPlx_8_Nand</P>
+  <Block BlockType="Reference" Name="4_to_1_Bit_Multiplexer" SID="301">
+    <PortCounts in="8" out="1"/>
+    <P Name="Position">[705, 125, 840, 250]</P>
+    <P Name="ZOrder">582</P>
+    <P Name="LibraryVersion">15.72</P>
+    <P Name="SourceBlock">Bit_Multiplexers_Lib/Bit_Mux_4</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
       <P Name="ShowPortLabels">FromPortIcon</P>
@@ -1043,49 +1043,47 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
       <P Name="AutoFrameSizeCalculation">off</P>
     </InstanceData>
   </Block>
-  <Block BlockType="DataTypeConversion" Name="Data Type Conversion4" SID="413">
-    <P Name="Position">[500, 298, 540, 322]</P>
-    <P Name="ZOrder">693</P>
+  <Block BlockType="DataTypeConversion" Name="Data Type Conversion1" SID="407">
+    <P Name="Position">[500, 148, 540, 172]</P>
+    <P Name="ZOrder">687</P>
     <P Name="ShowName">off</P>
     <P Name="OutDataTypeStr">uint8</P>
     <P Name="RndMeth">Floor</P>
     <P Name="SaturateOnIntegerOverflow">off</P>
   </Block>
-  <Block BlockType="DataTypeConversion" Name="Data Type Conversion5" SID="414">
-    <P Name="Position">[500, 383, 540, 407]</P>
-    <P Name="ZOrder">698</P>
+  <Block BlockType="DataTypeConversion" Name="Data Type Conversion2" SID="408">
+    <P Name="Position">[500, 208, 540, 232]</P>
+    <P Name="ZOrder">692</P>
     <P Name="ShowName">off</P>
     <P Name="OutDataTypeStr">uint8</P>
     <P Name="RndMeth">Floor</P>
     <P Name="SaturateOnIntegerOverflow">off</P>
   </Block>
-  <Block BlockType="Demux" Name="Demux2" SID="109">
-    <PortCounts in="1" out="3"/>
-    <P Name="Position">[670, 289, 685, 331]</P>
-    <P Name="ZOrder">401</P>
+  <Block BlockType="Demux" Name="Demux1" SID="425">
+    <PortCounts in="1" out="4"/>
+    <P Name="Position">[670, 130, 685, 185]</P>
+    <P Name="ZOrder">3222</P>
     <P Name="ShowName">off</P>
-    <P Name="Outputs">3</P>
   </Block>
-  <Block BlockType="Demux" Name="Demux3" SID="112">
-    <PortCounts in="1" out="8"/>
-    <P Name="Position">[670, 337, 685, 448]</P>
-    <P Name="ZOrder">404</P>
+  <Block BlockType="Demux" Name="Demux5" SID="117">
+    <PortCounts in="1" out="4"/>
+    <P Name="Position">[670, 190, 685, 245]</P>
+    <P Name="ZOrder">411</P>
     <P Name="ShowName">off</P>
-    <P Name="Outputs">8</P>
   </Block>
-  <Block BlockType="FromWorkspace" Name="From&#xA;Workspace" SID="415">
-    <P Name="Position">[300, 297, 375, 323]</P>
-    <P Name="ZOrder">694</P>
+  <Block BlockType="FromWorkspace" Name="From&#xA;Workspace" SID="409">
+    <P Name="Position">[300, 147, 375, 173]</P>
+    <P Name="ZOrder">688</P>
     <P Name="VariableName">Input_Vect</P>
     <P Name="SampleTime">1</P>
     <P Name="Interpolate">off</P>
     <P Name="ZeroCross">off</P>
     <P Name="OutputAfterFinalValue">Holding final value</P>
   </Block>
-  <Block BlockType="Reference" Name="Integer to Bit&#xA;Converter1" SID="110">
+  <Block BlockType="Reference" Name="Integer to Bit&#xA;Converter3" SID="118">
     <PortCounts in="1" out="1"/>
-    <P Name="Position">[565, 288, 645, 332]</P>
-    <P Name="ZOrder">402</P>
+    <P Name="Position">[565, 138, 645, 182]</P>
+    <P Name="ZOrder">409</P>
     <P Name="ShowName">off</P>
     <P Name="LibrarySourceBlock">commutil2/Integer to Bit
 Converter</P>
@@ -1096,16 +1094,16 @@ Converter</P>
     <P Name="SourceType">Integer to Bit Converter</P>
     <InstanceData>
       <P Name="MultithreadedSim">auto</P>
-      <P Name="nbits">3</P>
+      <P Name="nbits">4</P>
       <P Name="signedInputValues">Unsigned</P>
       <P Name="bitOrder">MSB first</P>
       <P Name="outDtype">boolean</P>
     </InstanceData>
   </Block>
-  <Block BlockType="Reference" Name="Integer to Bit&#xA;Converter7" SID="416">
+  <Block BlockType="Reference" Name="Integer to Bit&#xA;Converter4" SID="410">
     <PortCounts in="1" out="1"/>
-    <P Name="Position">[565, 373, 645, 417]</P>
-    <P Name="ZOrder">695</P>
+    <P Name="Position">[565, 198, 645, 242]</P>
+    <P Name="ZOrder">689</P>
     <P Name="ShowName">off</P>
     <P Name="LibrarySourceBlock">commutil2/Integer to Bit
 Converter</P>
@@ -1116,16 +1114,16 @@ Converter</P>
     <P Name="SourceType">Integer to Bit Converter</P>
     <InstanceData>
       <P Name="MultithreadedSim">auto</P>
-      <P Name="nbits">8</P>
+      <P Name="nbits">4</P>
       <P Name="signedInputValues">Unsigned</P>
       <P Name="bitOrder">MSB first</P>
       <P Name="outDtype">uint8</P>
     </InstanceData>
   </Block>
-  <Block BlockType="Selector" Name="Selector4" SID="417">
+  <Block BlockType="Selector" Name="Selector2" SID="411">
     <PortCounts in="1" out="1"/>
-    <P Name="Position">[430, 291, 470, 329]</P>
-    <P Name="ZOrder">696</P>
+    <P Name="Position">[430, 141, 470, 179]</P>
+    <P Name="ZOrder">690</P>
     <P Name="ShowName">off</P>
     <P Name="IndexMode">Zero-based</P>
     <P Name="InputPortWidth">2</P>
@@ -1134,10 +1132,10 @@ Converter</P>
     <P Name="Indices">0</P>
     <P Name="OutputSizes">1</P>
   </Block>
-  <Block BlockType="Selector" Name="Selector5" SID="418">
+  <Block BlockType="Selector" Name="Selector3" SID="412">
     <PortCounts in="1" out="1"/>
-    <P Name="Position">[430, 376, 470, 414]</P>
-    <P Name="ZOrder">697</P>
+    <P Name="Position">[430, 201, 470, 239]</P>
+    <P Name="ZOrder">691</P>
     <P Name="ShowName">off</P>
     <P Name="IndexMode">Zero-based</P>
     <P Name="InputPortWidth">2</P>
@@ -1145,117 +1143,102 @@ Converter</P>
     <P Name="Indices">1</P>
     <P Name="OutputSizes">1</P>
   </Block>
-  <Block BlockType="ToWorkspace" Name="To Workspace" SID="405">
+  <Block BlockType="ToWorkspace" Name="To Workspace" SID="404">
     <PortCounts in="1"/>
-    <P Name="Position">[875, 355, 945, 385]</P>
-    <P Name="ZOrder">685</P>
+    <P Name="Position">[875, 175, 945, 205]</P>
+    <P Name="ZOrder">684</P>
     <P Name="VariableName">Output_Vect</P>
     <P Name="MaxDataPoints">inf</P>
     <P Name="SampleTime">1</P>
   </Block>
   <Line>
-    <P Name="ZOrder">24</P>
-    <P Name="Src">109#out:1</P>
+    <P Name="ZOrder">25</P>
+    <P Name="Src">118#out:1</P>
     <P Name="Dst">425#in:1</P>
   </Line>
   <Line>
-    <P Name="ZOrder">29</P>
-    <P Name="Src">109#out:2</P>
-    <P Name="Dst">425#in:2</P>
+    <P Name="ZOrder">8</P>
+    <P Name="Src">409#out:1</P>
+    <P Name="Points">[27, 0]</P>
+    <Branch>
+      <P Name="ZOrder">27</P>
+      <P Name="Points">[0, 60]</P>
+      <P Name="Dst">412#in:1</P>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">10</P>
+      <P Name="Dst">411#in:1</P>
+    </Branch>
   </Line>
   <Line>
-    <P Name="ZOrder">31</P>
-    <P Name="Src">109#out:3</P>
-    <P Name="Dst">425#in:3</P>
+    <P Name="ZOrder">11</P>
+    <P Name="Src">411#out:1</P>
+    <P Name="Dst">407#in:1</P>
   </Line>
   <Line>
-    <P Name="ZOrder">4</P>
-    <P Name="Src">110#out:1</P>
-    <P Name="Dst">109#in:1</P>
-  </Line>
-  <Line>
-    <P Name="ZOrder">22</P>
-    <P Name="Src">112#out:1</P>
-    <P Name="Dst">425#in:4</P>
-  </Line>
-  <Line>
-    <P Name="ZOrder">28</P>
-    <P Name="Src">112#out:2</P>
-    <P Name="Dst">425#in:5</P>
-  </Line>
-  <Line>
-    <P Name="ZOrder">26</P>
-    <P Name="Src">112#out:3</P>
-    <P Name="Dst">425#in:6</P>
-  </Line>
-  <Line>
-    <P Name="ZOrder">23</P>
-    <P Name="Src">112#out:4</P>
-    <P Name="Dst">425#in:7</P>
-  </Line>
-  <Line>
-    <P Name="ZOrder">30</P>
-    <P Name="Src">112#out:5</P>
-    <P Name="Dst">425#in:8</P>
-  </Line>
-  <Line>
-    <P Name="ZOrder">25</P>
-    <P Name="Src">112#out:6</P>
-    <P Name="Dst">425#in:9</P>
-  </Line>
-  <Line>
-    <P Name="ZOrder">32</P>
-    <P Name="Src">112#out:7</P>
-    <P Name="Dst">425#in:10</P>
-  </Line>
-  <Line>
-    <P Name="ZOrder">27</P>
-    <P Name="Src">112#out:8</P>
-    <P Name="Dst">425#in:11</P>
+    <P Name="ZOrder">12</P>
+    <P Name="Src">412#out:1</P>
+    <P Name="Dst">408#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">13</P>
-    <P Name="Src">415#out:1</P>
-    <P Name="Points">[27, 0]</P>
-    <Branch>
-      <P Name="ZOrder">14</P>
-      <P Name="Points">[0, 85]</P>
-      <P Name="Dst">418#in:1</P>
-    </Branch>
-    <Branch>
-      <P Name="ZOrder">15</P>
-      <P Name="Dst">417#in:1</P>
-    </Branch>
+    <P Name="Src">407#out:1</P>
+    <P Name="Dst">118#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">14</P>
+    <P Name="Src">408#out:1</P>
+    <P Name="Dst">410#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">15</P>
+    <P Name="Src">301#out:1</P>
+    <P Name="Dst">404#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">16</P>
-    <P Name="Src">417#out:1</P>
-    <P Name="Dst">413#in:1</P>
+    <P Name="Src">410#out:1</P>
+    <P Name="Dst">117#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">17</P>
-    <P Name="Src">418#out:1</P>
-    <P Name="Dst">414#in:1</P>
+    <P Name="Src">117#out:4</P>
+    <P Name="Dst">301#in:8</P>
   </Line>
   <Line>
     <P Name="ZOrder">18</P>
-    <P Name="Src">413#out:1</P>
-    <P Name="Dst">110#in:1</P>
+    <P Name="Src">117#out:3</P>
+    <P Name="Dst">301#in:7</P>
   </Line>
   <Line>
     <P Name="ZOrder">19</P>
-    <P Name="Src">414#out:1</P>
-    <P Name="Dst">416#in:1</P>
+    <P Name="Src">117#out:2</P>
+    <P Name="Dst">301#in:6</P>
   </Line>
   <Line>
-    <P Name="ZOrder">33</P>
-    <P Name="Src">425#out:1</P>
-    <P Name="Dst">405#in:1</P>
+    <P Name="ZOrder">20</P>
+    <P Name="Src">117#out:1</P>
+    <P Name="Dst">301#in:5</P>
   </Line>
   <Line>
     <P Name="ZOrder">21</P>
-    <P Name="Src">416#out:1</P>
-    <P Name="Dst">112#in:1</P>
+    <P Name="Src">425#out:1</P>
+    <P Name="Dst">301#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">22</P>
+    <P Name="Src">425#out:2</P>
+    <P Name="Dst">301#in:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">23</P>
+    <P Name="Src">425#out:3</P>
+    <P Name="Dst">301#in:3</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">24</P>
+    <P Name="Src">425#out:4</P>
+    <P Name="Dst">301#in:4</P>
   </Line>
 </System>
 
@@ -1265,7 +1248,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
   <Object PropName="BdWindowsInfo" ObjectID="1" ClassName="Simulink.BDWindowsInfo">
     <Object PropName="WindowsInfo" ObjectID="2" ClassName="Simulink.WindowInfo">
       <P Name="IsActive" Class="logical">1</P>
-      <P Name="Location" Class="double">[505.0, 64.0, 1272.0, 1043.0]</P>
+      <P Name="Location" Class="double">[991.0, 0.0, 929.0, 1080.0]</P>
       <Object PropName="ModelBrowserInfo" ObjectID="3" ClassName="Simulink.ModelBrowserInfo">
         <P Name="Visible" Class="logical">0</P>
         <P Name="DockPosition" Class="char">Left</P>
@@ -1282,10 +1265,10 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
         <P Name="IsTabbed" Class="logical">1</P>
         <P Name="ViewObjType" Class="char">SimulinkTopLevel</P>
         <P Name="LoadSaveID" Class="char">0</P>
-        <P Name="Extents" Class="double">[1232.0, 807.0]</P>
-        <P Name="ZoomFactor" Class="double">1.0</P>
-        <P Name="Offset" Class="double">[19.68323856455379, 4.2752753257169616]</P>
-        <P Name="SceneRectInView" Class="double">[19.68323856455379, 4.2752753257169616, 1232.0, 807.0]</P>
+        <P Name="Extents" Class="double">[889.0, 844.0]</P>
+        <P Name="ZoomFactor" Class="double">1.3335054207537429</P>
+        <P Name="Offset" Class="double">[289.50135501355004, -120.45915602013162]</P>
+        <P Name="SceneRectInView" Class="double">[289.50135501355004, -120.45915602013162, 666.66395663956644, 632.91831204026323]</P>
       </Object>
       <Array PropName="DockComponentsInfo" Type="Simulink.DockComponentInfo" Dimension="1*2">
         <Object ObjectID="6">
@@ -1314,11 +1297,11 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Minimized" Class="char">Unset</P>
         </Object>
       </Array>
-      <P Name="WindowState" Class="char">AAAA/wAAAAD9AAAAAwAAAAAAAAC9AAAB+PwCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAAAAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABjAP////sAAABgAFMAaQBtAHUAbABpAG4AawA6AEUAZABpAHQAbwByADoAUgBlAGYAZQByAGUAbgBjAGUAZABGAGkAbABlAHMALwBSAGUAZgBlAHIAZQBuAGMAZQBkACAARgBpAGwAZQBzAAAAAAD/////AAAAjAD///8AAAABAAAAAAAAAAD8AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAdABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAawA////AAAAAwAAAAAAAAAA/AEAAAAB+/////8AAAAAAP////8AAAFZAP///wAABPYAAANkAAAAAQAAAAIAAAABAAAAAvwAAAAA</P>
+      <P Name="WindowState" Class="char">AAAA/wAAAAD9AAAAAwAAAAAAAAC9AAAB+PwCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAAAAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABjAP////sAAABgAFMAaQBtAHUAbABpAG4AawA6AEUAZABpAHQAbwByADoAUgBlAGYAZQByAGUAbgBjAGUAZABGAGkAbABlAHMALwBSAGUAZgBlAHIAZQBuAGMAZQBkACAARgBpAGwAZQBzAAAAAAD/////AAAAjAD///8AAAABAAAAAAAAAAD8AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAdABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAawA////AAAAAwAAAAAAAAAA/AEAAAAB+/////8AAAAAAP////8AAAFZAP///wAAA58AAAOJAAAAAQAAAAIAAAABAAAAAvwAAAAA</P>
       <Array PropName="PersistedApps" Type="Cell" Dimension="0*1"/>
-      <P Name="WindowUuid" Class="char">c006d840-1067-4241-9763-fe890a133d79</P>
+      <P Name="WindowUuid" Class="char">73ccd07c-b29b-4fd8-bc9d-c16eb682e717</P>
     </Object>
-    <P Name="BDUuid" Class="char">5a4f9182-05c0-48de-9c90-91a5cdd32327</P>
+    <P Name="BDUuid" Class="char">08e625bb-0127-4430-894b-c98d7743bded</P>
   </Object>
 </WindowsInfo>
 
