@@ -40,8 +40,8 @@ __MWOPC_PART_BEGIN__ /metadata/coreProperties.xml
   <dcterms:created xsi:type="dcterms:W3CDTF">2019-03-02T09:20:40Z</dcterms:created>
   <dc:creator>uzivatel</dc:creator>
   <cp:lastModifiedBy>Jozko Mrkvicka</cp:lastModifiedBy>
-  <dcterms:modified xsi:type="dcterms:W3CDTF">2024-10-19T20:53:28Z</dcterms:modified>
-  <cp:revision>15.68</cp:revision>
+  <dcterms:modified xsi:type="dcterms:W3CDTF">2024-10-19T22:14:02Z</dcterms:modified>
+  <cp:revision>15.70</cp:revision>
   <cp:version>R2023a</cp:version>
 </cp:coreProperties>
 
@@ -110,7 +110,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
     <ConfigManagerSettings>
       <P Name="ModifiedByFormat">%&lt;Auto&gt;</P>
       <P Name="ModifiedDateFormat">%&lt;Auto&gt;</P>
-      <P Name="ModelVersionFormat">%&lt;AutoIncrement:15.68&gt;</P>
+      <P Name="ModelVersionFormat">%&lt;AutoIncrement:15.70&gt;</P>
     </ConfigManagerSettings>
     <EditorSettings>
       <P Name="LibraryLinkDisplay">user</P>
@@ -880,8 +880,8 @@ __MWOPC_PART_BEGIN__ /simulink/configSetInfo.xml
 __MWOPC_PART_BEGIN__ /simulink/modelDictionary.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <MF0 version="1.1" defaultPackage="slid" packageUris="http://schema.mathworks.com/mf0/slid/R2023a_20220628">
-  <System type="System" uuid="2d283849-b08a-4ecd-9317-6bfa2b29ba79">
-    <Interface type="Interface" uuid="5289758e-fa53-4fc1-b37b-8927913be327"/>
+  <System type="System" uuid="8c325f99-6f69-4da9-be85-f406304cb7ad">
+    <Interface type="Interface" uuid="6cfe0cdb-2e99-45ed-920a-a93be3c2512f"/>
   </System>
 </MF0>
 __MWOPC_PART_BEGIN__ /simulink/plugins/SimscapeModelParametersPlugin.xml
@@ -1322,7 +1322,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_1350.xml
     <P Name="Dst">1354#in:4</P>
   </Line>
   <Annotation SID="1379">
-    <P Name="Name">Nibble_Multiplexer_2_to_1_DirectSelection</P>
+    <P Name="Name">Nibble_Multiplexer_2_to_1</P>
     <P Name="Position">[3999, 3783, 4375, 4208]</P>
     <P Name="InternalMargins">[0, 0, 0, 0]</P>
     <P Name="FixedHeight">on</P>
@@ -1333,7 +1333,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_1350.xml
     <P Name="BackgroundColor">[0.960784, 0.960784, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">116</P>
+    <P Name="ZOrder">121</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">8.250000</P>
   </Annotation>
@@ -1349,7 +1349,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_1350.xml
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">117</P>
+    <P Name="ZOrder">122</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -1380,7 +1380,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">118</P>
+    <P Name="ZOrder">123</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -1411,7 +1411,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">119</P>
+    <P Name="ZOrder">124</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -1442,7 +1442,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">120</P>
+    <P Name="ZOrder">125</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -1846,10 +1846,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_1552.xml
   </Line>
   <Line>
     <P Name="Name">&lt;b0&gt;</P>
-    <P Name="FontName">Helvetica</P>
     <P Name="FontSize">6</P>
-    <P Name="FontWeight">normal</P>
-    <P Name="FontAngle">normal</P>
     <P Name="ZOrder">144</P>
     <P Name="Labels">[0, 0]</P>
     <P Name="Src">1563#out:4</P>
@@ -2224,7 +2221,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_1552.xml
     <P Name="Dst">1623#in:3</P>
   </Line>
   <Annotation SID="1595">
-    <P Name="Name">Nibble_Multiplexer_4_to_1_DirectSelect</P>
+    <P Name="Name">Nibble_Multiplexer_4_to_1</P>
     <P Name="Position">[3890, 3887, 4401, 4717]</P>
     <P Name="InternalMargins">[0, 0, 0, 0]</P>
     <P Name="FixedHeight">on</P>
@@ -2235,7 +2232,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_1552.xml
     <P Name="BackgroundColor">[0.960784, 0.960784, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">170</P>
+    <P Name="ZOrder">175</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">8.250000</P>
   </Annotation>
@@ -2251,7 +2248,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_1552.xml
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">171</P>
+    <P Name="ZOrder">176</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -2283,7 +2280,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">172</P>
+    <P Name="ZOrder">177</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -2315,7 +2312,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">173</P>
+    <P Name="ZOrder">178</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -2347,7 +2344,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">174</P>
+    <P Name="ZOrder">179</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -3815,7 +3812,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_1835.xml
     <P Name="BackgroundColor">[0.960784, 0.960784, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">468</P>
+    <P Name="ZOrder">473</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">8.250000</P>
   </Annotation>
@@ -3831,11 +3828,9 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_1835.xml
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">470</P>
+    <P Name="ZOrder">475</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
-    <P Name="FontWeight">normal</P>
-    <P Name="FontAngle">normal</P>
   </Annotation>
   <Annotation SID="1936">
     <P Name="Name">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -3852,10 +3847,6 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="Interpreter">rich</P>
     <P Name="ZOrder">-57</P>
-    <P Name="FontName">Helvetica</P>
-    <P Name="FontSize">10</P>
-    <P Name="FontWeight">normal</P>
-    <P Name="FontAngle">normal</P>
   </Annotation>
   <Annotation SID="1947">
     <P Name="Name">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -3872,10 +3863,6 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="Interpreter">rich</P>
     <P Name="ZOrder">-58</P>
-    <P Name="FontName">Helvetica</P>
-    <P Name="FontSize">10</P>
-    <P Name="FontWeight">normal</P>
-    <P Name="FontAngle">normal</P>
   </Annotation>
   <Annotation SID="1914">
     <P Name="Name">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -3892,10 +3879,6 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="Interpreter">rich</P>
     <P Name="ZOrder">-59</P>
-    <P Name="FontName">Helvetica</P>
-    <P Name="FontSize">10</P>
-    <P Name="FontWeight">normal</P>
-    <P Name="FontAngle">normal</P>
   </Annotation>
   <Annotation SID="1926">
     <P Name="Name">Bit_Multiplexer_8_to_1</P>
@@ -3909,11 +3892,9 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">471</P>
+    <P Name="ZOrder">476</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
-    <P Name="FontWeight">normal</P>
-    <P Name="FontAngle">normal</P>
   </Annotation>
   <Annotation SID="1915">
     <P Name="Name">Bit_Multiplexer_8_to_1</P>
@@ -3927,11 +3908,9 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">472</P>
+    <P Name="ZOrder">477</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
-    <P Name="FontWeight">normal</P>
-    <P Name="FontAngle">normal</P>
   </Annotation>
   <Annotation SID="1925">
     <P Name="Name">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -3948,10 +3927,6 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="Interpreter">rich</P>
     <P Name="ZOrder">-62</P>
-    <P Name="FontName">Helvetica</P>
-    <P Name="FontSize">10</P>
-    <P Name="FontWeight">normal</P>
-    <P Name="FontAngle">normal</P>
   </Annotation>
   <Annotation SID="1948">
     <P Name="Name">Bit_Multiplexer_8_to_1</P>
@@ -3965,11 +3940,9 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">469</P>
+    <P Name="ZOrder">474</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
-    <P Name="FontWeight">normal</P>
-    <P Name="FontAngle">normal</P>
   </Annotation>
 </System>
 
@@ -6803,7 +6776,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">1203</P>
+    <P Name="ZOrder">1208</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -6835,7 +6808,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">1204</P>
+    <P Name="ZOrder">1209</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -6867,7 +6840,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">1205</P>
+    <P Name="ZOrder">1210</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -6883,7 +6856,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">1202</P>
+    <P Name="ZOrder">1207</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -6899,7 +6872,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.960784, 0.960784, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">1201</P>
+    <P Name="ZOrder">1206</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">8.250000</P>
   </Annotation>
@@ -6965,18 +6938,18 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="LoadSaveID" Class="char">0</P>
           <P Name="Extents" Class="double">[889.0, 844.0]</P>
           <P Name="ZoomFactor" Class="double">1.5</P>
-          <P Name="Offset" Class="double">[732.72072381868884, 113.50980392156863]</P>
-          <P Name="SceneRectInView" Class="double">[732.72072381868884, 113.50980392156863, 592.66666666666663, 562.66666666666663]</P>
+          <P Name="Offset" Class="double">[732.72072381868884, 113.50980392156862]</P>
+          <P Name="SceneRectInView" Class="double">[732.72072381868884, 113.50980392156862, 592.66666666666663, 562.66666666666663]</P>
         </Object>
         <Object ObjectID="6">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
-          <P Name="LoadSaveID" Class="char">1350</P>
+          <P Name="LoadSaveID" Class="char">1960</P>
           <P Name="Extents" Class="double">[889.0, 844.0]</P>
-          <P Name="ZoomFactor" Class="double">1.4732901983851132</P>
-          <P Name="Offset" Class="double">[3876.9193343495936, 3709.0662746806038]</P>
-          <P Name="SceneRectInView" Class="double">[3876.9193343495936, 3709.0662746806038, 603.411331300813, 572.86745063879209]</P>
+          <P Name="ZoomFactor" Class="double">0.26153846153846155</P>
+          <P Name="Offset" Class="double">[2161.2927389705883, 3684.4705882352941]</P>
+          <P Name="SceneRectInView" Class="double">[2161.2927389705883, 3684.4705882352941, 3399.1176470588234, 3227.0588235294117]</P>
         </Object>
         <Object ObjectID="7">
           <P Name="IsActive" Class="logical">0</P>
@@ -6992,21 +6965,21 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
-          <P Name="LoadSaveID" Class="char">1835</P>
+          <P Name="LoadSaveID" Class="char">1350</P>
           <P Name="Extents" Class="double">[889.0, 844.0]</P>
-          <P Name="ZoomFactor" Class="double">0.51320754716981132</P>
-          <P Name="Offset" Class="double">[2682.5036764705883, 3709.7205882352941]</P>
-          <P Name="SceneRectInView" Class="double">[2682.5036764705883, 3709.7205882352941, 1732.2426470588236, 1644.5588235294117]</P>
+          <P Name="ZoomFactor" Class="double">1.4732901983851132</P>
+          <P Name="Offset" Class="double">[3876.9193343495936, 3709.0662746806038]</P>
+          <P Name="SceneRectInView" Class="double">[3876.9193343495936, 3709.0662746806038, 603.411331300813, 572.86745063879209]</P>
         </Object>
         <Object ObjectID="9">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
-          <P Name="LoadSaveID" Class="char">1960</P>
+          <P Name="LoadSaveID" Class="char">1835</P>
           <P Name="Extents" Class="double">[889.0, 844.0]</P>
-          <P Name="ZoomFactor" Class="double">0.26153846153846155</P>
-          <P Name="Offset" Class="double">[2161.2927389705883, 3684.4705882352941]</P>
-          <P Name="SceneRectInView" Class="double">[2161.2927389705883, 3684.4705882352941, 3399.1176470588234, 3227.0588235294117]</P>
+          <P Name="ZoomFactor" Class="double">0.51320754716981132</P>
+          <P Name="Offset" Class="double">[2682.5036764705883, 3709.7205882352941]</P>
+          <P Name="SceneRectInView" Class="double">[2682.5036764705883, 3709.7205882352941, 1732.2426470588236, 1644.5588235294117]</P>
         </Object>
         <Object ObjectID="10">
           <P Name="IsActive" Class="logical">0</P>
