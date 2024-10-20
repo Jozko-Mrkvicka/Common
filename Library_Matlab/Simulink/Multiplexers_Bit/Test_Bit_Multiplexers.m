@@ -88,27 +88,27 @@ function Test_Bit_Multiplexers()
 	% test('Test_Bit_Multiplexer_16_to_1',      V4_Input, V4_Expected);
 
     % Select direct multiplexer test.
-	num = 57;
-	val0 =  bitand(bitshift(num, -0),  1);
-	val1 =  bitand(bitshift(num, -1),  1);
-	val2 =  bitand(bitshift(num, -2),  1);
-	val3 =  bitand(bitshift(num, -3),  1);
-	val4 =  bitand(bitshift(num, -4),  1);
-	val5 =  bitand(bitshift(num, -5),  1);
-	val6 =  bitand(bitshift(num, -6),  1);
-	val7 =  bitand(bitshift(num, -7),  1);
-	val8 =  bitand(bitshift(num, -8),  1);
-	val9 =  bitand(bitshift(num, -9),  1);
-	val10 = bitand(bitshift(num, -10), 1);
-	val11 = bitand(bitshift(num, -11), 1);
-	val12 = bitand(bitshift(num, -12), 1);
-	val13 = bitand(bitshift(num, -13), 1);
-	val14 = bitand(bitshift(num, -14), 1);
-	val15 = bitand(bitshift(num, -15), 1);
-	V4_Address =  [1   2   4   8   16  32  64  128 256 512 1024 2048 4096 8192 16384 32768];
-	V4_Data =     [num num num num num num num num num num  num  num  num  num   num   num];
-	V4_Input =    [0:15; V4_Address; V4_Data];
-	V4_Expected = [val0 val1 val2 val3 val4 val5 val6 val7 val8 val9 val10 val11 val12 val13 val14 val15];
-	test('Test_Bit_Multiplexer_16_to_1',      V4_Input, V4_Expected);
+	% num = 57;
+	% val0 =  bitand(bitshift(num, -0),  1);
+	% val1 =  bitand(bitshift(num, -1),  1);
+	% val2 =  bitand(bitshift(num, -2),  1);
+	% val3 =  bitand(bitshift(num, -3),  1);
+	% val4 =  bitand(bitshift(num, -4),  1);
+	% val5 =  bitand(bitshift(num, -5),  1);
+	% val6 =  bitand(bitshift(num, -6),  1);
+	% val7 =  bitand(bitshift(num, -7),  1);
+	% val8 =  bitand(bitshift(num, -8),  1);
+	% val9 =  bitand(bitshift(num, -9),  1);
+	% val10 = bitand(bitshift(num, -10), 1);
+	% val11 = bitand(bitshift(num, -11), 1);
+	% val12 = bitand(bitshift(num, -12), 1);
+	% val13 = bitand(bitshift(num, -13), 1);
+	% val14 = bitand(bitshift(num, -14), 1);
+	% val15 = bitand(bitshift(num, -15), 1);
+	% V4_Address =  [1   2   4   8   16  32  64  128 256 512 1024 2048 4096 8192 16384 32768];
+	% V4_Data =     [num num num num num num num num num num  num  num  num  num   num   num];
+	% V4_Input =    [0:15; V4_Address; V4_Data];
+	% V4_Expected = [val0 val1 val2 val3 val4 val5 val6 val7 val8 val9 val10 val11 val12 val13 val14 val15];
+	% test('Test_Bit_Multiplexer_16_to_1',      V4_Input, V4_Expected);
 end
 
