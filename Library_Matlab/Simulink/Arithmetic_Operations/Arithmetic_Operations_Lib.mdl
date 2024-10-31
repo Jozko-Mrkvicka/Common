@@ -40,8 +40,8 @@ __MWOPC_PART_BEGIN__ /metadata/coreProperties.xml
   <dcterms:created xsi:type="dcterms:W3CDTF">2018-11-25T03:03:21Z</dcterms:created>
   <dc:creator>uzivatel</dc:creator>
   <cp:lastModifiedBy>Jozko Mrkvicka</cp:lastModifiedBy>
-  <dcterms:modified xsi:type="dcterms:W3CDTF">2024-10-26T21:51:54Z</dcterms:modified>
-  <cp:revision>15.96</cp:revision>
+  <dcterms:modified xsi:type="dcterms:W3CDTF">2024-10-30T22:10:35Z</dcterms:modified>
+  <cp:revision>15.99</cp:revision>
   <cp:version>R2023a</cp:version>
 </cp:coreProperties>
 
@@ -115,7 +115,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
     <ConfigManagerSettings>
       <P Name="ModifiedByFormat">%&lt;Auto&gt;</P>
       <P Name="ModifiedDateFormat">%&lt;Auto&gt;</P>
-      <P Name="ModelVersionFormat">%&lt;AutoIncrement:15.96&gt;</P>
+      <P Name="ModelVersionFormat">%&lt;AutoIncrement:15.99&gt;</P>
     </ConfigManagerSettings>
     <EditorSettings>
       <P Name="LibraryLinkDisplay">user</P>
@@ -885,8 +885,8 @@ __MWOPC_PART_BEGIN__ /simulink/configSetInfo.xml
 __MWOPC_PART_BEGIN__ /simulink/modelDictionary.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <MF0 version="1.1" defaultPackage="slid" packageUris="http://schema.mathworks.com/mf0/slid/R2023a_20220628">
-  <System type="System" uuid="a5857d90-760c-4436-9e68-bffa1c6cd53e">
-    <Interface type="Interface" uuid="a9b219d6-2042-42ab-adff-5cabe6d83aa6"/>
+  <System type="System" uuid="05326f71-5e45-4f02-a0fb-3e5ba66f3277">
+    <Interface type="Interface" uuid="d41ff768-14db-4823-864c-717ffa18e9c4"/>
   </System>
 </MF0>
 __MWOPC_PART_BEGIN__ /simulink/plugins/SimscapeModelParametersPlugin.xml
@@ -916,12 +916,12 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3131.xml
   <P Name="PaperUnits">inches</P>
   <P Name="TiledPaperMargins">[0.500000, 0.500000, 0.500000, 0.500000]</P>
   <P Name="ZoomFactor">250</P>
-  <Block BlockType="Inport" Name="Data_1(1b)" SID="3137">
+  <Block BlockType="Inport" Name="A(1b)" SID="3137">
     <P Name="Position">[395, 198, 425, 212]</P>
     <P Name="ZOrder">-1</P>
     <P Name="NameLocation">left</P>
   </Block>
-  <Block BlockType="Inport" Name="Data_0(1b)" SID="3138">
+  <Block BlockType="Inport" Name="B(1b)" SID="3138">
     <P Name="Position">[395, 218, 425, 232]</P>
     <P Name="ZOrder">1</P>
     <P Name="NameLocation">left</P>
@@ -937,7 +937,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3131.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[450, 200, 465, 210]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -960,7 +960,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3131.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[450, 220, 465, 230]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -983,7 +983,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3131.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[450, 240, 465, 250]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -1131,7 +1131,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3131.xml
     <P Name="AllPortsSameDT">off</P>
     <P Name="OutDataTypeStr">boolean</P>
   </Block>
-  <Block BlockType="Outport" Name="Data(1b)" SID="3152">
+  <Block BlockType="Outport" Name="A+B(1b)" SID="3152">
     <P Name="Position">[720, 253, 750, 267]</P>
     <P Name="ZOrder">-2</P>
     <P Name="NameLocation">right</P>
@@ -1376,7 +1376,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3131.xml
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">312</P>
+    <P Name="ZOrder">313</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -2436,12 +2436,12 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3134.xml
   <P Name="PaperUnits">inches</P>
   <P Name="TiledPaperMargins">[0.500000, 0.500000, 0.500000, 0.500000]</P>
   <P Name="ZoomFactor">35</P>
-  <Block BlockType="Inport" Name="Data_1(1B)" SID="3626">
+  <Block BlockType="Inport" Name="A(1B)" SID="3626">
     <P Name="Position">[2580, -352, 2610, -338]</P>
     <P Name="ZOrder">100000</P>
     <P Name="NameLocation">left</P>
   </Block>
-  <Block BlockType="Inport" Name="Data_0(1B)" SID="3627">
+  <Block BlockType="Inport" Name="B(1B)" SID="3627">
     <P Name="Position">[2580, -237, 2610, -223]</P>
     <P Name="ZOrder">100000</P>
     <P Name="NameLocation">left</P>
@@ -2451,7 +2451,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3134.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, -290, 2915, -280]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -2474,7 +2474,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3134.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, -270, 2915, -260]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -2497,7 +2497,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3134.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 585, 2915, 595]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -2520,7 +2520,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3134.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 605, 2915, 615]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -2543,7 +2543,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3134.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 850, 2915, 860]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -2566,7 +2566,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3134.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 870, 2915, 880]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -2589,7 +2589,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3134.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 890, 2915, 900]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -2612,7 +2612,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3134.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 1135, 2915, 1145]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -2635,7 +2635,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3134.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 1155, 2915, 1165]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -2658,7 +2658,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3134.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 1175, 2915, 1185]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -2681,7 +2681,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3134.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 1420, 2915, 1430]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -2704,7 +2704,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3134.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 1440, 2915, 1450]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -2727,7 +2727,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3134.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, -250, 2915, -240]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -2750,7 +2750,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3134.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 1460, 2915, 1470]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -2773,7 +2773,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3134.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 1705, 2915, 1715]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -2796,7 +2796,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3134.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 1725, 2915, 1735]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -2819,7 +2819,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3134.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 1745, 2915, 1755]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -2842,7 +2842,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3134.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, -5, 2915, 5]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -2865,7 +2865,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3134.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 15, 2915, 25]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -2888,7 +2888,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3134.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 35, 2915, 45]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -2911,7 +2911,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3134.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 280, 2915, 290]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -2934,7 +2934,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3134.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 300, 2915, 310]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -2957,7 +2957,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3134.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 320, 2915, 330]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -2980,7 +2980,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3134.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 565, 2915, 575]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -4152,7 +4152,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3134.xml
     <P Name="AllPortsSameDT">off</P>
     <P Name="OutDataTypeStr">boolean</P>
   </Block>
-  <Block BlockType="Outport" Name="Data(1B)" SID="3648">
+  <Block BlockType="Outport" Name="A+B(1B)" SID="3648">
     <P Name="Position">[3320, -352, 3350, -338]</P>
     <P Name="ZOrder">100000</P>
     <P Name="NameLocation">right</P>
@@ -6033,7 +6033,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3134.xml
     <P Name="BackgroundColor">[0.960784, 0.960784, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">8399</P>
+    <P Name="ZOrder">8408</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -6049,7 +6049,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3134.xml
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">8400</P>
+    <P Name="ZOrder">8409</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -6080,7 +6080,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">8401</P>
+    <P Name="ZOrder">8410</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -6111,7 +6111,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">8402</P>
+    <P Name="ZOrder">8411</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -6142,7 +6142,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">8403</P>
+    <P Name="ZOrder">8412</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -6173,7 +6173,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">8404</P>
+    <P Name="ZOrder">8413</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -6204,7 +6204,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">8405</P>
+    <P Name="ZOrder">8414</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -6235,7 +6235,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">8406</P>
+    <P Name="ZOrder">8415</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -6266,7 +6266,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">8407</P>
+    <P Name="ZOrder">8416</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -6290,12 +6290,11 @@ p, li { white-space: pre-wrap; }
 __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
-  <P Name="Location">[61, -8, 1921, 1081]</P>
-  <P Name="Open">on</P>
+  <P Name="Location">[29, -1, 1011, 751]</P>
   <P Name="PaperType">usletter</P>
   <P Name="PaperUnits">inches</P>
   <P Name="TiledPaperMargins">[0.500000, 0.500000, 0.500000, 0.500000]</P>
-  <P Name="ZoomFactor">24</P>
+  <P Name="ZoomFactor">13</P>
   <Block BlockType="Inport" Name="A(2B)" SID="3296">
     <P Name="Position">[-965, 1563, -935, 1577]</P>
     <P Name="ZOrder">100000</P>
@@ -6336,7 +6335,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -6359,7 +6358,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[-845, 1970, -830, 1980]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -6385,7 +6384,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -6408,7 +6407,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[25, 1970, 40, 1980]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -6434,7 +6433,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -6457,7 +6456,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[25, 1890, 40, 1900]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -6480,7 +6479,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[25, 1930, 40, 1940]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -6506,7 +6505,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -6529,7 +6528,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[460, 1970, 475, 1980]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -6555,7 +6554,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -6578,7 +6577,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[460, 1890, 475, 1900]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -6604,7 +6603,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -6627,7 +6626,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[460, 1930, 475, 1940]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -6653,7 +6652,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -6676,7 +6675,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[895, 1970, 910, 1980]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -6702,7 +6701,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -6725,7 +6724,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[1765, 1970, 1780, 1980]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -6751,7 +6750,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -6774,7 +6773,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[1765, 1890, 1780, 1900]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -6797,7 +6796,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[1765, 1930, 1780, 1940]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -6823,7 +6822,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -6846,7 +6845,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2200, 1970, 2215, 1980]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -6872,7 +6871,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -6898,7 +6897,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -6921,7 +6920,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2200, 1890, 2215, 1900]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -6947,7 +6946,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -6970,7 +6969,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2200, 1930, 2215, 1940]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -6996,7 +6995,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7019,7 +7018,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[1330, 1970, 1345, 1980]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7045,7 +7044,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7068,7 +7067,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[1330, 1890, 1345, 1900]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7091,7 +7090,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[1330, 1930, 1345, 1940]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7114,7 +7113,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[895, 1890, 910, 1900]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7137,7 +7136,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[-410, 1970, -395, 1980]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7160,7 +7159,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[895, 1930, 910, 1940]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7186,7 +7185,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7209,7 +7208,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2635, 1970, 2650, 1980]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7235,7 +7234,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7258,7 +7257,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[3505, 1970, 3520, 1980]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7284,7 +7283,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7307,7 +7306,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[3505, 1890, 3520, 1900]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7330,7 +7329,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[3505, 1930, 3520, 1940]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7356,7 +7355,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7379,7 +7378,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[3940, 1970, 3955, 1980]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7405,7 +7404,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7431,7 +7430,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7454,7 +7453,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[3940, 1890, 3955, 1900]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7480,7 +7479,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7503,7 +7502,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[3940, 1930, 3955, 1940]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7529,7 +7528,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7552,7 +7551,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[4375, 1970, 4390, 1980]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7578,7 +7577,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7601,7 +7600,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[5245, 1970, 5260, 1980]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7627,7 +7626,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7650,7 +7649,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[5245, 1890, 5260, 1900]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7673,7 +7672,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[-410, 1890, -395, 1900]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7696,7 +7695,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[5245, 1930, 5260, 1940]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7722,7 +7721,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7745,7 +7744,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[5680, 1970, 5695, 1980]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7771,7 +7770,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7797,7 +7796,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7820,7 +7819,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[5680, 1890, 5695, 1900]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7846,7 +7845,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7869,7 +7868,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[5680, 1930, 5695, 1940]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7895,7 +7894,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7918,7 +7917,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[4810, 1970, 4825, 1980]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7941,7 +7940,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[-410, 1930, -395, 1940]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7967,7 +7966,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -7990,7 +7989,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[4810, 1890, 4825, 1900]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -8013,7 +8012,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[4810, 1930, 4825, 1940]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -8036,7 +8035,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[4375, 1890, 4390, 1900]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -8059,7 +8058,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[3070, 1970, 3085, 1980]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -8082,7 +8081,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[4375, 1930, 4390, 1940]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -8108,7 +8107,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -8131,7 +8130,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[3070, 1890, 3085, 1900]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -8154,7 +8153,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[3070, 1930, 3085, 1940]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -8177,7 +8176,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[-845, 1890, -830, 1900]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -8200,7 +8199,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2635, 1890, 2650, 1900]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -8223,7 +8222,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2635, 1930, 2650, 1940]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -8246,7 +8245,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3295.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[-845, 1930, -830, 1940]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.56</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -21844,7 +21843,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">7984</P>
+    <P Name="ZOrder">8002</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -21890,7 +21889,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">7985</P>
+    <P Name="ZOrder">8003</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -21921,7 +21920,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">7986</P>
+    <P Name="ZOrder">8004</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -21952,7 +21951,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">7987</P>
+    <P Name="ZOrder">8005</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -21983,7 +21982,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">7990</P>
+    <P Name="ZOrder">8008</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -22029,7 +22028,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">7988</P>
+    <P Name="ZOrder">8006</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -22045,7 +22044,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">7989</P>
+    <P Name="ZOrder">8007</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -22061,7 +22060,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">7991</P>
+    <P Name="ZOrder">8009</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -22092,7 +22091,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">7994</P>
+    <P Name="ZOrder">8012</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -22108,7 +22107,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">7993</P>
+    <P Name="ZOrder">8011</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -22139,7 +22138,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">7998</P>
+    <P Name="ZOrder">8016</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -22155,7 +22154,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">7996</P>
+    <P Name="ZOrder">8014</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -22201,7 +22200,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">7997</P>
+    <P Name="ZOrder">8015</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -22262,7 +22261,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">7992</P>
+    <P Name="ZOrder">8010</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -22278,7 +22277,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">7995</P>
+    <P Name="ZOrder">8013</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -22324,7 +22323,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">7999</P>
+    <P Name="ZOrder">8017</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -22340,7 +22339,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">7983</P>
+    <P Name="ZOrder">8001</P>
     <P Name="FontSize">7</P>
   </Annotation>
   <Annotation SID="6436">
@@ -22355,7 +22354,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.960784, 0.960784, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">7982</P>
+    <P Name="ZOrder">8000</P>
     <P Name="FontSize">7</P>
   </Annotation>
 </System>
@@ -22368,7 +22367,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3409.xml
   <P Name="PaperUnits">inches</P>
   <P Name="TiledPaperMargins">[0.500000, 0.500000, 0.500000, 0.500000]</P>
   <P Name="ZoomFactor">250</P>
-  <Block BlockType="Inport" Name="Data(2B)" SID="3410">
+  <Block BlockType="Inport" Name="A(2B)" SID="3410">
     <P Name="Position">[855, 708, 885, 722]</P>
     <P Name="ZOrder">473</P>
     <P Name="NameLocation">left</P>
@@ -22679,7 +22678,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3409.xml
       </Port>
     </PortProperties>
   </Block>
-  <Block BlockType="Outport" Name="DataOut(2B)" SID="3429">
+  <Block BlockType="Outport" Name="~A(2B)" SID="3429">
     <P Name="Position">[1075, 708, 1105, 722]</P>
     <P Name="ZOrder">563</P>
     <P Name="NameLocation">right</P>
@@ -22962,7 +22961,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3409.xml
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">33</P>
+    <P Name="ZOrder">34</P>
     <P Name="FontSize">7</P>
   </Annotation>
 </System>
@@ -22975,12 +22974,12 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
   <P Name="PaperUnits">inches</P>
   <P Name="TiledPaperMargins">[0.500000, 0.500000, 0.500000, 0.500000]</P>
   <P Name="ZoomFactor">17</P>
-  <Block BlockType="Inport" Name="Data_1(2B)" SID="3822">
+  <Block BlockType="Inport" Name="A(2B)" SID="3822">
     <P Name="Position">[2420, -2687, 2450, -2673]</P>
     <P Name="ZOrder">100000</P>
     <P Name="NameLocation">left</P>
   </Block>
-  <Block BlockType="Inport" Name="Data_0(2B)" SID="3823">
+  <Block BlockType="Inport" Name="B(2B)" SID="3823">
     <P Name="Position">[2420, -2477, 2450, -2463]</P>
     <P Name="ZOrder">100000</P>
     <P Name="NameLocation">left</P>
@@ -22990,7 +22989,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, -290, 2915, -280]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23013,7 +23012,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, -270, 2915, -260]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23036,7 +23035,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 585, 2915, 595]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23059,7 +23058,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 605, 2915, 615]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23082,7 +23081,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 850, 2915, 860]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23105,7 +23104,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 870, 2915, 880]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23128,7 +23127,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 890, 2915, 900]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23151,7 +23150,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 1135, 2915, 1145]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23174,7 +23173,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 1155, 2915, 1165]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23197,7 +23196,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 1175, 2915, 1185]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23220,7 +23219,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 1420, 2915, 1430]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23243,7 +23242,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 1440, 2915, 1450]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23266,7 +23265,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, -250, 2915, -240]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23289,7 +23288,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 1460, 2915, 1470]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23312,7 +23311,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 1705, 2915, 1715]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23335,7 +23334,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 1725, 2915, 1735]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23358,7 +23357,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 1745, 2915, 1755]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23381,7 +23380,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, -2570, 2915, -2560]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23404,7 +23403,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, -2550, 2915, -2540]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23427,7 +23426,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, -1695, 2915, -1685]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23450,7 +23449,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, -1675, 2915, -1665]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23473,7 +23472,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, -1430, 2915, -1420]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23496,7 +23495,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, -1410, 2915, -1400]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23519,7 +23518,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, -5, 2915, 5]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23542,7 +23541,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, -1390, 2915, -1380]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23565,7 +23564,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, -1145, 2915, -1135]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23588,7 +23587,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, -1125, 2915, -1115]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23611,7 +23610,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, -1105, 2915, -1095]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23634,7 +23633,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, -860, 2915, -850]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23657,7 +23656,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, -840, 2915, -830]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23680,7 +23679,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, -2530, 2915, -2520]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23703,7 +23702,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, -820, 2915, -810]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23726,7 +23725,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, -575, 2915, -565]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23749,7 +23748,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, -555, 2915, -545]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23772,7 +23771,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 15, 2915, 25]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23795,7 +23794,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, -535, 2915, -525]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23818,7 +23817,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, -2285, 2915, -2275]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23841,7 +23840,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, -2265, 2915, -2255]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23864,7 +23863,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, -2245, 2915, -2235]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23887,7 +23886,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, -2000, 2915, -1990]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23910,7 +23909,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, -1980, 2915, -1970]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23933,7 +23932,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, -1960, 2915, -1950]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23956,7 +23955,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, -1715, 2915, -1705]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -23979,7 +23978,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 35, 2915, 45]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -24002,7 +24001,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 280, 2915, 290]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -24025,7 +24024,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 300, 2915, 310]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -24048,7 +24047,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 320, 2915, 330]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -24071,7 +24070,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2900, 565, 2915, 575]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.54</P>
+    <P Name="LibraryVersion">15.58</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -26363,7 +26362,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <P Name="AllPortsSameDT">off</P>
     <P Name="OutDataTypeStr">boolean</P>
   </Block>
-  <Block BlockType="Outport" Name="Data(2B)" SID="3949">
+  <Block BlockType="Outport" Name="A+B(2B)" SID="3949">
     <P Name="Position">[3415, -2687, 3445, -2673]</P>
     <P Name="ZOrder">100000</P>
     <P Name="NameLocation">right</P>
@@ -30076,7 +30075,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <P Name="BackgroundColor">[0.960784, 0.960784, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">2390</P>
+    <P Name="ZOrder">2407</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -30092,7 +30091,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3821.xml
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">2399</P>
+    <P Name="ZOrder">2416</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -30123,7 +30122,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">2400</P>
+    <P Name="ZOrder">2417</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -30154,7 +30153,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">2401</P>
+    <P Name="ZOrder">2418</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -30185,7 +30184,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">2402</P>
+    <P Name="ZOrder">2419</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -30216,7 +30215,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">2403</P>
+    <P Name="ZOrder">2420</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -30247,7 +30246,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">2404</P>
+    <P Name="ZOrder">2421</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -30278,7 +30277,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">2405</P>
+    <P Name="ZOrder">2422</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -30309,7 +30308,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">2406</P>
+    <P Name="ZOrder">2423</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -30355,7 +30354,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">2394</P>
+    <P Name="ZOrder">2411</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -30371,7 +30370,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">2395</P>
+    <P Name="ZOrder">2412</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -30417,7 +30416,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">2397</P>
+    <P Name="ZOrder">2414</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -30463,7 +30462,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">2396</P>
+    <P Name="ZOrder">2413</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -30479,7 +30478,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">2391</P>
+    <P Name="ZOrder">2408</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -30510,7 +30509,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">2393</P>
+    <P Name="ZOrder">2410</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -30556,7 +30555,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">2398</P>
+    <P Name="ZOrder">2415</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -30572,7 +30571,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">2392</P>
+    <P Name="ZOrder">2409</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -30585,19 +30584,65 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4140.xml
   <P Name="PaperType">usletter</P>
   <P Name="PaperUnits">inches</P>
   <P Name="TiledPaperMargins">[0.500000, 0.500000, 0.500000, 0.500000]</P>
-  <P Name="ZoomFactor">200</P>
-  <Block BlockType="Inport" Name="Data_1(1b)" SID="4141">
-    <P Name="Position">[35, 33, 65, 47]</P>
+  <P Name="ZoomFactor">250</P>
+  <Block BlockType="Inport" Name="A(1b)" SID="4141">
+    <P Name="Position">[15, 33, 45, 47]</P>
     <P Name="ZOrder">100000</P>
     <P Name="NameLocation">left</P>
     <P Name="HideAutomaticName">off</P>
   </Block>
-  <Block BlockType="Inport" Name="Data_0(1b)" SID="4142">
-    <P Name="Position">[35, 73, 65, 87]</P>
+  <Block BlockType="Inport" Name="B(1b)" SID="4142">
+    <P Name="Position">[15, 73, 45, 87]</P>
     <P Name="ZOrder">100000</P>
     <P Name="NameLocation">left</P>
     <P Name="HideAutomaticName">off</P>
     <P Name="Port">2</P>
+  </Block>
+  <Block BlockType="Reference" Name="Alignment" SID="6437">
+    <PortCounts in="1" out="1"/>
+    <P Name="Position">[75, 35, 90, 45]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="LibraryVersion">15.58</P>
+    <P Name="SourceBlock">Miscellaneous/Alignment</P>
+    <P Name="SourceType">SubSystem</P>
+    <InstanceData>
+      <P Name="ShowPortLabels">FromPortIcon</P>
+      <P Name="SystemSampleTime">-1</P>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="VariantActivationTime">update diagram</P>
+      <P Name="AllowZeroVariantControls">off</P>
+      <P Name="PropagateVariantConditions">off</P>
+      <P Name="ContentPreviewEnabled">off</P>
+      <P Name="Latency">0</P>
+      <P Name="AutoFrameSizeCalculation">off</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="Alignment1" SID="6438">
+    <PortCounts in="1" out="1"/>
+    <P Name="Position">[75, 75, 90, 85]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="LibraryVersion">15.58</P>
+    <P Name="SourceBlock">Miscellaneous/Alignment</P>
+    <P Name="SourceType">SubSystem</P>
+    <InstanceData>
+      <P Name="ShowPortLabels">FromPortIcon</P>
+      <P Name="SystemSampleTime">-1</P>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="VariantActivationTime">update diagram</P>
+      <P Name="AllowZeroVariantControls">off</P>
+      <P Name="PropagateVariantConditions">off</P>
+      <P Name="ContentPreviewEnabled">off</P>
+      <P Name="Latency">0</P>
+      <P Name="AutoFrameSizeCalculation">off</P>
+    </InstanceData>
   </Block>
   <Block BlockType="Logic" Name="Logical&#xA;Operator" SID="4134">
     <PortCounts in="2" out="1"/>
@@ -30649,7 +30694,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4140.xml
     <P Name="AllPortsSameDT">off</P>
     <P Name="OutDataTypeStr">boolean</P>
   </Block>
-  <Block BlockType="Outport" Name="Data(1b)" SID="4143">
+  <Block BlockType="Outport" Name="A(XOR)B(1b)" SID="4143">
     <P Name="Position">[275, 43, 305, 57]</P>
     <P Name="ZOrder">100000</P>
     <P Name="NameLocation">right</P>
@@ -30663,30 +30708,12 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4140.xml
   <Line>
     <P Name="ZOrder">12</P>
     <P Name="Src">4141#out:1</P>
-    <P Name="Points">[40, 0]</P>
-    <Branch>
-      <P Name="ZOrder">22</P>
-      <P Name="Dst">4136#in:1</P>
-    </Branch>
-    <Branch>
-      <P Name="ZOrder">2</P>
-      <P Name="Points">[0, 30]</P>
-      <P Name="Dst">4135#in:1</P>
-    </Branch>
+    <P Name="Dst">6437#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">13</P>
     <P Name="Src">4142#out:1</P>
-    <P Name="Points">[30, 0]</P>
-    <Branch>
-      <P Name="ZOrder">24</P>
-      <P Name="Dst">4137#in:1</P>
-    </Branch>
-    <Branch>
-      <P Name="ZOrder">19</P>
-      <P Name="Points">[0, -30]</P>
-      <P Name="Dst">4134#in:2</P>
-    </Branch>
+    <P Name="Dst">6438#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">14</P>
@@ -30709,9 +30736,37 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4140.xml
     <P Name="Src">4134#out:1</P>
     <P Name="Dst">4138#in:1</P>
   </Line>
+  <Line>
+    <P Name="ZOrder">32</P>
+    <P Name="Src">6437#out:1</P>
+    <P Name="Points">[15, 0]</P>
+    <Branch>
+      <P Name="ZOrder">34</P>
+      <P Name="Points">[0, 30]</P>
+      <P Name="Dst">4135#in:1</P>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">31</P>
+      <P Name="Dst">4136#in:1</P>
+    </Branch>
+  </Line>
+  <Line>
+    <P Name="ZOrder">35</P>
+    <P Name="Src">6438#out:1</P>
+    <P Name="Points">[5, 0]</P>
+    <Branch>
+      <P Name="ZOrder">24</P>
+      <P Name="Dst">4137#in:1</P>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">19</P>
+      <P Name="Points">[0, -30]</P>
+      <P Name="Dst">4134#in:2</P>
+    </Branch>
+  </Line>
   <Annotation SID="4139">
     <P Name="Name">Bit_Xor</P>
-    <P Name="Position">[87, 25, 247, 95]</P>
+    <P Name="Position">[82, 25, 247, 95]</P>
     <P Name="InternalMargins">[0, 0, 0, 0]</P>
     <P Name="FixedHeight">on</P>
     <P Name="FixedWidth">on</P>
@@ -30721,7 +30776,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4140.xml
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">63</P>
+    <P Name="ZOrder">82</P>
     <P Name="FontSize">7</P>
   </Annotation>
   <Annotation SID="4144">
@@ -39005,9 +39060,10 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
   <P Name="Location">[61, -8, 1921, 1081]</P>
-  <P Name="ZoomFactor">175</P>
+  <P Name="Open">on</P>
+  <P Name="ZoomFactor">125</P>
   <P Name="ReportName">simulink-default.rpt</P>
-  <P Name="SIDHighWatermark">6436</P>
+  <P Name="SIDHighWatermark">6438</P>
   <Block BlockType="SubSystem" Name="Bit_Adder" SID="3131">
     <PortCounts in="3" out="2"/>
     <P Name="Position">[815, 148, 930, 192]</P>
@@ -39082,12 +39138,12 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
         <Object ObjectID="5">
           <P Name="IsActive" Class="logical">1</P>
           <P Name="IsTabbed" Class="logical">1</P>
-          <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
-          <P Name="LoadSaveID" Class="char">3295</P>
+          <P Name="ViewObjType" Class="char">SimulinkTopLevel</P>
+          <P Name="LoadSaveID" Class="char">0</P>
           <P Name="Extents" Class="double">[1820.0, 853.0]</P>
-          <P Name="ZoomFactor" Class="double">0.24195474318890478</P>
-          <P Name="Offset" Class="double">[-1055.377685546875, 236.77365548270086]</P>
-          <P Name="SceneRectInView" Class="double">[-1055.377685546875, 236.77365548270086, 7522.06787109375, 3525.4526890345983]</P>
+          <P Name="ZoomFactor" Class="double">1.25</P>
+          <P Name="Offset" Class="double">[150.34470967804481, -10.765136187342366]</P>
+          <P Name="SceneRectInView" Class="double">[150.34470967804481, -10.765136187342366, 1456.0, 682.4]</P>
         </Object>
         <Object ObjectID="6">
           <P Name="IsActive" Class="logical">0</P>
@@ -39103,53 +39159,23 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
-          <P Name="LoadSaveID" Class="char">3134</P>
+          <P Name="LoadSaveID" Class="char">3821</P>
           <P Name="Extents" Class="double">[1820.0, 853.0]</P>
-          <P Name="ZoomFactor" Class="double">0.34957627118644069</P>
-          <P Name="Offset" Class="double">[357.418797348485, -436.0484848484848]</P>
-          <P Name="SceneRectInView" Class="double">[357.418797348485, -436.0484848484848, 5206.30303030303, 2440.0969696969696]</P>
+          <P Name="ZoomFactor" Class="double">0.1736842105263158</P>
+          <P Name="Offset" Class="double">[-2298.565814393939, -2856.6060606060605]</P>
+          <P Name="SceneRectInView" Class="double">[-2298.565814393939, -2856.6060606060605, 10478.787878787878, 4911.212121212121]</P>
         </Object>
         <Object ObjectID="8">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
-          <P Name="LoadSaveID" Class="char">4140</P>
+          <P Name="LoadSaveID" Class="char">3134</P>
           <P Name="Extents" Class="double">[1820.0, 853.0]</P>
-          <P Name="ZoomFactor" Class="double">2.0</P>
-          <P Name="Offset" Class="double">[-292.10476190476186, -136.39523809523808]</P>
-          <P Name="SceneRectInView" Class="double">[-292.10476190476186, -136.39523809523808, 910.0, 426.5]</P>
+          <P Name="ZoomFactor" Class="double">0.34957627118644069</P>
+          <P Name="Offset" Class="double">[370.176609848485, -436.0484848484848]</P>
+          <P Name="SceneRectInView" Class="double">[370.176609848485, -436.0484848484848, 5206.30303030303, 2440.0969696969696]</P>
         </Object>
         <Object ObjectID="9">
-          <P Name="IsActive" Class="logical">0</P>
-          <P Name="IsTabbed" Class="logical">0</P>
-          <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
-          <P Name="LoadSaveID" Class="char">3132</P>
-          <P Name="Extents" Class="double">[1820.0, 853.0]</P>
-          <P Name="ZoomFactor" Class="double">1.25</P>
-          <P Name="Offset" Class="double">[-191.84801136363637, 157.4969696969697]</P>
-          <P Name="SceneRectInView" Class="double">[-191.84801136363637, 157.4969696969697, 1456.0, 682.4]</P>
-        </Object>
-        <Object ObjectID="10">
-          <P Name="IsActive" Class="logical">0</P>
-          <P Name="IsTabbed" Class="logical">0</P>
-          <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
-          <P Name="LoadSaveID" Class="char">5972</P>
-          <P Name="Extents" Class="double">[1820.0, 853.0]</P>
-          <P Name="ZoomFactor" Class="double">0.3</P>
-          <P Name="Offset" Class="double">[-1732.5452083610298, 1103.9096896183057]</P>
-          <P Name="SceneRectInView" Class="double">[-1732.5452083610298, 1103.9096896183057, 6066.666666666667, 2843.3333333333335]</P>
-        </Object>
-        <Object ObjectID="11">
-          <P Name="IsActive" Class="logical">0</P>
-          <P Name="IsTabbed" Class="logical">0</P>
-          <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
-          <P Name="LoadSaveID" Class="char">3821</P>
-          <P Name="Extents" Class="double">[1820.0, 853.0]</P>
-          <P Name="ZoomFactor" Class="double">0.1736842105263158</P>
-          <P Name="Offset" Class="double">[-2311.323626893939, -2856.6060606060605]</P>
-          <P Name="SceneRectInView" Class="double">[-2311.323626893939, -2856.6060606060605, 10478.787878787878, 4911.212121212121]</P>
-        </Object>
-        <Object ObjectID="12">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -39159,15 +39185,45 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[638.98404496828925, 554.9766349304108]</P>
           <P Name="SceneRectInView" Class="double">[638.98404496828925, 554.9766349304108, 728.0, 341.2]</P>
         </Object>
+        <Object ObjectID="10">
+          <P Name="IsActive" Class="logical">0</P>
+          <P Name="IsTabbed" Class="logical">0</P>
+          <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
+          <P Name="LoadSaveID" Class="char">4140</P>
+          <P Name="Extents" Class="double">[1820.0, 853.0]</P>
+          <P Name="ZoomFactor" Class="double">2.5</P>
+          <P Name="Offset" Class="double">[-205.56978787072543, -107.42116940512066]</P>
+          <P Name="SceneRectInView" Class="double">[-205.56978787072543, -107.42116940512066, 728.0, 341.2]</P>
+        </Object>
+        <Object ObjectID="11">
+          <P Name="IsActive" Class="logical">0</P>
+          <P Name="IsTabbed" Class="logical">0</P>
+          <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
+          <P Name="LoadSaveID" Class="char">3295</P>
+          <P Name="Extents" Class="double">[942.0, 516.0]</P>
+          <P Name="ZoomFactor" Class="double">0.12523152092524631</P>
+          <P Name="Offset" Class="double">[-1055.3776855468755, -60.684193993829922]</P>
+          <P Name="SceneRectInView" Class="double">[-1055.3776855468755, -60.684193993829922, 7522.0678710937509, 4120.36838798766]</P>
+        </Object>
+        <Object ObjectID="12">
+          <P Name="IsActive" Class="logical">0</P>
+          <P Name="IsTabbed" Class="logical">0</P>
+          <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
+          <P Name="LoadSaveID" Class="char">3132</P>
+          <P Name="Extents" Class="double">[1820.0, 853.0]</P>
+          <P Name="ZoomFactor" Class="double">1.25</P>
+          <P Name="Offset" Class="double">[-191.84801136363637, 157.4969696969697]</P>
+          <P Name="SceneRectInView" Class="double">[-191.84801136363637, 157.4969696969697, 1456.0, 682.4]</P>
+        </Object>
         <Object ObjectID="13">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
-          <P Name="ViewObjType" Class="char">SimulinkTopLevel</P>
-          <P Name="LoadSaveID" Class="char">0</P>
+          <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
+          <P Name="LoadSaveID" Class="char">5972</P>
           <P Name="Extents" Class="double">[1820.0, 853.0]</P>
-          <P Name="ZoomFactor" Class="double">1.75</P>
-          <P Name="Offset" Class="double">[554.5982273456184, 90.983737350303556]</P>
-          <P Name="SceneRectInView" Class="double">[554.5982273456184, 90.983737350303556, 1040.0, 487.42857142857144]</P>
+          <P Name="ZoomFactor" Class="double">0.3</P>
+          <P Name="Offset" Class="double">[-1732.5452083610298, 1103.9096896183057]</P>
+          <P Name="SceneRectInView" Class="double">[-1732.5452083610298, 1103.9096896183057, 6066.666666666667, 2843.3333333333335]</P>
         </Object>
         <Object ObjectID="14">
           <P Name="IsActive" Class="logical">0</P>
@@ -39272,6 +39328,18 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
       </Array>
       <Array PropName="DockComponentsInfo" Type="Simulink.DockComponentInfo" Dimension="1*2">
         <Object ObjectID="24">
+          <P Name="Type" Class="char">GLUE2:PropertyInspector</P>
+          <P Name="ID" Class="char">Property Inspector</P>
+          <P Name="Visible" Class="logical">0</P>
+          <P Name="CreateCallback" Class="char"/>
+          <P Name="UserData" Class="char"/>
+          <P Name="Floating" Class="logical">0</P>
+          <P Name="DockPosition" Class="char">Right</P>
+          <P Name="Width" Class="int32">640</P>
+          <P Name="Height" Class="int32">480</P>
+          <P Name="Minimized" Class="char">Unset</P>
+        </Object>
+        <Object ObjectID="25">
           <P Name="Type" Class="char">Simulink:Editor:ReferencedFiles</P>
           <P Name="ID" Class="char">Referenced Files</P>
           <P Name="Visible" Class="logical">0</P>
@@ -39280,18 +39348,6 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
 </P>
           <P Name="Floating" Class="logical">0</P>
           <P Name="DockPosition" Class="char">Left</P>
-          <P Name="Width" Class="int32">640</P>
-          <P Name="Height" Class="int32">480</P>
-          <P Name="Minimized" Class="char">Unset</P>
-        </Object>
-        <Object ObjectID="25">
-          <P Name="Type" Class="char">GLUE2:PropertyInspector</P>
-          <P Name="ID" Class="char">Property Inspector</P>
-          <P Name="Visible" Class="logical">0</P>
-          <P Name="CreateCallback" Class="char"/>
-          <P Name="UserData" Class="char"/>
-          <P Name="Floating" Class="logical">0</P>
-          <P Name="DockPosition" Class="char">Right</P>
           <P Name="Width" Class="int32">640</P>
           <P Name="Height" Class="int32">480</P>
           <P Name="Minimized" Class="char">Unset</P>
