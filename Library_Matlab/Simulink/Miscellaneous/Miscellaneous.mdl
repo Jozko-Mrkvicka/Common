@@ -45,8 +45,8 @@ __MWOPC_PART_BEGIN__ /metadata/coreProperties.xml
   <dcterms:created xsi:type="dcterms:W3CDTF">2017-04-08T07:33:08Z</dcterms:created>
   <dc:creator>N</dc:creator>
   <cp:lastModifiedBy>Jozko Mrkvicka</cp:lastModifiedBy>
-  <dcterms:modified xsi:type="dcterms:W3CDTF">2024-11-01T04:01:45Z</dcterms:modified>
-  <cp:revision>15.74</cp:revision>
+  <dcterms:modified xsi:type="dcterms:W3CDTF">2024-11-06T06:30:15Z</dcterms:modified>
+  <cp:revision>15.87</cp:revision>
   <cp:version>R2023a</cp:version>
 </cp:coreProperties>
 
@@ -116,7 +116,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
     <ConfigManagerSettings>
       <P Name="ModifiedByFormat">%&lt;Auto&gt;</P>
       <P Name="ModifiedDateFormat">%&lt;Auto&gt;</P>
-      <P Name="ModelVersionFormat">%&lt;AutoIncrement:15.74&gt;</P>
+      <P Name="ModelVersionFormat">%&lt;AutoIncrement:15.87&gt;</P>
     </ConfigManagerSettings>
     <EditorSettings>
       <P Name="LibraryLinkDisplay">user</P>
@@ -895,8 +895,8 @@ __MWOPC_PART_BEGIN__ /simulink/configSetInfo.xml
 __MWOPC_PART_BEGIN__ /simulink/modelDictionary.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <MF0 version="1.1" defaultPackage="slid" packageUris="http://schema.mathworks.com/mf0/slid/R2023a_20220628">
-  <System type="System" uuid="b76d92d4-cdfe-4ef1-851b-d9758bab7084">
-    <Interface type="Interface" uuid="c592ba87-5d72-4f06-884e-5f2f78b6f068"/>
+  <System type="System" uuid="d4086b51-791e-4018-95a3-bdd8b37a2176">
+    <Interface type="Interface" uuid="7277ff4e-f6f6-43ea-b77b-9ddbce1093c6"/>
   </System>
 </MF0>
 __MWOPC_PART_BEGIN__ /simulink/plugins/SimscapeModelParametersPlugin.xml
@@ -922,9 +922,7 @@ __MWOPC_PART_BEGIN__ /simulink/stateflow/chart_40.xml
   <P Name="viewLimits">[0 156.75 0 153.75]</P>
   <P Name="screen">[1 1 3600 1200 1.180555555555556]</P>
   <P Name="viewObj">40</P>
-  <P Name="visible">1</P>
   <P Name="toolbarMode">LIBRARY_TOOLBAR</P>
-  <subviewS/>
   <P Name="ssIdHighWaterMark">23</P>
   <P Name="decomposition">CLUSTER_CHART</P>
   <P Name="type">EML_CHART</P>
@@ -1501,9 +1499,7 @@ __MWOPC_PART_BEGIN__ /simulink/stateflow/chart_70.xml
   <P Name="viewLimits">[0 156.75 0 153.75]</P>
   <P Name="screen">[1 1 3600 1200 1.180555555555556]</P>
   <P Name="viewObj">70</P>
-  <P Name="visible">1</P>
   <P Name="toolbarMode">LIBRARY_TOOLBAR</P>
-  <subviewS/>
   <P Name="ssIdHighWaterMark">22</P>
   <P Name="decomposition">CLUSTER_CHART</P>
   <P Name="type">EML_CHART</P>
@@ -10678,7 +10674,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_15070.xml
   <P Name="Location">[61, -8, 1921, 1081]</P>
   <P Name="ZoomFactor">150</P>
   <Block BlockType="Inport" Name="Sel(1b)" SID="15071">
-    <P Name="Position">[1085, -1902, 1115, -1888]</P>
+    <P Name="Position">[1085, -1892, 1115, -1878]</P>
     <P Name="ZOrder">33516</P>
     <P Name="ForegroundColor">blue</P>
     <P Name="NameLocation">left</P>
@@ -10985,7 +10981,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_15070.xml
     </PortProperties>
   </Block>
   <Block BlockType="Outport" Name="Out(2B)" SID="15091">
-    <P Name="Position">[1305, -1687, 1335, -1673]</P>
+    <P Name="Position">[1310, -1687, 1340, -1673]</P>
     <P Name="ZOrder">1367</P>
     <P Name="NameLocation">right</P>
     <P Name="OutputWhenDisabled">reset</P>
@@ -11003,7 +10999,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_15070.xml
   <Line>
     <P Name="ZOrder">3</P>
     <P Name="Src">15071#out:1</P>
-    <P Name="Points">[65, 0; 0, 20]</P>
+    <P Name="Points">[65, 0; 0, 10]</P>
     <Branch>
       <P Name="ZOrder">115</P>
       <P Name="Dst">15084#in:1</P>
@@ -11398,6 +11394,21 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_15070.xml
     <P Name="Src">15089#out:1</P>
     <P Name="Dst">15073#in:9</P>
   </Line>
+  <Annotation SID="15145">
+    <P Name="Name">Word_Enable</P>
+    <P Name="Position">[1133, -1901, 1288, -1476]</P>
+    <P Name="InternalMargins">[0, 0, 0, 0]</P>
+    <P Name="FixedHeight">on</P>
+    <P Name="FixedWidth">on</P>
+    <P Name="HorizontalAlignment">left</P>
+    <P Name="VerticalAlignment">top</P>
+    <P Name="ForegroundColor">[0.901961, 0.901961, 1.000000]</P>
+    <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
+    <P Name="DropShadow">on</P>
+    <P Name="AnnotationType">area_annotation</P>
+    <P Name="ZOrder">16</P>
+    <P Name="FontSize">7</P>
+  </Annotation>
 </System>
 
 __MWOPC_PART_BEGIN__ /simulink/systems/system_15094.xml
@@ -13469,14 +13480,28 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
   <P Name="Location">[61, -8, 1921, 1081]</P>
-  <P Name="ZoomFactor">80</P>
+  <P Name="Open">on</P>
+  <P Name="ZoomFactor">63</P>
   <P Name="ReportName">simulink-default.rpt</P>
-  <P Name="SIDHighWatermark">15144</P>
+  <P Name="SIDHighWatermark">15145</P>
   <Block BlockType="SubSystem" Name="Align128" SID="13408">
     <PortCounts in="128" out="128"/>
     <P Name="Position">[880, -143, 895, 1143]</P>
     <P Name="ZOrder">33443</P>
     <P Name="ShowPortLabels">none</P>
+    <Mask>
+      <Display RunInitForIconRedraw="off"/>
+      <BlockDVGIcon>MaskBlockIcon.Align128</BlockDVGIcon>
+      <DialogControl Type="Group" Name="DescGroupVar">
+        <Prompt>%&lt;MaskType&gt;</Prompt>
+        <DialogControl Type="Text" Name="DescTextVar">
+          <Prompt>%&lt;MaskDescription&gt;</Prompt>
+        </DialogControl>
+      </DialogControl>
+      <DialogControl Type="Group" Name="ParameterGroupVar">
+        <Prompt>Parameters</Prompt>
+      </DialogControl>
+    </Mask>
     <System Ref="system_13408"/>
   </Block>
   <Block BlockType="SubSystem" Name="Align128T" SID="14238">
@@ -13484,6 +13509,19 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     <P Name="Position">[935, -143, 950, 1143]</P>
     <P Name="ZOrder">33506</P>
     <P Name="ShowPortLabels">none</P>
+    <Mask>
+      <Display RunInitForIconRedraw="off"/>
+      <BlockDVGIcon>MaskBlockIcon.Align128T</BlockDVGIcon>
+      <DialogControl Type="Group" Name="DescGroupVar">
+        <Prompt>%&lt;MaskType&gt;</Prompt>
+        <DialogControl Type="Text" Name="DescTextVar">
+          <Prompt>%&lt;MaskDescription&gt;</Prompt>
+        </DialogControl>
+      </DialogControl>
+      <DialogControl Type="Group" Name="ParameterGroupVar">
+        <Prompt>Parameters</Prompt>
+      </DialogControl>
+    </Mask>
     <System Ref="system_14238"/>
   </Block>
   <Block BlockType="SubSystem" Name="Align16" SID="14690">
@@ -13491,6 +13529,19 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     <P Name="Position">[1145, -142, 1160, 22]</P>
     <P Name="ZOrder">33508</P>
     <P Name="ShowPortLabels">none</P>
+    <Mask>
+      <Display RunInitForIconRedraw="off"/>
+      <BlockDVGIcon>MaskBlockIcon.Align16</BlockDVGIcon>
+      <DialogControl Type="Group" Name="DescGroupVar">
+        <Prompt>%&lt;MaskType&gt;</Prompt>
+        <DialogControl Type="Text" Name="DescTextVar">
+          <Prompt>%&lt;MaskDescription&gt;</Prompt>
+        </DialogControl>
+      </DialogControl>
+      <DialogControl Type="Group" Name="ParameterGroupVar">
+        <Prompt>Parameters</Prompt>
+      </DialogControl>
+    </Mask>
     <System Ref="system_14690"/>
   </Block>
   <Block BlockType="SubSystem" Name="Align16T" SID="14152">
@@ -13505,6 +13556,19 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     <P Name="Position">[1095, -142, 1110, 182]</P>
     <P Name="ZOrder">33445</P>
     <P Name="ShowPortLabels">none</P>
+    <Mask>
+      <Display RunInitForIconRedraw="off"/>
+      <BlockDVGIcon>MaskBlockIcon.Align32</BlockDVGIcon>
+      <DialogControl Type="Group" Name="DescGroupVar">
+        <Prompt>%&lt;MaskType&gt;</Prompt>
+        <DialogControl Type="Text" Name="DescTextVar">
+          <Prompt>%&lt;MaskDescription&gt;</Prompt>
+        </DialogControl>
+      </DialogControl>
+      <DialogControl Type="Group" Name="ParameterGroupVar">
+        <Prompt>Parameters</Prompt>
+      </DialogControl>
+    </Mask>
     <System Ref="system_13924"/>
   </Block>
   <Block BlockType="SubSystem" Name="Align32T" SID="14054">
@@ -13519,6 +13583,19 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     <P Name="Position">[1250, -140, 1265, -80]</P>
     <P Name="ZOrder">100000</P>
     <P Name="ShowPortLabels">none</P>
+    <Mask>
+      <Display RunInitForIconRedraw="off"/>
+      <BlockDVGIcon>MaskBlockIcon.Align6</BlockDVGIcon>
+      <DialogControl Type="Group" Name="DescGroupVar">
+        <Prompt>%&lt;MaskType&gt;</Prompt>
+        <DialogControl Type="Text" Name="DescTextVar">
+          <Prompt>%&lt;MaskDescription&gt;</Prompt>
+        </DialogControl>
+      </DialogControl>
+      <DialogControl Type="Group" Name="ParameterGroupVar">
+        <Prompt>Parameters</Prompt>
+      </DialogControl>
+    </Mask>
     <System Ref="system_15031"/>
   </Block>
   <Block BlockType="SubSystem" Name="Align64" SID="13666">
@@ -13526,6 +13603,19 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     <P Name="Position">[990, -142, 1005, 502]</P>
     <P Name="ZOrder">33444</P>
     <P Name="ShowPortLabels">none</P>
+    <Mask>
+      <Display RunInitForIconRedraw="off"/>
+      <BlockDVGIcon>MaskBlockIcon.Align64</BlockDVGIcon>
+      <DialogControl Type="Group" Name="DescGroupVar">
+        <Prompt>%&lt;MaskType&gt;</Prompt>
+        <DialogControl Type="Text" Name="DescTextVar">
+          <Prompt>%&lt;MaskDescription&gt;</Prompt>
+        </DialogControl>
+      </DialogControl>
+      <DialogControl Type="Group" Name="ParameterGroupVar">
+        <Prompt>Parameters</Prompt>
+      </DialogControl>
+    </Mask>
     <System Ref="system_13666"/>
   </Block>
   <Block BlockType="SubSystem" Name="Align64T" SID="14811">
@@ -13540,6 +13630,19 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     <P Name="Position">[1250, -31, 1265, 31]</P>
     <P Name="ZOrder">100000</P>
     <P Name="ShowPortLabels">none</P>
+    <Mask>
+      <Display RunInitForIconRedraw="off"/>
+      <BlockDVGIcon>MaskBlockIcon.Align6T</BlockDVGIcon>
+      <DialogControl Type="Group" Name="DescGroupVar">
+        <Prompt>%&lt;MaskType&gt;</Prompt>
+        <DialogControl Type="Text" Name="DescTextVar">
+          <Prompt>%&lt;MaskDescription&gt;</Prompt>
+        </DialogControl>
+      </DialogControl>
+      <DialogControl Type="Group" Name="ParameterGroupVar">
+        <Prompt>Parameters</Prompt>
+      </DialogControl>
+    </Mask>
     <System Ref="system_15032"/>
   </Block>
   <Block BlockType="SubSystem" Name="Align8" SID="14756">
@@ -14024,6 +14127,19 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     <P Name="Position">[1555, 82, 1590, 98]</P>
     <P Name="ZOrder">16433</P>
     <P Name="BackgroundColor">red</P>
+    <Mask>
+      <Display RunInitForIconRedraw="off"/>
+      <BlockDVGIcon>MaskBlockIcon.Delay</BlockDVGIcon>
+      <DialogControl Type="Group" Name="DescGroupVar">
+        <Prompt>%&lt;MaskType&gt;</Prompt>
+        <DialogControl Type="Text" Name="DescTextVar">
+          <Prompt>%&lt;MaskDescription&gt;</Prompt>
+        </DialogControl>
+      </DialogControl>
+      <DialogControl Type="Group" Name="ParameterGroupVar">
+        <Prompt>Parameters</Prompt>
+      </DialogControl>
+    </Mask>
     <System Ref="system_8057"/>
   </Block>
   <Block BlockType="Logic" Name="Logical&#xA;Operator" SID="10815">
@@ -14109,6 +14225,19 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     <P Name="PermitHierarchicalResolution">ExplicitOnly</P>
     <P Name="TreatAsAtomicUnit">on</P>
     <P Name="SFBlockType">MATLAB Function</P>
+    <Mask>
+      <Display RunInitForIconRedraw="off"/>
+      <BlockDVGIcon>MaskBlockIcon.Merge16_Simulated</BlockDVGIcon>
+      <DialogControl Type="Group" Name="DescGroupVar">
+        <Prompt>%&lt;MaskType&gt;</Prompt>
+        <DialogControl Type="Text" Name="DescTextVar">
+          <Prompt>%&lt;MaskDescription&gt;</Prompt>
+        </DialogControl>
+      </DialogControl>
+      <DialogControl Type="Group" Name="ParameterGroupVar">
+        <Prompt>Parameters</Prompt>
+      </DialogControl>
+    </Mask>
     <PortProperties>
       <Port Type="out" Index="1">
         <P Name="PropagatedSignals">DataOut</P>
@@ -14135,6 +14264,19 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     <P Name="PermitHierarchicalResolution">ExplicitOnly</P>
     <P Name="TreatAsAtomicUnit">on</P>
     <P Name="SFBlockType">MATLAB Function</P>
+    <Mask>
+      <Display RunInitForIconRedraw="off"/>
+      <BlockDVGIcon>MaskBlockIcon.Merge32_Simulated</BlockDVGIcon>
+      <DialogControl Type="Group" Name="DescGroupVar">
+        <Prompt>%&lt;MaskType&gt;</Prompt>
+        <DialogControl Type="Text" Name="DescTextVar">
+          <Prompt>%&lt;MaskDescription&gt;</Prompt>
+        </DialogControl>
+      </DialogControl>
+      <DialogControl Type="Group" Name="ParameterGroupVar">
+        <Prompt>Parameters</Prompt>
+      </DialogControl>
+    </Mask>
     <PortProperties>
       <Port Type="out" Index="1">
         <P Name="PropagatedSignals">DataOut</P>
@@ -14153,6 +14295,19 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     <P Name="PermitHierarchicalResolution">ExplicitOnly</P>
     <P Name="TreatAsAtomicUnit">on</P>
     <P Name="SFBlockType">MATLAB Function</P>
+    <Mask>
+      <Display RunInitForIconRedraw="off"/>
+      <BlockDVGIcon>MaskBlockIcon.Merge8_Simulated</BlockDVGIcon>
+      <DialogControl Type="Group" Name="DescGroupVar">
+        <Prompt>%&lt;MaskType&gt;</Prompt>
+        <DialogControl Type="Text" Name="DescTextVar">
+          <Prompt>%&lt;MaskDescription&gt;</Prompt>
+        </DialogControl>
+      </DialogControl>
+      <DialogControl Type="Group" Name="ParameterGroupVar">
+        <Prompt>Parameters</Prompt>
+      </DialogControl>
+    </Mask>
     <PortProperties>
       <Port Type="out" Index="1">
         <P Name="PropagatedSignals">DataOut</P>
@@ -14164,6 +14319,19 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[1590, 43, 1595, 47]</P>
     <P Name="ZOrder">2148</P>
+    <Mask>
+      <Display RunInitForIconRedraw="off"/>
+      <BlockDVGIcon>MaskBlockIcon.Name</BlockDVGIcon>
+      <DialogControl Type="Group" Name="DescGroupVar">
+        <Prompt>%&lt;MaskType&gt;</Prompt>
+        <DialogControl Type="Text" Name="DescTextVar">
+          <Prompt>%&lt;MaskDescription&gt;</Prompt>
+        </DialogControl>
+      </DialogControl>
+      <DialogControl Type="Group" Name="ParameterGroupVar">
+        <Prompt>Parameters</Prompt>
+      </DialogControl>
+    </Mask>
     <System Ref="system_6250"/>
   </Block>
   <Block BlockType="SubSystem" Name="Word_Enable" SID="15070">
@@ -14173,29 +14341,55 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     <P Name="HideAutomaticName">off</P>
     <System Ref="system_15070"/>
   </Block>
-  <Block BlockType="SubSystem" Name="bus_to_uint" SID="6479">
-    <PortCounts in="1" out="1"/>
-    <P Name="Position">[1535, -8, 1610, 8]</P>
-    <P Name="ZOrder">6610</P>
-    <System Ref="system_6479"/>
-  </Block>
   <Block BlockType="SubSystem" Name="bus_to_uint(byte)" SID="6485">
     <PortCounts in="1" out="1"/>
     <P Name="Position">[1535, -93, 1610, -77]</P>
     <P Name="ZOrder">6612</P>
     <System Ref="system_6485"/>
   </Block>
-  <Block BlockType="SubSystem" Name="uint_to_bus" SID="6473">
+  <Block BlockType="SubSystem" Name="bus_to_uint(word)" SID="6479">
     <PortCounts in="1" out="1"/>
-    <P Name="Position">[1535, -48, 1610, -32]</P>
-    <P Name="ZOrder">6609</P>
-    <System Ref="system_6473"/>
+    <P Name="Position">[1535, -8, 1610, 8]</P>
+    <P Name="ZOrder">6610</P>
+    <Mask>
+      <Display RunInitForIconRedraw="off"/>
+      <BlockDVGIcon>MaskBlockIcon.bus_to_uint(word)</BlockDVGIcon>
+      <DialogControl Type="Group" Name="DescGroupVar">
+        <Prompt>%&lt;MaskType&gt;</Prompt>
+        <DialogControl Type="Text" Name="DescTextVar">
+          <Prompt>%&lt;MaskDescription&gt;</Prompt>
+        </DialogControl>
+      </DialogControl>
+      <DialogControl Type="Group" Name="ParameterGroupVar">
+        <Prompt>Parameters</Prompt>
+      </DialogControl>
+    </Mask>
+    <System Ref="system_6479"/>
   </Block>
   <Block BlockType="SubSystem" Name="uint_to_bus(byte)" SID="6486">
     <PortCounts in="1" out="1"/>
     <P Name="Position">[1535, -138, 1610, -122]</P>
     <P Name="ZOrder">6611</P>
     <System Ref="system_6486"/>
+  </Block>
+  <Block BlockType="SubSystem" Name="uint_to_bus(word)" SID="6473">
+    <PortCounts in="1" out="1"/>
+    <P Name="Position">[1535, -48, 1610, -32]</P>
+    <P Name="ZOrder">6609</P>
+    <Mask>
+      <Display RunInitForIconRedraw="off"/>
+      <BlockDVGIcon>MaskBlockIcon.uint_to_bus(word)</BlockDVGIcon>
+      <DialogControl Type="Group" Name="DescGroupVar">
+        <Prompt>%&lt;MaskType&gt;</Prompt>
+        <DialogControl Type="Text" Name="DescTextVar">
+          <Prompt>%&lt;MaskDescription&gt;</Prompt>
+        </DialogControl>
+      </DialogControl>
+      <DialogControl Type="Group" Name="ParameterGroupVar">
+        <Prompt>Parameters</Prompt>
+      </DialogControl>
+    </Mask>
+    <System Ref="system_6473"/>
   </Block>
   <Line>
     <P Name="Name">b07</P>
@@ -14413,34 +14607,24 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
         <Object ObjectID="5">
           <P Name="IsActive" Class="logical">1</P>
           <P Name="IsTabbed" Class="logical">1</P>
-          <P Name="ViewObjType" Class="char">StudioAdapterBlock</P>
-          <P Name="LoadSaveID" Class="char">15144</P>
-          <P Name="Extents" Class="double">[1512.0, 853.0]</P>
-          <P Name="ZoomFactor" Class="double">1.0</P>
-          <P Name="Offset" Class="double">[0.0, 0.0]</P>
-          <P Name="SceneRectInView" Class="double">[0.0, 0.0, 0.0, 0.0]</P>
-        </Object>
-        <Object ObjectID="6">
-          <P Name="IsActive" Class="logical">0</P>
-          <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkTopLevel</P>
           <P Name="LoadSaveID" Class="char">0</P>
           <P Name="Extents" Class="double">[1820.0, 853.0]</P>
-          <P Name="ZoomFactor" Class="double">0.8</P>
-          <P Name="Offset" Class="double">[266.74166797129283, -184.74779629657763]</P>
-          <P Name="SceneRectInView" Class="double">[266.74166797129283, -184.74779629657763, 2275.0, 1066.25]</P>
+          <P Name="ZoomFactor" Class="double">0.63315425940138148</P>
+          <P Name="Offset" Class="double">[-132.12739109848462, -165.11151515151505]</P>
+          <P Name="SceneRectInView" Class="double">[-132.12739109848462, -165.11151515151505, 2874.4969696969692, 1347.22303030303]</P>
         </Object>
-        <Object ObjectID="7">
+        <Object ObjectID="6">
           <P Name="IsActive" Class="logical">0</P>
-          <P Name="IsTabbed" Class="logical">0</P>
+          <P Name="IsTabbed" Class="logical">1</P>
           <P Name="ViewObjType" Class="char">StudioAdapterBlock</P>
-          <P Name="LoadSaveID" Class="char">15142</P>
+          <P Name="LoadSaveID" Class="char">15144</P>
           <P Name="Extents" Class="double">[1820.0, 853.0]</P>
           <P Name="ZoomFactor" Class="double">1.0</P>
           <P Name="Offset" Class="double">[0.0, 0.0]</P>
           <P Name="SceneRectInView" Class="double">[0.0, 0.0, 0.0, 0.0]</P>
         </Object>
-        <Object ObjectID="8">
+        <Object ObjectID="7">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -14449,6 +14633,16 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="ZoomFactor" Class="double">1.5</P>
           <P Name="Offset" Class="double">[679.6076624735573, -1996.9344129182537]</P>
           <P Name="SceneRectInView" Class="double">[679.6076624735573, -1996.9344129182537, 1213.3333333333333, 568.66666666666663]</P>
+        </Object>
+        <Object ObjectID="8">
+          <P Name="IsActive" Class="logical">0</P>
+          <P Name="IsTabbed" Class="logical">0</P>
+          <P Name="ViewObjType" Class="char">StudioAdapterBlock</P>
+          <P Name="LoadSaveID" Class="char">15142</P>
+          <P Name="Extents" Class="double">[1820.0, 853.0]</P>
+          <P Name="ZoomFactor" Class="double">1.0</P>
+          <P Name="Offset" Class="double">[0.0, 0.0]</P>
+          <P Name="SceneRectInView" Class="double">[0.0, 0.0, 0.0, 0.0]</P>
         </Object>
         <Object ObjectID="9">
           <P Name="IsActive" Class="logical">0</P>
@@ -14746,9 +14940,21 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Minimized" Class="char">Unset</P>
         </Object>
         <Object ObjectID="38">
+          <P Name="Type" Class="char">GLUE2:DDG Component</P>
+          <P Name="ID" Class="char">SymbolManager</P>
+          <P Name="Visible" Class="logical">0</P>
+          <P Name="CreateCallback" Class="char">Stateflow.Interface.Panel.createSymbolManagerComponent</P>
+          <P Name="UserData" Class="char">0</P>
+          <P Name="Floating" Class="logical">0</P>
+          <P Name="DockPosition" Class="char">Right</P>
+          <P Name="Width" Class="int32">300</P>
+          <P Name="Height" Class="int32">886</P>
+          <P Name="Minimized" Class="char">Unset</P>
+        </Object>
+        <Object ObjectID="39">
           <P Name="Type" Class="char">GLUE2:PropertyInspector</P>
           <P Name="ID" Class="char">Property Inspector</P>
-          <P Name="Visible" Class="logical">1</P>
+          <P Name="Visible" Class="logical">0</P>
           <P Name="CreateCallback" Class="char"/>
           <P Name="UserData" Class="char"/>
           <P Name="Floating" Class="logical">0</P>
@@ -14757,20 +14963,8 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Height" Class="int32">400</P>
           <P Name="Minimized" Class="char">Unset</P>
         </Object>
-        <Object ObjectID="39">
-          <P Name="Type" Class="char">GLUE2:DDG Component</P>
-          <P Name="ID" Class="char">SymbolManager</P>
-          <P Name="Visible" Class="logical">1</P>
-          <P Name="CreateCallback" Class="char">Stateflow.Interface.Panel.createSymbolManagerComponent</P>
-          <P Name="UserData" Class="char">0</P>
-          <P Name="Floating" Class="logical">0</P>
-          <P Name="DockPosition" Class="char">Right</P>
-          <P Name="Width" Class="int32">300</P>
-          <P Name="Height" Class="int32">454</P>
-          <P Name="Minimized" Class="char">Unset</P>
-        </Object>
       </Array>
-      <P Name="WindowState" Class="char">AAAA/wAAAAD9AAAAAwAAAAAAAAE0AAADifwCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAAAAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD8AAAAeQAAA4kAAAAAAP////oAAAABAgAAAAL7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABjAP////sAAAB2AEwAaQBiAHIAYQByAHkAQgByAG8AdwBzAGUAcgAyACAATABpAGIAcgBhAHIAeQBCAHIAbwB3AHMAZQByAFMAdAB1AGQAaQBvAEMAbwBtAHAAbwBuAGUAbgB0AC8ATQBpAHMAYwBlAGwAbABhAG4AZQBvAHUAcwAAAAAA/////wAAAAAAAAAA+wAAAGAAUwBpAG0AdQBsAGkAbgBrADoARQBkAGkAdABvAHIAOgBSAGUAZgBlAHIAZQBuAGMAZQBkAEYAaQBsAGUAcwAvAFIAZQBmAGUAcgBlAG4AYwBlAGQAIABGAGkAbABlAHMAAAAAAP////8AAACMAP///wAAAAEAAAEwAAADkvwCAAAAAvsAAABUAEcATABVAEUAMgA6AFAAcgBvAHAAZQByAHQAeQBJAG4AcwBwAGUAYwB0AG8AcgAvAFAAcgBvAHAAZQByAHQAeQAgAEkAbgBzAHAAZQBjAHQAbwByAQAAAHkAAAGsAAAAjQD////7AAAAQgBHAEwAVQBFADIAOgBEAEQARwAgAEMAbwBtAHAAbwBuAGUAbgB0AC8AUwB5AG0AYgBvAGwATQBhAG4AYQBnAGUAcgEAAAIpAAAB4gAAACAA////AAAAAwAAAAAAAAAA/AEAAAAB+/////8AAAAAAP////8AAAFZAP///wAABg4AAAOSAAAAAQAAAAIAAAABAAAAAvwAAAAA</P>
+      <P Name="WindowState" Class="char">AAAA/wAAAAD9AAAAAwAAAAAAAAE0AAADifwCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAAAAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD8AAAAeQAAA4kAAAAAAP////oAAAABAgAAAAL7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABjAP////sAAAB2AEwAaQBiAHIAYQByAHkAQgByAG8AdwBzAGUAcgAyACAATABpAGIAcgBhAHIAeQBCAHIAbwB3AHMAZQByAFMAdAB1AGQAaQBvAEMAbwBtAHAAbwBuAGUAbgB0AC8ATQBpAHMAYwBlAGwAbABhAG4AZQBvAHUAcwAAAAAA/////wAAAAAAAAAA+wAAAGAAUwBpAG0AdQBsAGkAbgBrADoARQBkAGkAdABvAHIAOgBSAGUAZgBlAHIAZQBuAGMAZQBkAEYAaQBsAGUAcwAvAFIAZQBmAGUAcgBlAG4AYwBlAGQAIABGAGkAbABlAHMAAAAAAP////8AAACMAP///wAAAAEAAAEwAAADkvwCAAAAAvsAAABUAEcATABVAEUAMgA6AFAAcgBvAHAAZQByAHQAeQBJAG4AcwBwAGUAYwB0AG8AcgAvAFAAcgBvAHAAZQByAHQAeQAgAEkAbgBzAHAAZQBjAHQAbwByAAAAAHkAAAGsAAAAjQD////7AAAAQgBHAEwAVQBFADIAOgBEAEQARwAgAEMAbwBtAHAAbwBuAGUAbgB0AC8AUwB5AG0AYgBvAGwATQBhAG4AYQBnAGUAcgAAAAB5AAADkgAAACAA////AAAAAwAAAAAAAAAA/AEAAAAB+/////8AAAAAAP////8AAAFZAP///wAAB0IAAAOSAAAAAQAAAAIAAAABAAAAAvwAAAAA</P>
       <Array PropName="PersistedApps" Type="Cell" Dimension="0*1"/>
       <P Name="WindowUuid" Class="char">fce8fafb-6091-4534-bfc0-cb65ee7bd5bc</P>
     </Object>

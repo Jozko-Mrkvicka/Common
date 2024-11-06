@@ -44,8 +44,8 @@ __MWOPC_PART_BEGIN__ /metadata/coreProperties.xml
   <dcterms:created xsi:type="dcterms:W3CDTF">2019-03-08T21:00:14Z</dcterms:created>
   <dc:creator>uzivatel</dc:creator>
   <cp:lastModifiedBy>Jozko Mrkvicka</cp:lastModifiedBy>
-  <dcterms:modified xsi:type="dcterms:W3CDTF">2024-10-29T07:47:46Z</dcterms:modified>
-  <cp:revision>15.44</cp:revision>
+  <dcterms:modified xsi:type="dcterms:W3CDTF">2024-11-06T05:18:28Z</dcterms:modified>
+  <cp:revision>15.45</cp:revision>
   <cp:version>R2023a</cp:version>
 </cp:coreProperties>
 
@@ -115,7 +115,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
     <ConfigManagerSettings>
       <P Name="ModifiedByFormat">%&lt;Auto&gt;</P>
       <P Name="ModifiedDateFormat">%&lt;Auto&gt;</P>
-      <P Name="ModelVersionFormat">%&lt;AutoIncrement:15.44&gt;</P>
+      <P Name="ModelVersionFormat">%&lt;AutoIncrement:15.45&gt;</P>
     </ConfigManagerSettings>
     <EditorSettings>
       <P Name="LibraryLinkDisplay">user</P>
@@ -885,8 +885,8 @@ __MWOPC_PART_BEGIN__ /simulink/configSetInfo.xml
 __MWOPC_PART_BEGIN__ /simulink/modelDictionary.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <MF0 version="1.1" defaultPackage="slid" packageUris="http://schema.mathworks.com/mf0/slid/R2023a_20220628">
-  <System type="System" uuid="2eea4205-5a71-4f14-87cb-dcec9a372024">
-    <Interface type="Interface" uuid="40870506-1c9a-4179-9cfc-fc75565bfb2b"/>
+  <System type="System" uuid="14366d6e-0b18-41dc-b0ca-feffc2169063">
+    <Interface type="Interface" uuid="3d3a39ef-23a1-4d41-9777-56caafb845da"/>
   </System>
 </MF0>
 __MWOPC_PART_BEGIN__ /simulink/plugins/SimscapeModelParametersPlugin.xml
@@ -912,7 +912,6 @@ __MWOPC_PART_BEGIN__ /simulink/stateflow/chart_12.xml
   <P Name="screen">[1 1 3600 1200 1.180555555555556]</P>
   <P Name="viewObj">12</P>
   <P Name="toolbarMode">LIBRARY_TOOLBAR</P>
-  <subviewS/>
   <P Name="ssIdHighWaterMark">10</P>
   <P Name="decomposition">CLUSTER_CHART</P>
   <P Name="type">EML_CHART</P>
@@ -1156,7 +1155,6 @@ __MWOPC_PART_BEGIN__ /simulink/stateflow/chart_23.xml
   <P Name="screen">[1 1 3600 1200 1.180555555555556]</P>
   <P Name="viewObj">23</P>
   <P Name="toolbarMode">LIBRARY_TOOLBAR</P>
-  <subviewS/>
   <P Name="ssIdHighWaterMark">10</P>
   <P Name="decomposition">CLUSTER_CHART</P>
   <P Name="type">EML_CHART</P>
@@ -1396,7 +1394,6 @@ __MWOPC_PART_BEGIN__ /simulink/stateflow/chart_34.xml
   <P Name="screen">[1 1 3600 1200 1.180555555555556]</P>
   <P Name="viewObj">34</P>
   <P Name="toolbarMode">LIBRARY_TOOLBAR</P>
-  <subviewS/>
   <P Name="ssIdHighWaterMark">10</P>
   <P Name="decomposition">CLUSTER_CHART</P>
   <P Name="type">EML_CHART</P>
@@ -3513,6 +3510,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_76.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
   <P Name="Location">[61, -8, 1921, 1081]</P>
+  <P Name="Open">on</P>
   <P Name="ZoomFactor">150</P>
   <Block BlockType="Inport" Name="Select(1b)" SID="77">
     <P Name="Position">[155, 133, 185, 147]</P>
@@ -3559,11 +3557,6 @@ Flip-Flop</P>
       <P Name="ContentPreviewEnabled">off</P>
       <P Name="initial_condition">0</P>
     </InstanceData>
-    <PortProperties>
-      <Port Type="out" Index="1">
-        <P Name="Name">b15</P>
-      </Port>
-    </PortProperties>
   </Block>
   <Block BlockType="Logic" Name="Logical&#xA;Operator50" SID="2320">
     <PortCounts in="1" out="1"/>
@@ -3631,10 +3624,7 @@ Flip-Flop</P>
     <P Name="Dst">2323#in:1</P>
   </Line>
   <Line>
-    <P Name="Name">b15</P>
-    <P Name="FontSize">6</P>
     <P Name="ZOrder">8</P>
-    <P Name="Labels">[0, 0]</P>
     <P Name="Src">2319#out:1</P>
     <P Name="Dst">85#in:1</P>
   </Line>
@@ -3655,7 +3645,7 @@ Flip-Flop</P>
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">1</P>
+    <P Name="ZOrder">2</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -3665,7 +3655,6 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
   <P Name="Location">[61, -8, 1921, 1081]</P>
-  <P Name="Open">on</P>
   <P Name="ZoomFactor">175</P>
   <P Name="ReportName">simulink-default.rpt</P>
   <P Name="SIDHighWatermark">2490</P>
@@ -3746,22 +3735,22 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
         <Object ObjectID="5">
           <P Name="IsActive" Class="logical">1</P>
           <P Name="IsTabbed" Class="logical">1</P>
-          <P Name="ViewObjType" Class="char">SimulinkTopLevel</P>
-          <P Name="LoadSaveID" Class="char">0</P>
-          <P Name="Extents" Class="double">[1820.0, 853.0]</P>
-          <P Name="ZoomFactor" Class="double">1.75</P>
-          <P Name="Offset" Class="double">[125.19988318167394, 85.4141688959597]</P>
-          <P Name="SceneRectInView" Class="double">[125.19988318167394, 85.4141688959597, 1040.0, 487.42857142857144]</P>
-        </Object>
-        <Object ObjectID="6">
-          <P Name="IsActive" Class="logical">0</P>
-          <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
           <P Name="LoadSaveID" Class="char">76</P>
           <P Name="Extents" Class="double">[1820.0, 853.0]</P>
           <P Name="ZoomFactor" Class="double">1.5</P>
           <P Name="Offset" Class="double">[-288.79583002493075, -87.515078341463891]</P>
           <P Name="SceneRectInView" Class="double">[-288.79583002493075, -87.515078341463891, 1213.3333333333333, 568.66666666666663]</P>
+        </Object>
+        <Object ObjectID="6">
+          <P Name="IsActive" Class="logical">0</P>
+          <P Name="IsTabbed" Class="logical">0</P>
+          <P Name="ViewObjType" Class="char">SimulinkTopLevel</P>
+          <P Name="LoadSaveID" Class="char">0</P>
+          <P Name="Extents" Class="double">[1820.0, 853.0]</P>
+          <P Name="ZoomFactor" Class="double">1.75</P>
+          <P Name="Offset" Class="double">[125.19988318167395, 85.414168895959676]</P>
+          <P Name="SceneRectInView" Class="double">[125.19988318167395, 85.414168895959676, 1040.0, 487.42857142857144]</P>
         </Object>
         <Object ObjectID="7">
           <P Name="IsActive" Class="logical">0</P>
@@ -3956,6 +3945,18 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
       </Array>
       <Array PropName="DockComponentsInfo" Type="Simulink.DockComponentInfo" Dimension="1*2">
         <Object ObjectID="26">
+          <P Name="Type" Class="char">GLUE2:PropertyInspector</P>
+          <P Name="ID" Class="char">Property Inspector</P>
+          <P Name="Visible" Class="logical">0</P>
+          <P Name="CreateCallback" Class="char"/>
+          <P Name="UserData" Class="char"/>
+          <P Name="Floating" Class="logical">0</P>
+          <P Name="DockPosition" Class="char">Right</P>
+          <P Name="Width" Class="int32">640</P>
+          <P Name="Height" Class="int32">480</P>
+          <P Name="Minimized" Class="char">Unset</P>
+        </Object>
+        <Object ObjectID="27">
           <P Name="Type" Class="char">Simulink:Editor:ReferencedFiles</P>
           <P Name="ID" Class="char">Referenced Files</P>
           <P Name="Visible" Class="logical">0</P>
@@ -3964,18 +3965,6 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
 </P>
           <P Name="Floating" Class="logical">0</P>
           <P Name="DockPosition" Class="char">Left</P>
-          <P Name="Width" Class="int32">640</P>
-          <P Name="Height" Class="int32">480</P>
-          <P Name="Minimized" Class="char">Unset</P>
-        </Object>
-        <Object ObjectID="27">
-          <P Name="Type" Class="char">GLUE2:PropertyInspector</P>
-          <P Name="ID" Class="char">Property Inspector</P>
-          <P Name="Visible" Class="logical">0</P>
-          <P Name="CreateCallback" Class="char"/>
-          <P Name="UserData" Class="char"/>
-          <P Name="Floating" Class="logical">0</P>
-          <P Name="DockPosition" Class="char">Right</P>
           <P Name="Width" Class="int32">640</P>
           <P Name="Height" Class="int32">480</P>
           <P Name="Minimized" Class="char">Unset</P>
