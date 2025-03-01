@@ -44,8 +44,8 @@ __MWOPC_PART_BEGIN__ /metadata/coreProperties.xml
   <dcterms:created xsi:type="dcterms:W3CDTF">2017-04-08T20:24:40Z</dcterms:created>
   <dc:creator>N</dc:creator>
   <cp:lastModifiedBy>Jozko Mrkvicka</cp:lastModifiedBy>
-  <dcterms:modified xsi:type="dcterms:W3CDTF">2024-10-20T22:16:40Z</dcterms:modified>
-  <cp:revision>15.0</cp:revision>
+  <dcterms:modified xsi:type="dcterms:W3CDTF">2025-03-01T04:34:42Z</dcterms:modified>
+  <cp:revision>15.2</cp:revision>
   <cp:version>R2023a</cp:version>
 </cp:coreProperties>
 
@@ -117,7 +117,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
     <ConfigManagerSettings>
       <P Name="ModifiedByFormat">%&lt;Auto&gt;</P>
       <P Name="ModifiedDateFormat">%&lt;Auto&gt;</P>
-      <P Name="ModelVersionFormat">%&lt;AutoIncrement:15.0&gt;</P>
+      <P Name="ModelVersionFormat">%&lt;AutoIncrement:15.2&gt;</P>
     </ConfigManagerSettings>
     <EditorSettings>
       <P Name="LibraryLinkDisplay">all</P>
@@ -941,36 +941,36 @@ Converter</P>
   </ExternalFileReference>
   <ExternalFileReference>
     <P Name="Reference">Word_Multiplexers_Lib/Word_Mux_4</P>
-    <P Name="Path">$bdroot/NOT_USED_Word_Multiplexer_4_to_1_DirSel</P>
+    <P Name="Path">$bdroot/Word_Multiplexer_4_to_1_DirSel</P>
     <P Name="SID">483</P>
     <P Name="Type">LIBRARY_BLOCK</P>
   </ExternalFileReference>
   <ExternalFileReference>
-    <P Name="Reference">Miscellaneous/bus_to_uint</P>
+    <P Name="Reference">Miscellaneous/bus_to_uint(word)</P>
     <P Name="Path">$bdroot/bus_to_uint</P>
     <P Name="SID">478</P>
     <P Name="Type">LIBRARY_BLOCK</P>
   </ExternalFileReference>
   <ExternalFileReference>
-    <P Name="Reference">Miscellaneous/uint_to_bus</P>
+    <P Name="Reference">Miscellaneous/uint_to_bus(word)</P>
     <P Name="Path">$bdroot/uint_to_bus</P>
     <P Name="SID">479</P>
     <P Name="Type">LIBRARY_BLOCK</P>
   </ExternalFileReference>
   <ExternalFileReference>
-    <P Name="Reference">Miscellaneous/uint_to_bus</P>
+    <P Name="Reference">Miscellaneous/uint_to_bus(word)</P>
     <P Name="Path">$bdroot/uint_to_bus1</P>
     <P Name="SID">480</P>
     <P Name="Type">LIBRARY_BLOCK</P>
   </ExternalFileReference>
   <ExternalFileReference>
-    <P Name="Reference">Miscellaneous/uint_to_bus</P>
+    <P Name="Reference">Miscellaneous/uint_to_bus(word)</P>
     <P Name="Path">$bdroot/uint_to_bus2</P>
     <P Name="SID">481</P>
     <P Name="Type">LIBRARY_BLOCK</P>
   </ExternalFileReference>
   <ExternalFileReference>
-    <P Name="Reference">Miscellaneous/uint_to_bus</P>
+    <P Name="Reference">Miscellaneous/uint_to_bus(word)</P>
     <P Name="Path">$bdroot/uint_to_bus3</P>
     <P Name="SID">482</P>
     <P Name="Type">LIBRARY_BLOCK</P>
@@ -992,8 +992,8 @@ __MWOPC_PART_BEGIN__ /simulink/hdlParams.xml
 __MWOPC_PART_BEGIN__ /simulink/modelDictionary.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <MF0 version="1.1" defaultPackage="slid" packageUris="http://schema.mathworks.com/mf0/slid/R2023a_20220628">
-  <System type="System" uuid="94e6f7de-2cb6-4b2c-a0da-8098b1c3faba">
-    <Interface type="Interface" uuid="fde3ba4c-6551-4198-8f6f-5d8211c4004d"/>
+  <System type="System" uuid="b803fc86-274c-44c3-86ce-1f1a8760ceb0">
+    <Interface type="Interface" uuid="da0e6014-e3a0-4c45-9035-28001d41ae05"/>
   </System>
 </MF0>
 __MWOPC_PART_BEGIN__ /simulink/plugins/SimscapeModelParametersPlugin.xml
@@ -1042,7 +1042,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
   <P Name="Open">on</P>
   <P Name="ZoomFactor">125</P>
   <P Name="ReportName">simulink-default.rpt</P>
-  <P Name="SIDHighWatermark">483</P>
+  <P Name="SIDHighWatermark">484</P>
   <Block BlockType="DataTypeConversion" Name="Data Type Conversion" SID="383">
     <P Name="Position">[1235, 178, 1275, 202]</P>
     <P Name="ZOrder">673</P>
@@ -1118,29 +1118,6 @@ Converter</P>
       <P Name="outDtype">boolean</P>
     </InstanceData>
   </Block>
-  <Block BlockType="Reference" Name="NOT_USED_Word_Multiplexer_4_to_1_DirSel" SID="483">
-    <PortCounts in="8" out="1"/>
-    <P Name="Position">[1470, 156, 1620, 279]</P>
-    <P Name="ZOrder">9283</P>
-    <P Name="LibraryVersion">15.35</P>
-    <P Name="SourceBlock">Word_Multiplexers_Lib/Word_Mux_4</P>
-    <P Name="SourceType">SubSystem</P>
-    <InstanceData>
-      <P Name="ShowPortLabels">FromPortIcon</P>
-      <P Name="SystemSampleTime">-1</P>
-      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
-      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
-      <P Name="RTWMemSecDataConstants">Inherit from model</P>
-      <P Name="RTWMemSecDataInternal">Inherit from model</P>
-      <P Name="RTWMemSecDataParameters">Inherit from model</P>
-      <P Name="VariantActivationTime">update diagram</P>
-      <P Name="AllowZeroVariantControls">off</P>
-      <P Name="PropagateVariantConditions">off</P>
-      <P Name="ContentPreviewEnabled">off</P>
-      <P Name="Latency">0</P>
-      <P Name="AutoFrameSizeCalculation">off</P>
-    </InstanceData>
-  </Block>
   <Block BlockType="Selector" Name="Selector" SID="388">
     <PortCounts in="1" out="1"/>
     <P Name="Position">[1165, 171, 1205, 209]</P>
@@ -1197,20 +1174,25 @@ Converter</P>
     <P Name="Indices">2</P>
     <P Name="OutputSizes">1</P>
   </Block>
+  <Block BlockType="Terminator" Name="Terminator8" SID="484">
+    <P Name="Position">[1655, 180, 1675, 200]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="ShowName">off</P>
+  </Block>
   <Block BlockType="ToWorkspace" Name="To Workspace" SID="393">
     <PortCounts in="1"/>
-    <P Name="Position">[1760, 205, 1830, 235]</P>
+    <P Name="Position">[1760, 235, 1830, 265]</P>
     <P Name="ZOrder">683</P>
     <P Name="VariableName">Output_Vect</P>
     <P Name="MaxDataPoints">inf</P>
     <P Name="SampleTime">1</P>
   </Block>
-  <Block BlockType="Reference" Name="bus_to_uint" SID="478">
-    <PortCounts in="1" out="1"/>
-    <P Name="Position">[1655, 212, 1730, 228]</P>
-    <P Name="ZOrder">9275</P>
-    <P Name="LibraryVersion">15.20</P>
-    <P Name="SourceBlock">Miscellaneous/bus_to_uint</P>
+  <Block BlockType="Reference" Name="Word_Multiplexer_4_to_1_DirSel" SID="483">
+    <PortCounts in="8" out="2"/>
+    <P Name="Position">[1470, 156, 1620, 279]</P>
+    <P Name="ZOrder">9283</P>
+    <P Name="LibraryVersion">15.49</P>
+    <P Name="SourceBlock">Word_Multiplexers_Lib/Word_Mux_4</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
       <P Name="ShowPortLabels">FromPortIcon</P>
@@ -1226,103 +1208,91 @@ Converter</P>
       <P Name="ContentPreviewEnabled">off</P>
       <P Name="Latency">0</P>
       <P Name="AutoFrameSizeCalculation">off</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="bus_to_uint" SID="478">
+    <PortCounts in="1" out="1"/>
+    <P Name="Position">[1655, 242, 1730, 258]</P>
+    <P Name="ZOrder">9275</P>
+    <P Name="LibraryVersion">15.107</P>
+    <P Name="SourceBlock">Miscellaneous/bus_to_uint(word)</P>
+    <P Name="SourceType"/>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">off</P>
     </InstanceData>
   </Block>
   <Block BlockType="Reference" Name="uint_to_bus" SID="479">
     <PortCounts in="1" out="1"/>
     <P Name="Position">[1305, 342, 1380, 358]</P>
     <P Name="ZOrder">9280</P>
-    <P Name="LibraryVersion">15.20</P>
-    <P Name="SourceBlock">Miscellaneous/uint_to_bus</P>
-    <P Name="SourceType">SubSystem</P>
+    <P Name="LibraryVersion">15.107</P>
+    <P Name="SourceBlock">Miscellaneous/uint_to_bus(word)</P>
+    <P Name="SourceType"/>
     <InstanceData>
-      <P Name="ShowPortLabels">FromPortIcon</P>
-      <P Name="SystemSampleTime">-1</P>
       <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
       <P Name="RTWMemSecFuncExecute">Inherit from model</P>
       <P Name="RTWMemSecDataConstants">Inherit from model</P>
       <P Name="RTWMemSecDataInternal">Inherit from model</P>
       <P Name="RTWMemSecDataParameters">Inherit from model</P>
-      <P Name="VariantActivationTime">update diagram</P>
-      <P Name="AllowZeroVariantControls">off</P>
-      <P Name="PropagateVariantConditions">off</P>
       <P Name="ContentPreviewEnabled">off</P>
-      <P Name="Latency">0</P>
-      <P Name="AutoFrameSizeCalculation">off</P>
     </InstanceData>
   </Block>
   <Block BlockType="Reference" Name="uint_to_bus1" SID="480">
     <PortCounts in="1" out="1"/>
     <P Name="Position">[1305, 302, 1380, 318]</P>
     <P Name="ZOrder">9281</P>
-    <P Name="LibraryVersion">15.20</P>
-    <P Name="SourceBlock">Miscellaneous/uint_to_bus</P>
-    <P Name="SourceType">SubSystem</P>
+    <P Name="LibraryVersion">15.107</P>
+    <P Name="SourceBlock">Miscellaneous/uint_to_bus(word)</P>
+    <P Name="SourceType"/>
     <InstanceData>
-      <P Name="ShowPortLabels">FromPortIcon</P>
-      <P Name="SystemSampleTime">-1</P>
       <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
       <P Name="RTWMemSecFuncExecute">Inherit from model</P>
       <P Name="RTWMemSecDataConstants">Inherit from model</P>
       <P Name="RTWMemSecDataInternal">Inherit from model</P>
       <P Name="RTWMemSecDataParameters">Inherit from model</P>
-      <P Name="VariantActivationTime">update diagram</P>
-      <P Name="AllowZeroVariantControls">off</P>
-      <P Name="PropagateVariantConditions">off</P>
       <P Name="ContentPreviewEnabled">off</P>
-      <P Name="Latency">0</P>
-      <P Name="AutoFrameSizeCalculation">off</P>
     </InstanceData>
   </Block>
   <Block BlockType="Reference" Name="uint_to_bus2" SID="481">
     <PortCounts in="1" out="1"/>
     <P Name="Position">[1305, 262, 1380, 278]</P>
     <P Name="ZOrder">9282</P>
-    <P Name="LibraryVersion">15.20</P>
-    <P Name="SourceBlock">Miscellaneous/uint_to_bus</P>
-    <P Name="SourceType">SubSystem</P>
+    <P Name="LibraryVersion">15.107</P>
+    <P Name="SourceBlock">Miscellaneous/uint_to_bus(word)</P>
+    <P Name="SourceType"/>
     <InstanceData>
-      <P Name="ShowPortLabels">FromPortIcon</P>
-      <P Name="SystemSampleTime">-1</P>
       <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
       <P Name="RTWMemSecFuncExecute">Inherit from model</P>
       <P Name="RTWMemSecDataConstants">Inherit from model</P>
       <P Name="RTWMemSecDataInternal">Inherit from model</P>
       <P Name="RTWMemSecDataParameters">Inherit from model</P>
-      <P Name="VariantActivationTime">update diagram</P>
-      <P Name="AllowZeroVariantControls">off</P>
-      <P Name="PropagateVariantConditions">off</P>
       <P Name="ContentPreviewEnabled">off</P>
-      <P Name="Latency">0</P>
-      <P Name="AutoFrameSizeCalculation">off</P>
     </InstanceData>
   </Block>
   <Block BlockType="Reference" Name="uint_to_bus3" SID="482">
     <PortCounts in="1" out="1"/>
     <P Name="Position">[1305, 222, 1380, 238]</P>
     <P Name="ZOrder">9279</P>
-    <P Name="LibraryVersion">15.20</P>
-    <P Name="SourceBlock">Miscellaneous/uint_to_bus</P>
-    <P Name="SourceType">SubSystem</P>
+    <P Name="LibraryVersion">15.107</P>
+    <P Name="SourceBlock">Miscellaneous/uint_to_bus(word)</P>
+    <P Name="SourceType"/>
     <InstanceData>
-      <P Name="ShowPortLabels">FromPortIcon</P>
-      <P Name="SystemSampleTime">-1</P>
       <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
       <P Name="RTWMemSecFuncExecute">Inherit from model</P>
       <P Name="RTWMemSecDataConstants">Inherit from model</P>
       <P Name="RTWMemSecDataInternal">Inherit from model</P>
       <P Name="RTWMemSecDataParameters">Inherit from model</P>
-      <P Name="VariantActivationTime">update diagram</P>
-      <P Name="AllowZeroVariantControls">off</P>
-      <P Name="PropagateVariantConditions">off</P>
       <P Name="ContentPreviewEnabled">off</P>
-      <P Name="Latency">0</P>
-      <P Name="AutoFrameSizeCalculation">off</P>
     </InstanceData>
   </Block>
   <Line>
-    <P Name="ZOrder">71</P>
-    <P Name="Src">483#out:1</P>
+    <P Name="ZOrder">101</P>
+    <P Name="Src">483#out:2</P>
     <P Name="Dst">478#in:1</P>
   </Line>
   <Line>
@@ -1467,6 +1437,11 @@ Converter</P>
     <P Name="Src">368#out:4</P>
     <P Name="Dst">483#in:4</P>
   </Line>
+  <Line>
+    <P Name="ZOrder">102</P>
+    <P Name="Src">483#out:1</P>
+    <P Name="Dst">484#in:1</P>
+  </Line>
 </System>
 
 __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
@@ -1499,18 +1474,6 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
       </Object>
       <Array PropName="DockComponentsInfo" Type="Simulink.DockComponentInfo" Dimension="1*2">
         <Object ObjectID="6">
-          <P Name="Type" Class="char">GLUE2:PropertyInspector</P>
-          <P Name="ID" Class="char">Property Inspector</P>
-          <P Name="Visible" Class="logical">0</P>
-          <P Name="CreateCallback" Class="char"/>
-          <P Name="UserData" Class="char"/>
-          <P Name="Floating" Class="logical">0</P>
-          <P Name="DockPosition" Class="char">Right</P>
-          <P Name="Width" Class="int32">640</P>
-          <P Name="Height" Class="int32">480</P>
-          <P Name="Minimized" Class="char">Unset</P>
-        </Object>
-        <Object ObjectID="7">
           <P Name="Type" Class="char">Simulink:Editor:ReferencedFiles</P>
           <P Name="ID" Class="char">Referenced Files</P>
           <P Name="Visible" Class="logical">0</P>
@@ -1519,6 +1482,18 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
 </P>
           <P Name="Floating" Class="logical">0</P>
           <P Name="DockPosition" Class="char">Left</P>
+          <P Name="Width" Class="int32">640</P>
+          <P Name="Height" Class="int32">480</P>
+          <P Name="Minimized" Class="char">Unset</P>
+        </Object>
+        <Object ObjectID="7">
+          <P Name="Type" Class="char">GLUE2:PropertyInspector</P>
+          <P Name="ID" Class="char">Property Inspector</P>
+          <P Name="Visible" Class="logical">0</P>
+          <P Name="CreateCallback" Class="char"/>
+          <P Name="UserData" Class="char"/>
+          <P Name="Floating" Class="logical">0</P>
+          <P Name="DockPosition" Class="char">Right</P>
           <P Name="Width" Class="int32">640</P>
           <P Name="Height" Class="int32">480</P>
           <P Name="Minimized" Class="char">Unset</P>
