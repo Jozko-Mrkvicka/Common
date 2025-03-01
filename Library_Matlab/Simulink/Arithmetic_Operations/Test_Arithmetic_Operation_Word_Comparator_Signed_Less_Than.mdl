@@ -43,8 +43,8 @@ __MWOPC_PART_BEGIN__ /metadata/coreProperties.xml
   <dcterms:created xsi:type="dcterms:W3CDTF">2019-03-08T19:24:56Z</dcterms:created>
   <dc:creator>uzivatel</dc:creator>
   <cp:lastModifiedBy>Jozko Mrkvicka</cp:lastModifiedBy>
-  <dcterms:modified xsi:type="dcterms:W3CDTF">2024-10-26T21:16:26Z</dcterms:modified>
-  <cp:revision>15.2</cp:revision>
+  <dcterms:modified xsi:type="dcterms:W3CDTF">2025-03-01T08:45:18Z</dcterms:modified>
+  <cp:revision>15.3</cp:revision>
   <cp:version>R2023a</cp:version>
 </cp:coreProperties>
 
@@ -115,7 +115,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
     <ConfigManagerSettings>
       <P Name="ModifiedByFormat">%&lt;Auto&gt;</P>
       <P Name="ModifiedDateFormat">%&lt;Auto&gt;</P>
-      <P Name="ModelVersionFormat">%&lt;AutoIncrement:15.2&gt;</P>
+      <P Name="ModelVersionFormat">%&lt;AutoIncrement:15.3&gt;</P>
     </ConfigManagerSettings>
     <EditorSettings>
       <P Name="LibraryLinkDisplay">user</P>
@@ -927,13 +927,13 @@ __MWOPC_PART_BEGIN__ /simulink/graphicalInterface.xml
     <P Name="Type">LIBRARY_BLOCK</P>
   </ExternalFileReference>
   <ExternalFileReference>
-    <P Name="Reference">Miscellaneous/uint_to_bus</P>
+    <P Name="Reference">Miscellaneous/uint_to_bus(word)</P>
     <P Name="Path">$bdroot/uint_to_bus</P>
     <P Name="SID">27</P>
     <P Name="Type">LIBRARY_BLOCK</P>
   </ExternalFileReference>
   <ExternalFileReference>
-    <P Name="Reference">Miscellaneous/uint_to_bus</P>
+    <P Name="Reference">Miscellaneous/uint_to_bus(word)</P>
     <P Name="Path">$bdroot/uint_to_bus1</P>
     <P Name="SID">28</P>
     <P Name="Type">LIBRARY_BLOCK</P>
@@ -944,8 +944,8 @@ __MWOPC_PART_BEGIN__ /simulink/graphicalInterface.xml
 __MWOPC_PART_BEGIN__ /simulink/modelDictionary.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <MF0 version="1.1" defaultPackage="slid" packageUris="http://schema.mathworks.com/mf0/slid/R2023a_20220628">
-  <System type="System" uuid="eb711866-d125-4419-b926-92bfce8bf82e">
-    <Interface type="Interface" uuid="740bb82c-ecb4-483c-bddc-9851b11a8d62"/>
+  <System type="System" uuid="70d3907a-e40a-4070-8802-4e58d7869772">
+    <Interface type="Interface" uuid="f104e6f0-0ab8-4eb6-9009-7c3aeace6a04"/>
   </System>
 </MF0>
 __MWOPC_PART_BEGIN__ /simulink/plugins/SimscapeModelParametersPlugin.xml
@@ -1076,7 +1076,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     <PortCounts in="2" out="5"/>
     <P Name="Position">[310, 40, 460, 120]</P>
     <P Name="ZOrder">6613</P>
-    <P Name="LibraryVersion">15.91</P>
+    <P Name="LibraryVersion">15.103</P>
     <P Name="SourceBlock">Arithmetic_Operations_Lib/Word_Comparator</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -1099,46 +1099,32 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[210, 52, 285, 68]</P>
     <P Name="ZOrder">6610</P>
-    <P Name="LibraryVersion">15.54</P>
-    <P Name="SourceBlock">Miscellaneous/uint_to_bus</P>
-    <P Name="SourceType">SubSystem</P>
+    <P Name="LibraryVersion">15.118</P>
+    <P Name="SourceBlock">Miscellaneous/uint_to_bus(word)</P>
+    <P Name="SourceType"/>
     <InstanceData>
-      <P Name="ShowPortLabels">FromPortIcon</P>
-      <P Name="SystemSampleTime">-1</P>
       <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
       <P Name="RTWMemSecFuncExecute">Inherit from model</P>
       <P Name="RTWMemSecDataConstants">Inherit from model</P>
       <P Name="RTWMemSecDataInternal">Inherit from model</P>
       <P Name="RTWMemSecDataParameters">Inherit from model</P>
-      <P Name="VariantActivationTime">update diagram</P>
-      <P Name="AllowZeroVariantControls">off</P>
-      <P Name="PropagateVariantConditions">off</P>
       <P Name="ContentPreviewEnabled">off</P>
-      <P Name="Latency">0</P>
-      <P Name="AutoFrameSizeCalculation">off</P>
     </InstanceData>
   </Block>
   <Block BlockType="Reference" Name="uint_to_bus1" SID="28">
     <PortCounts in="1" out="1"/>
     <P Name="Position">[210, 92, 285, 108]</P>
     <P Name="ZOrder">6611</P>
-    <P Name="LibraryVersion">15.54</P>
-    <P Name="SourceBlock">Miscellaneous/uint_to_bus</P>
-    <P Name="SourceType">SubSystem</P>
+    <P Name="LibraryVersion">15.118</P>
+    <P Name="SourceBlock">Miscellaneous/uint_to_bus(word)</P>
+    <P Name="SourceType"/>
     <InstanceData>
-      <P Name="ShowPortLabels">FromPortIcon</P>
-      <P Name="SystemSampleTime">-1</P>
       <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
       <P Name="RTWMemSecFuncExecute">Inherit from model</P>
       <P Name="RTWMemSecDataConstants">Inherit from model</P>
       <P Name="RTWMemSecDataInternal">Inherit from model</P>
       <P Name="RTWMemSecDataParameters">Inherit from model</P>
-      <P Name="VariantActivationTime">update diagram</P>
-      <P Name="AllowZeroVariantControls">off</P>
-      <P Name="PropagateVariantConditions">off</P>
       <P Name="ContentPreviewEnabled">off</P>
-      <P Name="Latency">0</P>
-      <P Name="AutoFrameSizeCalculation">off</P>
     </InstanceData>
   </Block>
   <Line>
@@ -1243,6 +1229,18 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
       </Object>
       <Array PropName="DockComponentsInfo" Type="Simulink.DockComponentInfo" Dimension="1*2">
         <Object ObjectID="6">
+          <P Name="Type" Class="char">GLUE2:PropertyInspector</P>
+          <P Name="ID" Class="char">Property Inspector</P>
+          <P Name="Visible" Class="logical">0</P>
+          <P Name="CreateCallback" Class="char"/>
+          <P Name="UserData" Class="char"/>
+          <P Name="Floating" Class="logical">0</P>
+          <P Name="DockPosition" Class="char">Right</P>
+          <P Name="Width" Class="int32">640</P>
+          <P Name="Height" Class="int32">480</P>
+          <P Name="Minimized" Class="char">Unset</P>
+        </Object>
+        <Object ObjectID="7">
           <P Name="Type" Class="char">Simulink:Editor:ReferencedFiles</P>
           <P Name="ID" Class="char">Referenced Files</P>
           <P Name="Visible" Class="logical">0</P>
@@ -1251,18 +1249,6 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
 </P>
           <P Name="Floating" Class="logical">0</P>
           <P Name="DockPosition" Class="char">Left</P>
-          <P Name="Width" Class="int32">640</P>
-          <P Name="Height" Class="int32">480</P>
-          <P Name="Minimized" Class="char">Unset</P>
-        </Object>
-        <Object ObjectID="7">
-          <P Name="Type" Class="char">GLUE2:PropertyInspector</P>
-          <P Name="ID" Class="char">Property Inspector</P>
-          <P Name="Visible" Class="logical">0</P>
-          <P Name="CreateCallback" Class="char"/>
-          <P Name="UserData" Class="char"/>
-          <P Name="Floating" Class="logical">0</P>
-          <P Name="DockPosition" Class="char">Right</P>
           <P Name="Width" Class="int32">640</P>
           <P Name="Height" Class="int32">480</P>
           <P Name="Minimized" Class="char">Unset</P>

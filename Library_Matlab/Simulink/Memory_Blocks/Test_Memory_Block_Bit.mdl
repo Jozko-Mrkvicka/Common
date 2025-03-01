@@ -44,8 +44,8 @@ __MWOPC_PART_BEGIN__ /metadata/coreProperties.xml
   <dcterms:created xsi:type="dcterms:W3CDTF">2017-04-08T20:24:40Z</dcterms:created>
   <dc:creator>N</dc:creator>
   <cp:lastModifiedBy>Jozko Mrkvicka</cp:lastModifiedBy>
-  <dcterms:modified xsi:type="dcterms:W3CDTF">2024-10-29T07:51:05Z</dcterms:modified>
-  <cp:revision>15.0</cp:revision>
+  <dcterms:modified xsi:type="dcterms:W3CDTF">2025-03-01T08:59:47Z</dcterms:modified>
+  <cp:revision>15.1</cp:revision>
   <cp:version>R2023a</cp:version>
 </cp:coreProperties>
 
@@ -117,7 +117,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
     <ConfigManagerSettings>
       <P Name="ModifiedByFormat">%&lt;Auto&gt;</P>
       <P Name="ModifiedDateFormat">%&lt;Auto&gt;</P>
-      <P Name="ModelVersionFormat">%&lt;AutoIncrement:15.0&gt;</P>
+      <P Name="ModelVersionFormat">%&lt;AutoIncrement:15.1&gt;</P>
     </ConfigManagerSettings>
     <EditorSettings>
       <P Name="LibraryLinkDisplay">all</P>
@@ -932,7 +932,7 @@ __MWOPC_PART_BEGIN__ /simulink/graphicalInterface.xml
   <P Name="NumParameterArguments">0</P>
   <P Name="NumExternalFileReferences">1</P>
   <ExternalFileReference>
-    <P Name="Reference">Memory_Blocks_Lib/Bit</P>
+    <P Name="Reference">Memory_Blocks_Lib/Bit_DataEnbl</P>
     <P Name="Path">$bdroot/Bit</P>
     <P Name="SID">483</P>
     <P Name="Type">LIBRARY_BLOCK</P>
@@ -954,8 +954,8 @@ __MWOPC_PART_BEGIN__ /simulink/hdlParams.xml
 __MWOPC_PART_BEGIN__ /simulink/modelDictionary.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <MF0 version="1.1" defaultPackage="slid" packageUris="http://schema.mathworks.com/mf0/slid/R2023a_20220628">
-  <System type="System" uuid="3b2b0b52-f25b-4382-b40d-8f110740c235">
-    <Interface type="Interface" uuid="584e7455-2619-4c3a-b7ac-48288549f702"/>
+  <System type="System" uuid="fb807909-c472-4ad7-b562-19048eb47545">
+    <Interface type="Interface" uuid="d88d7d88-3508-434b-abc4-9c73c3c37b3d"/>
   </System>
 </MF0>
 __MWOPC_PART_BEGIN__ /simulink/plugins/SimscapeModelParametersPlugin.xml
@@ -1009,8 +1009,8 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     <PortCounts in="3" out="1"/>
     <P Name="Position">[1475, 436, 1635, 484]</P>
     <P Name="ZOrder">9283</P>
-    <P Name="LibraryVersion">15.44</P>
-    <P Name="SourceBlock">Memory_Blocks_Lib/Bit</P>
+    <P Name="LibraryVersion">15.54</P>
+    <P Name="SourceBlock">Memory_Blocks_Lib/Bit_DataEnbl</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
       <P Name="ShowPortLabels">FromPortIcon</P>

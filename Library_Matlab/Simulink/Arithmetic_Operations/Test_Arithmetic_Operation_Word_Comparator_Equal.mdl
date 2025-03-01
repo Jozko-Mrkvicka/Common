@@ -43,8 +43,8 @@ __MWOPC_PART_BEGIN__ /metadata/coreProperties.xml
   <dcterms:created xsi:type="dcterms:W3CDTF">2019-03-08T19:24:56Z</dcterms:created>
   <dc:creator>uzivatel</dc:creator>
   <cp:lastModifiedBy>Jozko Mrkvicka</cp:lastModifiedBy>
-  <dcterms:modified xsi:type="dcterms:W3CDTF">2024-10-26T21:02:12Z</dcterms:modified>
-  <cp:revision>15.0</cp:revision>
+  <dcterms:modified xsi:type="dcterms:W3CDTF">2025-03-01T08:44:38Z</dcterms:modified>
+  <cp:revision>15.1</cp:revision>
   <cp:version>R2023a</cp:version>
 </cp:coreProperties>
 
@@ -115,7 +115,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
     <ConfigManagerSettings>
       <P Name="ModifiedByFormat">%&lt;Auto&gt;</P>
       <P Name="ModifiedDateFormat">%&lt;Auto&gt;</P>
-      <P Name="ModelVersionFormat">%&lt;AutoIncrement:15.0&gt;</P>
+      <P Name="ModelVersionFormat">%&lt;AutoIncrement:15.1&gt;</P>
     </ConfigManagerSettings>
     <EditorSettings>
       <P Name="LibraryLinkDisplay">user</P>
@@ -927,13 +927,13 @@ __MWOPC_PART_BEGIN__ /simulink/graphicalInterface.xml
     <P Name="Type">LIBRARY_BLOCK</P>
   </ExternalFileReference>
   <ExternalFileReference>
-    <P Name="Reference">Miscellaneous/uint_to_bus</P>
+    <P Name="Reference">Miscellaneous/uint_to_bus(word)</P>
     <P Name="Path">$bdroot/uint_to_bus</P>
     <P Name="SID">27</P>
     <P Name="Type">LIBRARY_BLOCK</P>
   </ExternalFileReference>
   <ExternalFileReference>
-    <P Name="Reference">Miscellaneous/uint_to_bus</P>
+    <P Name="Reference">Miscellaneous/uint_to_bus(word)</P>
     <P Name="Path">$bdroot/uint_to_bus1</P>
     <P Name="SID">28</P>
     <P Name="Type">LIBRARY_BLOCK</P>
@@ -944,8 +944,8 @@ __MWOPC_PART_BEGIN__ /simulink/graphicalInterface.xml
 __MWOPC_PART_BEGIN__ /simulink/modelDictionary.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <MF0 version="1.1" defaultPackage="slid" packageUris="http://schema.mathworks.com/mf0/slid/R2023a_20220628">
-  <System type="System" uuid="17ad9214-a9c9-47f4-9bcc-857bf0bcf674">
-    <Interface type="Interface" uuid="01e4900e-9446-4701-bd3d-16856a3febf9"/>
+  <System type="System" uuid="f15deddf-5bf4-4ec0-9c26-4064800dde47">
+    <Interface type="Interface" uuid="276474b3-66f5-42f0-b734-2703d7f285ac"/>
   </System>
 </MF0>
 __MWOPC_PART_BEGIN__ /simulink/plugins/SimscapeModelParametersPlugin.xml
@@ -1076,7 +1076,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     <PortCounts in="2" out="5"/>
     <P Name="Position">[310, 40, 460, 120]</P>
     <P Name="ZOrder">6613</P>
-    <P Name="LibraryVersion">15.91</P>
+    <P Name="LibraryVersion">15.103</P>
     <P Name="SourceBlock">Arithmetic_Operations_Lib/Word_Comparator</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -1099,46 +1099,32 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[210, 52, 285, 68]</P>
     <P Name="ZOrder">6610</P>
-    <P Name="LibraryVersion">15.54</P>
-    <P Name="SourceBlock">Miscellaneous/uint_to_bus</P>
-    <P Name="SourceType">SubSystem</P>
+    <P Name="LibraryVersion">15.118</P>
+    <P Name="SourceBlock">Miscellaneous/uint_to_bus(word)</P>
+    <P Name="SourceType"/>
     <InstanceData>
-      <P Name="ShowPortLabels">FromPortIcon</P>
-      <P Name="SystemSampleTime">-1</P>
       <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
       <P Name="RTWMemSecFuncExecute">Inherit from model</P>
       <P Name="RTWMemSecDataConstants">Inherit from model</P>
       <P Name="RTWMemSecDataInternal">Inherit from model</P>
       <P Name="RTWMemSecDataParameters">Inherit from model</P>
-      <P Name="VariantActivationTime">update diagram</P>
-      <P Name="AllowZeroVariantControls">off</P>
-      <P Name="PropagateVariantConditions">off</P>
       <P Name="ContentPreviewEnabled">off</P>
-      <P Name="Latency">0</P>
-      <P Name="AutoFrameSizeCalculation">off</P>
     </InstanceData>
   </Block>
   <Block BlockType="Reference" Name="uint_to_bus1" SID="28">
     <PortCounts in="1" out="1"/>
     <P Name="Position">[210, 92, 285, 108]</P>
     <P Name="ZOrder">6611</P>
-    <P Name="LibraryVersion">15.54</P>
-    <P Name="SourceBlock">Miscellaneous/uint_to_bus</P>
-    <P Name="SourceType">SubSystem</P>
+    <P Name="LibraryVersion">15.118</P>
+    <P Name="SourceBlock">Miscellaneous/uint_to_bus(word)</P>
+    <P Name="SourceType"/>
     <InstanceData>
-      <P Name="ShowPortLabels">FromPortIcon</P>
-      <P Name="SystemSampleTime">-1</P>
       <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
       <P Name="RTWMemSecFuncExecute">Inherit from model</P>
       <P Name="RTWMemSecDataConstants">Inherit from model</P>
       <P Name="RTWMemSecDataInternal">Inherit from model</P>
       <P Name="RTWMemSecDataParameters">Inherit from model</P>
-      <P Name="VariantActivationTime">update diagram</P>
-      <P Name="AllowZeroVariantControls">off</P>
-      <P Name="PropagateVariantConditions">off</P>
       <P Name="ContentPreviewEnabled">off</P>
-      <P Name="Latency">0</P>
-      <P Name="AutoFrameSizeCalculation">off</P>
     </InstanceData>
   </Block>
   <Line>
@@ -1188,7 +1174,6 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
   <Line>
     <P Name="ZOrder">93</P>
     <P Name="Src">27#out:1</P>
-    <P Name="Points">[-5, 0]</P>
     <P Name="Dst">30#in:1</P>
   </Line>
   <Line>

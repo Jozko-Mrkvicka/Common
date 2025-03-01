@@ -40,8 +40,8 @@ __MWOPC_PART_BEGIN__ /metadata/coreProperties.xml
   <dcterms:created xsi:type="dcterms:W3CDTF">2018-11-25T03:03:21Z</dcterms:created>
   <dc:creator>uzivatel</dc:creator>
   <cp:lastModifiedBy>Jozko Mrkvicka</cp:lastModifiedBy>
-  <dcterms:modified xsi:type="dcterms:W3CDTF">2024-11-04T09:58:07Z</dcterms:modified>
-  <cp:revision>15.100</cp:revision>
+  <dcterms:modified xsi:type="dcterms:W3CDTF">2025-02-28T05:45:14Z</dcterms:modified>
+  <cp:revision>15.103</cp:revision>
   <cp:version>R2023a</cp:version>
 </cp:coreProperties>
 
@@ -115,7 +115,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
     <ConfigManagerSettings>
       <P Name="ModifiedByFormat">%&lt;Auto&gt;</P>
       <P Name="ModifiedDateFormat">%&lt;Auto&gt;</P>
-      <P Name="ModelVersionFormat">%&lt;AutoIncrement:15.100&gt;</P>
+      <P Name="ModelVersionFormat">%&lt;AutoIncrement:15.103&gt;</P>
     </ConfigManagerSettings>
     <EditorSettings>
       <P Name="LibraryLinkDisplay">user</P>
@@ -885,8 +885,8 @@ __MWOPC_PART_BEGIN__ /simulink/configSetInfo.xml
 __MWOPC_PART_BEGIN__ /simulink/modelDictionary.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <MF0 version="1.1" defaultPackage="slid" packageUris="http://schema.mathworks.com/mf0/slid/R2023a_20220628">
-  <System type="System" uuid="4af92620-027e-4c21-b7e4-75f7348daef9">
-    <Interface type="Interface" uuid="5a6cacc8-168d-4bbd-a734-9d3aae777f43"/>
+  <System type="System" uuid="2612ad93-6611-4a28-8ea4-662c198695bd">
+    <Interface type="Interface" uuid="0f56b79e-2ad8-4202-8913-f38735e757e7"/>
   </System>
 </MF0>
 __MWOPC_PART_BEGIN__ /simulink/plugins/SimscapeModelParametersPlugin.xml
@@ -907,6 +907,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/_rels/system_root.xml.rels
   <Relationship Id="system_4140" Target="system_4140.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
   <Relationship Id="system_5972" Target="system_5972.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
   <Relationship Id="system_6439" Target="system_6439.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
+  <Relationship Id="system_6559" Target="system_6559.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
 </Relationships>
 
 __MWOPC_PART_BEGIN__ /simulink/systems/system_3131.xml
@@ -938,7 +939,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3131.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[450, 200, 465, 210]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.58</P>
+    <P Name="LibraryVersion">15.105</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -961,7 +962,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3131.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[450, 220, 465, 230]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.58</P>
+    <P Name="LibraryVersion">15.105</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -984,7 +985,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3131.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[450, 240, 465, 250]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.58</P>
+    <P Name="LibraryVersion">15.105</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -1377,7 +1378,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3131.xml
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">313</P>
+    <P Name="ZOrder">314</P>
     <P Name="FontName">Arial</P>
     <P Name="FontSize">7</P>
   </Annotation>
@@ -22962,7 +22963,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3409.xml
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">35</P>
+    <P Name="ZOrder">36</P>
     <P Name="FontSize">7</P>
   </Annotation>
 </System>
@@ -30603,7 +30604,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4140.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[75, 35, 90, 45]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.74</P>
+    <P Name="LibraryVersion">15.105</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -30626,7 +30627,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4140.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[75, 75, 90, 85]</P>
     <P Name="ZOrder">100000</P>
-    <P Name="LibraryVersion">15.74</P>
+    <P Name="LibraryVersion">15.105</P>
     <P Name="SourceBlock">Miscellaneous/Alignment</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -30777,7 +30778,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_4140.xml
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">83</P>
+    <P Name="ZOrder">84</P>
     <P Name="FontSize">7</P>
   </Annotation>
   <Annotation SID="4144">
@@ -39064,13 +39065,16 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_6439.xml
   <P Name="PaperType">usletter</P>
   <P Name="PaperUnits">inches</P>
   <P Name="TiledPaperMargins">[0.500000, 0.500000, 0.500000, 0.500000]</P>
+  <P Name="ZoomFactor">60</P>
   <Block BlockType="Inport" Name="A(2B)" SID="6440">
     <P Name="Position">[940, 1143, 970, 1157]</P>
     <P Name="ZOrder">100000</P>
+    <P Name="NameLocation">left</P>
   </Block>
   <Block BlockType="Inport" Name="B(2B)" SID="6441">
     <P Name="Position">[940, 1308, 970, 1322]</P>
     <P Name="ZOrder">100000</P>
+    <P Name="NameLocation">left</P>
     <P Name="Port">2</P>
   </Block>
   <Block BlockType="BusCreator" Name="Bus&#xA;Creator" SID="6442">
@@ -40079,6 +40083,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_6439.xml
   <Block BlockType="Outport" Name="A(XOR)B(2B)" SID="6525">
     <P Name="Position">[1775, 1318, 1805, 1332]</P>
     <P Name="ZOrder">100000</P>
+    <P Name="NameLocation">right</P>
     <P Name="OutputWhenDisabled">reset</P>
   </Block>
   <Line>
@@ -41131,7 +41136,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_6439.xml
     <P Name="BackgroundColor">[0.960784, 0.960784, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">1</P>
+    <P Name="ZOrder">120</P>
     <P Name="FontSize">7</P>
   </Annotation>
   <Annotation SID="6557">
@@ -41146,7 +41151,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_6439.xml
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">2</P>
+    <P Name="ZOrder">121</P>
     <P Name="FontSize">7</P>
   </Annotation>
   <Annotation SID="6556">
@@ -41191,7 +41196,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">3</P>
+    <P Name="ZOrder">122</P>
     <P Name="FontSize">7</P>
   </Annotation>
   <Annotation SID="6553">
@@ -41221,7 +41226,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">4</P>
+    <P Name="ZOrder">123</P>
     <P Name="FontSize">7</P>
   </Annotation>
   <Annotation SID="6551">
@@ -41251,7 +41256,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">5</P>
+    <P Name="ZOrder">124</P>
     <P Name="FontSize">7</P>
   </Annotation>
   <Annotation SID="6549">
@@ -41281,7 +41286,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">9</P>
+    <P Name="ZOrder">128</P>
     <P Name="FontSize">7</P>
   </Annotation>
   <Annotation SID="6547">
@@ -41311,7 +41316,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">7</P>
+    <P Name="ZOrder">126</P>
     <P Name="FontSize">7</P>
   </Annotation>
   <Annotation SID="6545">
@@ -41326,7 +41331,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">6</P>
+    <P Name="ZOrder">125</P>
     <P Name="FontSize">7</P>
   </Annotation>
   <Annotation SID="6544">
@@ -41341,7 +41346,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">8</P>
+    <P Name="ZOrder">127</P>
     <P Name="FontSize">7</P>
   </Annotation>
   <Annotation SID="6543">
@@ -41386,7 +41391,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">15</P>
+    <P Name="ZOrder">134</P>
     <P Name="FontSize">7</P>
   </Annotation>
   <Annotation SID="6540">
@@ -41431,7 +41436,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">16</P>
+    <P Name="ZOrder">135</P>
     <P Name="FontSize">7</P>
   </Annotation>
   <Annotation SID="6537">
@@ -41476,7 +41481,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">17</P>
+    <P Name="ZOrder">136</P>
     <P Name="FontSize">7</P>
   </Annotation>
   <Annotation SID="6534">
@@ -41491,7 +41496,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">14</P>
+    <P Name="ZOrder">133</P>
     <P Name="FontSize">7</P>
   </Annotation>
   <Annotation SID="6533">
@@ -41521,7 +41526,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">13</P>
+    <P Name="ZOrder">132</P>
     <P Name="FontSize">7</P>
   </Annotation>
   <Annotation SID="6531">
@@ -41551,7 +41556,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">11</P>
+    <P Name="ZOrder">130</P>
     <P Name="FontSize">7</P>
   </Annotation>
   <Annotation SID="6529">
@@ -41566,7 +41571,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">10</P>
+    <P Name="ZOrder">129</P>
     <P Name="FontSize">7</P>
   </Annotation>
   <Annotation SID="6528">
@@ -41581,7 +41586,7 @@ p, li { white-space: pre-wrap; }
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">12</P>
+    <P Name="ZOrder">131</P>
     <P Name="FontSize">7</P>
   </Annotation>
   <Annotation SID="6527">
@@ -41616,14 +41621,718 @@ p, li { white-space: pre-wrap; }
   </Annotation>
 </System>
 
+__MWOPC_PART_BEGIN__ /simulink/systems/system_6559.xml
+<?xml version="1.0" encoding="utf-8"?>
+<System>
+  <P Name="Location">[29, 0, 1011, 1080]</P>
+  <P Name="Open">on</P>
+  <P Name="PaperType">usletter</P>
+  <P Name="PaperUnits">inches</P>
+  <P Name="TiledPaperMargins">[0.500000, 0.500000, 0.500000, 0.500000]</P>
+  <P Name="ZoomFactor">125</P>
+  <Block BlockType="Inport" Name="A(4b)" SID="6560">
+    <P Name="Position">[1185, 2103, 1215, 2117]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="NameLocation">left</P>
+  </Block>
+  <Block BlockType="Inport" Name="B(4b)" SID="6561">
+    <P Name="Position">[1185, 2148, 1215, 2162]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="NameLocation">left</P>
+    <P Name="Port">2</P>
+  </Block>
+  <Block BlockType="BusCreator" Name="Bus&#xA;Creator" SID="6562">
+    <PortCounts in="4" out="1"/>
+    <P Name="Position">[1600, 2146, 1610, 2184]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="NameLocation">right</P>
+    <P Name="ShowName">off</P>
+    <P Name="Inputs">4</P>
+    <P Name="DisplayOption">bar</P>
+    <P Name="InheritFromInputs">on</P>
+  </Block>
+  <Block BlockType="BusSelector" Name="Bus&#xA;Selector" SID="6563">
+    <PortCounts in="1" out="4"/>
+    <P Name="Position">[1245, 2091, 1255, 2129]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="ShowName">off</P>
+    <P Name="OutputSignals">b03,b02,b01,b00</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="Name">&lt;b03&gt;</P>
+      </Port>
+      <Port Type="out" Index="2">
+        <P Name="Name">&lt;b02&gt;</P>
+      </Port>
+      <Port Type="out" Index="3">
+        <P Name="Name">&lt;b01&gt;</P>
+      </Port>
+      <Port Type="out" Index="4">
+        <P Name="Name">&lt;b00&gt;</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="BusSelector" Name="Bus&#xA;Selector1" SID="6564">
+    <PortCounts in="1" out="4"/>
+    <P Name="Position">[1245, 2136, 1255, 2174]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="ShowName">off</P>
+    <P Name="OutputSignals">b03,b02,b01,b00</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="Name">&lt;b03&gt;</P>
+      </Port>
+      <Port Type="out" Index="2">
+        <P Name="Name">&lt;b02&gt;</P>
+      </Port>
+      <Port Type="out" Index="3">
+        <P Name="Name">&lt;b01&gt;</P>
+      </Port>
+      <Port Type="out" Index="4">
+        <P Name="Name">&lt;b00&gt;</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Logic" Name="Logical&#xA;Operator76" SID="6625">
+    <PortCounts in="2" out="1"/>
+    <P Name="Position">[1435, 2207, 1466, 2233]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="ShowName">off</P>
+    <P Name="Operator">NAND</P>
+    <P Name="IconShape">distinctive</P>
+    <P Name="AllPortsSameDT">off</P>
+    <P Name="OutDataTypeStr">boolean</P>
+  </Block>
+  <Block BlockType="Logic" Name="Logical&#xA;Operator77" SID="6626">
+    <PortCounts in="2" out="1"/>
+    <P Name="Position">[1435, 2237, 1466, 2263]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="ShowName">off</P>
+    <P Name="Operator">NAND</P>
+    <P Name="IconShape">distinctive</P>
+    <P Name="AllPortsSameDT">off</P>
+    <P Name="OutDataTypeStr">boolean</P>
+  </Block>
+  <Block BlockType="Logic" Name="Logical&#xA;Operator78" SID="6627">
+    <PortCounts in="1" out="1"/>
+    <P Name="Position">[1410, 2250, 1420, 2260]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="ShowName">off</P>
+    <P Name="Operator">NOT</P>
+    <P Name="IconShape">distinctive</P>
+    <P Name="AllPortsSameDT">off</P>
+    <P Name="OutDataTypeStr">boolean</P>
+  </Block>
+  <Block BlockType="Logic" Name="Logical&#xA;Operator79" SID="6628">
+    <PortCounts in="2" out="1"/>
+    <P Name="Position">[1495, 2212, 1526, 2238]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="ShowName">off</P>
+    <P Name="Operator">NAND</P>
+    <P Name="IconShape">distinctive</P>
+    <P Name="AllPortsSameDT">off</P>
+    <P Name="OutDataTypeStr">boolean</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="Name">b2</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Logic" Name="Logical&#xA;Operator80" SID="6629">
+    <PortCounts in="1" out="1"/>
+    <P Name="Position">[1410, 2210, 1420, 2220]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="ShowName">off</P>
+    <P Name="Operator">NOT</P>
+    <P Name="IconShape">distinctive</P>
+    <P Name="AllPortsSameDT">off</P>
+    <P Name="OutDataTypeStr">boolean</P>
+  </Block>
+  <Block BlockType="Logic" Name="Logical&#xA;Operator81" SID="6630">
+    <PortCounts in="2" out="1"/>
+    <P Name="Position">[1435, 2132, 1466, 2158]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="ShowName">off</P>
+    <P Name="Operator">NAND</P>
+    <P Name="IconShape">distinctive</P>
+    <P Name="AllPortsSameDT">off</P>
+    <P Name="OutDataTypeStr">boolean</P>
+  </Block>
+  <Block BlockType="Logic" Name="Logical&#xA;Operator82" SID="6631">
+    <PortCounts in="2" out="1"/>
+    <P Name="Position">[1435, 2162, 1466, 2188]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="ShowName">off</P>
+    <P Name="Operator">NAND</P>
+    <P Name="IconShape">distinctive</P>
+    <P Name="AllPortsSameDT">off</P>
+    <P Name="OutDataTypeStr">boolean</P>
+  </Block>
+  <Block BlockType="Logic" Name="Logical&#xA;Operator83" SID="6632">
+    <PortCounts in="1" out="1"/>
+    <P Name="Position">[1410, 2175, 1420, 2185]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="ShowName">off</P>
+    <P Name="Operator">NOT</P>
+    <P Name="IconShape">distinctive</P>
+    <P Name="AllPortsSameDT">off</P>
+    <P Name="OutDataTypeStr">boolean</P>
+  </Block>
+  <Block BlockType="Logic" Name="Logical&#xA;Operator84" SID="6633">
+    <PortCounts in="2" out="1"/>
+    <P Name="Position">[1495, 2137, 1526, 2163]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="ShowName">off</P>
+    <P Name="Operator">NAND</P>
+    <P Name="IconShape">distinctive</P>
+    <P Name="AllPortsSameDT">off</P>
+    <P Name="OutDataTypeStr">boolean</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="Name">b3</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Logic" Name="Logical&#xA;Operator85" SID="6634">
+    <PortCounts in="1" out="1"/>
+    <P Name="Position">[1410, 2135, 1420, 2145]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="ShowName">off</P>
+    <P Name="Operator">NOT</P>
+    <P Name="IconShape">distinctive</P>
+    <P Name="AllPortsSameDT">off</P>
+    <P Name="OutDataTypeStr">boolean</P>
+  </Block>
+  <Block BlockType="Logic" Name="Logical&#xA;Operator86" SID="6635">
+    <PortCounts in="2" out="1"/>
+    <P Name="Position">[1435, 2282, 1466, 2308]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="ShowName">off</P>
+    <P Name="Operator">NAND</P>
+    <P Name="IconShape">distinctive</P>
+    <P Name="AllPortsSameDT">off</P>
+    <P Name="OutDataTypeStr">boolean</P>
+  </Block>
+  <Block BlockType="Logic" Name="Logical&#xA;Operator87" SID="6636">
+    <PortCounts in="2" out="1"/>
+    <P Name="Position">[1435, 2312, 1466, 2338]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="ShowName">off</P>
+    <P Name="Operator">NAND</P>
+    <P Name="IconShape">distinctive</P>
+    <P Name="AllPortsSameDT">off</P>
+    <P Name="OutDataTypeStr">boolean</P>
+  </Block>
+  <Block BlockType="Logic" Name="Logical&#xA;Operator88" SID="6637">
+    <PortCounts in="1" out="1"/>
+    <P Name="Position">[1410, 2325, 1420, 2335]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="ShowName">off</P>
+    <P Name="Operator">NOT</P>
+    <P Name="IconShape">distinctive</P>
+    <P Name="AllPortsSameDT">off</P>
+    <P Name="OutDataTypeStr">boolean</P>
+  </Block>
+  <Block BlockType="Logic" Name="Logical&#xA;Operator89" SID="6638">
+    <PortCounts in="2" out="1"/>
+    <P Name="Position">[1495, 2287, 1526, 2313]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="ShowName">off</P>
+    <P Name="Operator">NAND</P>
+    <P Name="IconShape">distinctive</P>
+    <P Name="AllPortsSameDT">off</P>
+    <P Name="OutDataTypeStr">boolean</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="Name">b1</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Logic" Name="Logical&#xA;Operator90" SID="6639">
+    <PortCounts in="1" out="1"/>
+    <P Name="Position">[1410, 2285, 1420, 2295]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="ShowName">off</P>
+    <P Name="Operator">NOT</P>
+    <P Name="IconShape">distinctive</P>
+    <P Name="AllPortsSameDT">off</P>
+    <P Name="OutDataTypeStr">boolean</P>
+  </Block>
+  <Block BlockType="Logic" Name="Logical&#xA;Operator91" SID="6640">
+    <PortCounts in="2" out="1"/>
+    <P Name="Position">[1435, 2357, 1466, 2383]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="ShowName">off</P>
+    <P Name="Operator">NAND</P>
+    <P Name="IconShape">distinctive</P>
+    <P Name="AllPortsSameDT">off</P>
+    <P Name="OutDataTypeStr">boolean</P>
+  </Block>
+  <Block BlockType="Logic" Name="Logical&#xA;Operator92" SID="6641">
+    <PortCounts in="2" out="1"/>
+    <P Name="Position">[1435, 2387, 1466, 2413]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="ShowName">off</P>
+    <P Name="Operator">NAND</P>
+    <P Name="IconShape">distinctive</P>
+    <P Name="AllPortsSameDT">off</P>
+    <P Name="OutDataTypeStr">boolean</P>
+  </Block>
+  <Block BlockType="Logic" Name="Logical&#xA;Operator93" SID="6642">
+    <PortCounts in="1" out="1"/>
+    <P Name="Position">[1410, 2400, 1420, 2410]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="ShowName">off</P>
+    <P Name="Operator">NOT</P>
+    <P Name="IconShape">distinctive</P>
+    <P Name="AllPortsSameDT">off</P>
+    <P Name="OutDataTypeStr">boolean</P>
+  </Block>
+  <Block BlockType="Logic" Name="Logical&#xA;Operator94" SID="6643">
+    <PortCounts in="2" out="1"/>
+    <P Name="Position">[1495, 2362, 1526, 2388]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="ShowName">off</P>
+    <P Name="Operator">NAND</P>
+    <P Name="IconShape">distinctive</P>
+    <P Name="AllPortsSameDT">off</P>
+    <P Name="OutDataTypeStr">boolean</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="Name">b0</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Logic" Name="Logical&#xA;Operator95" SID="6644">
+    <PortCounts in="1" out="1"/>
+    <P Name="Position">[1410, 2360, 1420, 2370]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="ShowName">off</P>
+    <P Name="Operator">NOT</P>
+    <P Name="IconShape">distinctive</P>
+    <P Name="AllPortsSameDT">off</P>
+    <P Name="OutDataTypeStr">boolean</P>
+  </Block>
+  <Block BlockType="Outport" Name="A(XOR)B(4b)" SID="6645">
+    <P Name="Position">[1640, 2158, 1670, 2172]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="NameLocation">right</P>
+    <P Name="OutputWhenDisabled">reset</P>
+  </Block>
+  <Line>
+    <P Name="ZOrder">80</P>
+    <P Name="Src">6632#out:1</P>
+    <P Name="Dst">6631#in:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">81</P>
+    <P Name="Src">6627#out:1</P>
+    <P Name="Dst">6626#in:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">82</P>
+    <P Name="Src">6639#out:1</P>
+    <P Name="Dst">6635#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">83</P>
+    <P Name="Src">6637#out:1</P>
+    <P Name="Dst">6636#in:2</P>
+  </Line>
+  <Line>
+    <P Name="Name">b2</P>
+    <P Name="FontSize">6</P>
+    <P Name="ZOrder">227</P>
+    <P Name="Labels">[-1, 0]</P>
+    <P Name="Src">6628#out:1</P>
+    <P Name="Points">[19, 0; 0, -65]</P>
+    <P Name="Dst">6562#in:2</P>
+  </Line>
+  <Line>
+    <P Name="Name">b1</P>
+    <P Name="FontSize">6</P>
+    <P Name="ZOrder">226</P>
+    <P Name="Labels">[-1, 0]</P>
+    <P Name="Src">6638#out:1</P>
+    <P Name="Points">[29, 0; 0, -130]</P>
+    <P Name="Dst">6562#in:3</P>
+  </Line>
+  <Line>
+    <P Name="Name">&lt;b01&gt;</P>
+    <P Name="FontSize">6</P>
+    <P Name="ZOrder">204</P>
+    <P Name="Labels">[0, 0]</P>
+    <P Name="Src">6564#out:3</P>
+    <P Name="Points">[35, 0; 0, 130; 100, 0]</P>
+    <Branch>
+      <P Name="ZOrder">219</P>
+      <P Name="Points">[0, 30]</P>
+      <P Name="Dst">6636#in:1</P>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">191</P>
+      <P Name="Dst">6639#in:1</P>
+    </Branch>
+  </Line>
+  <Line>
+    <P Name="ZOrder">89</P>
+    <P Name="Src">6635#out:1</P>
+    <P Name="Dst">6638#in:1</P>
+  </Line>
+  <Line>
+    <P Name="Name">&lt;b03&gt;</P>
+    <P Name="FontSize">6</P>
+    <P Name="ZOrder">217</P>
+    <P Name="Labels">[0, 0]</P>
+    <P Name="Src">6563#out:1</P>
+    <P Name="Points">[95, 0; 0, 55; 30, 0]</P>
+    <Branch>
+      <P Name="ZOrder">185</P>
+      <P Name="Points">[0, 30]</P>
+      <P Name="Dst">6632#in:1</P>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">91</P>
+      <P Name="Dst">6630#in:2</P>
+    </Branch>
+  </Line>
+  <Line>
+    <P Name="Name">&lt;b01&gt;</P>
+    <P Name="FontSize">6</P>
+    <P Name="ZOrder">215</P>
+    <P Name="Labels">[0, 0]</P>
+    <P Name="Src">6563#out:3</P>
+    <P Name="Points">[75, 0; 0, 185; 50, 0]</P>
+    <Branch>
+      <P Name="ZOrder">192</P>
+      <P Name="Points">[0, 30]</P>
+      <P Name="Dst">6637#in:1</P>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">94</P>
+      <P Name="Dst">6635#in:2</P>
+    </Branch>
+  </Line>
+  <Line>
+    <P Name="ZOrder">96</P>
+    <P Name="Src">6636#out:1</P>
+    <P Name="Points">[4, 0; 0, -20]</P>
+    <P Name="Dst">6638#in:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">97</P>
+    <P Name="Src">6630#out:1</P>
+    <P Name="Dst">6633#in:1</P>
+  </Line>
+  <Line>
+    <P Name="Name">&lt;b03&gt;</P>
+    <P Name="FontSize">6</P>
+    <P Name="ZOrder">206</P>
+    <P Name="Labels">[0, 0]</P>
+    <P Name="Src">6564#out:1</P>
+    <P Name="Points">[135, 0]</P>
+    <Branch>
+      <P Name="ZOrder">99</P>
+      <P Name="Dst">6634#in:1</P>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">100</P>
+      <P Name="Points">[0, 30; 40, 0]</P>
+      <P Name="Dst">6631#in:1</P>
+    </Branch>
+  </Line>
+  <Line>
+    <P Name="Name">&lt;b00&gt;</P>
+    <P Name="FontSize">6</P>
+    <P Name="ZOrder">208</P>
+    <P Name="Labels">[0, 0]</P>
+    <P Name="Src">6563#out:4</P>
+    <P Name="Points">[65, 0; 0, 250; 60, 0]</P>
+    <Branch>
+      <P Name="ZOrder">220</P>
+      <P Name="Points">[0, 30]</P>
+      <P Name="Dst">6642#in:1</P>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">102</P>
+      <P Name="Dst">6640#in:2</P>
+    </Branch>
+  </Line>
+  <Line>
+    <P Name="ZOrder">104</P>
+    <P Name="Src">6641#out:1</P>
+    <P Name="Points">[4, 0; 0, -20]</P>
+    <P Name="Dst">6643#in:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">105</P>
+    <P Name="Src">6625#out:1</P>
+    <P Name="Dst">6628#in:1</P>
+  </Line>
+  <Line>
+    <P Name="Name">b3</P>
+    <P Name="FontSize">6</P>
+    <P Name="ZOrder">228</P>
+    <P Name="Labels">[-1, 0]</P>
+    <P Name="Src">6633#out:1</P>
+    <P Name="Dst">6562#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">107</P>
+    <P Name="Src">6634#out:1</P>
+    <P Name="Dst">6630#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">108</P>
+    <P Name="Src">6631#out:1</P>
+    <P Name="Points">[4, 0; 0, -20]</P>
+    <P Name="Dst">6633#in:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">109</P>
+    <P Name="Src">6644#out:1</P>
+    <P Name="Dst">6640#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">110</P>
+    <P Name="Src">6642#out:1</P>
+    <P Name="Dst">6641#in:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">111</P>
+    <P Name="Src">6626#out:1</P>
+    <P Name="Points">[4, 0; 0, -20]</P>
+    <P Name="Dst">6628#in:2</P>
+  </Line>
+  <Line>
+    <P Name="Name">&lt;b02&gt;</P>
+    <P Name="FontSize">6</P>
+    <P Name="ZOrder">205</P>
+    <P Name="Labels">[0, 0]</P>
+    <P Name="Src">6564#out:2</P>
+    <P Name="Points">[45, 0; 0, 65; 90, 0]</P>
+    <Branch>
+      <P Name="ZOrder">218</P>
+      <P Name="Points">[0, 30]</P>
+      <P Name="Dst">6626#in:1</P>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">184</P>
+      <P Name="Dst">6629#in:1</P>
+    </Branch>
+  </Line>
+  <Line>
+    <P Name="Name">b0</P>
+    <P Name="FontSize">6</P>
+    <P Name="ZOrder">225</P>
+    <P Name="Labels">[-1, 0]</P>
+    <P Name="Src">6643#out:1</P>
+    <P Name="Points">[39, 0; 0, -195]</P>
+    <P Name="Dst">6562#in:4</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">145</P>
+    <P Name="Src">6629#out:1</P>
+    <P Name="Dst">6625#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">148</P>
+    <P Name="Src">6640#out:1</P>
+    <P Name="Dst">6643#in:1</P>
+  </Line>
+  <Line>
+    <P Name="Name">&lt;b02&gt;</P>
+    <P Name="FontSize">6</P>
+    <P Name="ZOrder">216</P>
+    <P Name="Labels">[0, 0]</P>
+    <P Name="Src">6563#out:2</P>
+    <P Name="Points">[85, 0; 0, 120; 40, 0]</P>
+    <Branch>
+      <P Name="ZOrder">187</P>
+      <P Name="Points">[0, 30]</P>
+      <P Name="Dst">6627#in:1</P>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">154</P>
+      <P Name="Dst">6625#in:2</P>
+    </Branch>
+  </Line>
+  <Line>
+    <P Name="Name">&lt;b00&gt;</P>
+    <P Name="FontSize">6</P>
+    <P Name="ZOrder">203</P>
+    <P Name="Labels">[0, 0]</P>
+    <P Name="Src">6564#out:4</P>
+    <P Name="Points">[25, 0; 0, 195; 110, 0]</P>
+    <Branch>
+      <P Name="ZOrder">166</P>
+      <P Name="Dst">6644#in:1</P>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">167</P>
+      <P Name="Points">[0, 30]</P>
+      <P Name="Dst">6641#in:1</P>
+    </Branch>
+  </Line>
+  <Line>
+    <P Name="ZOrder">229</P>
+    <P Name="Src">6562#out:1</P>
+    <P Name="Dst">6645#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">230</P>
+    <P Name="Src">6561#out:1</P>
+    <P Name="Dst">6564#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">231</P>
+    <P Name="Src">6560#out:1</P>
+    <P Name="Dst">6563#in:1</P>
+  </Line>
+  <Annotation SID="6678">
+    <P Name="Name">Nibble_Xor</P>
+    <P Name="Position">[1228, 2076, 1623, 2431]</P>
+    <P Name="InternalMargins">[0, 0, 0, 0]</P>
+    <P Name="FixedHeight">on</P>
+    <P Name="FixedWidth">on</P>
+    <P Name="HorizontalAlignment">left</P>
+    <P Name="VerticalAlignment">top</P>
+    <P Name="ForegroundColor">[0.960784, 0.960784, 1.000000]</P>
+    <P Name="BackgroundColor">[0.960784, 0.960784, 1.000000]</P>
+    <P Name="DropShadow">on</P>
+    <P Name="AnnotationType">area_annotation</P>
+    <P Name="ZOrder">867</P>
+    <P Name="FontSize">7</P>
+  </Annotation>
+  <Annotation SID="6661">
+    <P Name="Name">Bit_Xor</P>
+    <P Name="Position">[1377, 2200, 1532, 2270]</P>
+    <P Name="InternalMargins">[0, 0, 0, 0]</P>
+    <P Name="FixedHeight">on</P>
+    <P Name="FixedWidth">on</P>
+    <P Name="HorizontalAlignment">left</P>
+    <P Name="VerticalAlignment">top</P>
+    <P Name="ForegroundColor">[0.901961, 0.901961, 1.000000]</P>
+    <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
+    <P Name="DropShadow">on</P>
+    <P Name="AnnotationType">area_annotation</P>
+    <P Name="ZOrder">869</P>
+    <P Name="FontSize">7</P>
+  </Annotation>
+  <Annotation SID="6660">
+    <P Name="Name">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body align=&quot;center&quot; style=&quot; font-family:&apos;Helvetica&apos;; font-size:10px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6px;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot; font-size:7px;&quot;&gt;Bit_0&lt;/span&gt;&lt;span style=&quot; font-size:6px;&quot;&gt;)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</P>
+    <P Name="Position">[1502, 2408, 1531, 2418]</P>
+    <P Name="InternalMargins">[0, 0, 0, 0]</P>
+    <P Name="FixedHeight">on</P>
+    <P Name="FixedWidth">on</P>
+    <P Name="VerticalAlignment">top</P>
+    <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
+    <P Name="Interpreter">rich</P>
+    <P Name="ZOrder">-19</P>
+  </Annotation>
+  <Annotation SID="6659">
+    <P Name="Name">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body align=&quot;center&quot; style=&quot; font-family:&apos;Helvetica&apos;; font-size:10px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6px;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot; font-size:7px;&quot;&gt;Bit_1&lt;/span&gt;&lt;span style=&quot; font-size:6px;&quot;&gt;)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</P>
+    <P Name="Position">[1502, 2333, 1531, 2343]</P>
+    <P Name="InternalMargins">[0, 0, 0, 0]</P>
+    <P Name="FixedHeight">on</P>
+    <P Name="FixedWidth">on</P>
+    <P Name="VerticalAlignment">top</P>
+    <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
+    <P Name="Interpreter">rich</P>
+    <P Name="ZOrder">-20</P>
+  </Annotation>
+  <Annotation SID="6658">
+    <P Name="Name">Bit_Xor</P>
+    <P Name="Position">[1377, 2275, 1532, 2345]</P>
+    <P Name="InternalMargins">[0, 0, 0, 0]</P>
+    <P Name="FixedHeight">on</P>
+    <P Name="FixedWidth">on</P>
+    <P Name="HorizontalAlignment">left</P>
+    <P Name="VerticalAlignment">top</P>
+    <P Name="ForegroundColor">[0.901961, 0.901961, 1.000000]</P>
+    <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
+    <P Name="DropShadow">on</P>
+    <P Name="AnnotationType">area_annotation</P>
+    <P Name="ZOrder">870</P>
+    <P Name="FontSize">7</P>
+  </Annotation>
+  <Annotation SID="6657">
+    <P Name="Name">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body align=&quot;center&quot; style=&quot; font-family:&apos;Helvetica&apos;; font-size:10px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6px;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot; font-size:7px;&quot;&gt;Bit_2&lt;/span&gt;&lt;span style=&quot; font-size:6px;&quot;&gt;)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</P>
+    <P Name="Position">[1502, 2258, 1531, 2268]</P>
+    <P Name="InternalMargins">[0, 0, 0, 0]</P>
+    <P Name="FixedHeight">on</P>
+    <P Name="FixedWidth">on</P>
+    <P Name="VerticalAlignment">top</P>
+    <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
+    <P Name="Interpreter">rich</P>
+    <P Name="ZOrder">-22</P>
+  </Annotation>
+  <Annotation SID="6656">
+    <P Name="Name">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body align=&quot;center&quot; style=&quot; font-family:&apos;Helvetica&apos;; font-size:10px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6px;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot; font-size:7px;&quot;&gt;Bit_3&lt;/span&gt;&lt;span style=&quot; font-size:6px;&quot;&gt;)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</P>
+    <P Name="Position">[1502, 2183, 1531, 2193]</P>
+    <P Name="InternalMargins">[0, 0, 0, 0]</P>
+    <P Name="FixedHeight">on</P>
+    <P Name="FixedWidth">on</P>
+    <P Name="VerticalAlignment">top</P>
+    <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
+    <P Name="Interpreter">rich</P>
+    <P Name="ZOrder">-23</P>
+  </Annotation>
+  <Annotation SID="6655">
+    <P Name="Name">Bit_Xor</P>
+    <P Name="Position">[1377, 2350, 1532, 2420]</P>
+    <P Name="InternalMargins">[0, 0, 0, 0]</P>
+    <P Name="FixedHeight">on</P>
+    <P Name="FixedWidth">on</P>
+    <P Name="HorizontalAlignment">left</P>
+    <P Name="VerticalAlignment">top</P>
+    <P Name="ForegroundColor">[0.901961, 0.901961, 1.000000]</P>
+    <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
+    <P Name="DropShadow">on</P>
+    <P Name="AnnotationType">area_annotation</P>
+    <P Name="ZOrder">871</P>
+    <P Name="FontSize">7</P>
+  </Annotation>
+  <Annotation SID="6654">
+    <P Name="Name">Bit_Xor</P>
+    <P Name="Position">[1377, 2125, 1532, 2195]</P>
+    <P Name="InternalMargins">[0, 0, 0, 0]</P>
+    <P Name="FixedHeight">on</P>
+    <P Name="FixedWidth">on</P>
+    <P Name="HorizontalAlignment">left</P>
+    <P Name="VerticalAlignment">top</P>
+    <P Name="ForegroundColor">[0.901961, 0.901961, 1.000000]</P>
+    <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
+    <P Name="DropShadow">on</P>
+    <P Name="AnnotationType">area_annotation</P>
+    <P Name="ZOrder">868</P>
+    <P Name="FontSize">7</P>
+  </Annotation>
+</System>
+
 __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
-  <P Name="Location">[61, -8, 1921, 1081]</P>
-  <P Name="Open">on</P>
+  <P Name="Location">[29, 0, 1011, 1080]</P>
   <P Name="ZoomFactor">150</P>
   <P Name="ReportName">simulink-default.rpt</P>
-  <P Name="SIDHighWatermark">6558</P>
+  <P Name="SIDHighWatermark">6680</P>
   <Block BlockType="SubSystem" Name="Bit_Adder" SID="3131">
     <PortCounts in="3" out="2"/>
     <P Name="Position">[815, 148, 930, 192]</P>
@@ -41655,6 +42364,12 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     <P Name="ZOrder">100000</P>
     <System Ref="system_5972"/>
   </Block>
+  <Block BlockType="SubSystem" Name="Nibble_Xor" SID="6559">
+    <PortCounts in="2" out="1"/>
+    <P Name="Position">[640, 220, 755, 255]</P>
+    <P Name="ZOrder">100000</P>
+    <System Ref="system_6559"/>
+  </Block>
   <Block BlockType="SubSystem" Name="Word_Adder" SID="3821">
     <PortCounts in="2" out="2"/>
     <P Name="Position">[815, 285, 930, 320]</P>
@@ -41670,13 +42385,13 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
   </Block>
   <Block BlockType="SubSystem" Name="Word_Not" SID="3409">
     <PortCounts in="1" out="1"/>
-    <P Name="Position">[640, 278, 755, 302]</P>
+    <P Name="Position">[480, 148, 595, 172]</P>
     <P Name="ZOrder">2159</P>
     <System Ref="system_3409"/>
   </Block>
   <Block BlockType="SubSystem" Name="Word_Xor" SID="6439">
     <PortCounts in="2" out="1"/>
-    <P Name="Position">[640, 215, 755, 250]</P>
+    <P Name="Position">[640, 285, 755, 320]</P>
     <P Name="ZOrder">100000</P>
     <System Ref="system_6439"/>
   </Block>
@@ -41688,7 +42403,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
   <Object PropName="BdWindowsInfo" ObjectID="1" ClassName="Simulink.BDWindowsInfo">
     <Object PropName="WindowsInfo" ObjectID="2" ClassName="Simulink.WindowInfo">
       <P Name="IsActive" Class="logical">1</P>
-      <P Name="Location" Class="double">[61.0, -8.0, 1860.0, 1089.0]</P>
+      <P Name="Location" Class="double">[29.0, 0.0, 982.0, 1080.0]</P>
       <Object PropName="ModelBrowserInfo" ObjectID="3" ClassName="Simulink.ModelBrowserInfo">
         <P Name="Visible" Class="logical">0</P>
         <P Name="DockPosition" Class="char">Left</P>
@@ -41700,48 +42415,28 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
       <Object PropName="ExplorerBarInfo" ObjectID="4" ClassName="Simulink.ExplorerBarInfo">
         <P Name="Visible" Class="logical">1</P>
       </Object>
-      <Array PropName="EditorsInfo" Type="Simulink.EditorInfo" Dimension="1*20">
+      <Array PropName="EditorsInfo" Type="Simulink.EditorInfo" Dimension="1*21">
         <Object ObjectID="5">
           <P Name="IsActive" Class="logical">1</P>
           <P Name="IsTabbed" Class="logical">1</P>
-          <P Name="ViewObjType" Class="char">SimulinkTopLevel</P>
-          <P Name="LoadSaveID" Class="char">0</P>
-          <P Name="Extents" Class="double">[1820.0, 853.0]</P>
-          <P Name="ZoomFactor" Class="double">1.5</P>
-          <P Name="Offset" Class="double">[231.01137634471149, 49.634863812657613]</P>
-          <P Name="SceneRectInView" Class="double">[231.01137634471149, 49.634863812657613, 1213.3333333333333, 568.66666666666663]</P>
+          <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
+          <P Name="LoadSaveID" Class="char">6559</P>
+          <P Name="Extents" Class="double">[942.0, 844.0]</P>
+          <P Name="ZoomFactor" Class="double">1.25</P>
+          <P Name="Offset" Class="double">[1081.1127840548438, 1921.4013459207824]</P>
+          <P Name="SceneRectInView" Class="double">[1081.1127840548438, 1921.4013459207824, 753.6, 675.2]</P>
         </Object>
         <Object ObjectID="6">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
-          <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
-          <P Name="LoadSaveID" Class="char">6439</P>
-          <P Name="Extents" Class="double">[1820.0, 853.0]</P>
-          <P Name="ZoomFactor" Class="double">1.0</P>
-          <P Name="Offset" Class="double">[528.58967294267859, 1100.1550291146432]</P>
-          <P Name="SceneRectInView" Class="double">[528.58967294267859, 1100.1550291146432, 1820.0, 853.0]</P>
+          <P Name="ViewObjType" Class="char">SimulinkTopLevel</P>
+          <P Name="LoadSaveID" Class="char">0</P>
+          <P Name="Extents" Class="double">[942.0, 844.0]</P>
+          <P Name="ZoomFactor" Class="double">1.5</P>
+          <P Name="Offset" Class="double">[503.45701555231716, 53.63486381265762]</P>
+          <P Name="SceneRectInView" Class="double">[503.45701555231716, 53.63486381265762, 628.0, 562.66666666666663]</P>
         </Object>
         <Object ObjectID="7">
-          <P Name="IsActive" Class="logical">0</P>
-          <P Name="IsTabbed" Class="logical">0</P>
-          <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
-          <P Name="LoadSaveID" Class="char">4140</P>
-          <P Name="Extents" Class="double">[1820.0, 853.0]</P>
-          <P Name="ZoomFactor" Class="double">2.5</P>
-          <P Name="Offset" Class="double">[-205.56978787072543, -107.42116940512066]</P>
-          <P Name="SceneRectInView" Class="double">[-205.56978787072543, -107.42116940512066, 728.0, 341.2]</P>
-        </Object>
-        <Object ObjectID="8">
-          <P Name="IsActive" Class="logical">0</P>
-          <P Name="IsTabbed" Class="logical">0</P>
-          <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
-          <P Name="LoadSaveID" Class="char">3409</P>
-          <P Name="Extents" Class="double">[1820.0, 853.0]</P>
-          <P Name="ZoomFactor" Class="double">2.5</P>
-          <P Name="Offset" Class="double">[638.98404496828925, 554.9766349304108]</P>
-          <P Name="SceneRectInView" Class="double">[638.98404496828925, 554.9766349304108, 728.0, 341.2]</P>
-        </Object>
-        <Object ObjectID="9">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -41751,7 +42446,37 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[182.08379616345019, 147.04537600285485]</P>
           <P Name="SceneRectInView" Class="double">[182.08379616345019, 147.04537600285485, 728.0, 341.2]</P>
         </Object>
+        <Object ObjectID="8">
+          <P Name="IsActive" Class="logical">0</P>
+          <P Name="IsTabbed" Class="logical">0</P>
+          <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
+          <P Name="LoadSaveID" Class="char">4140</P>
+          <P Name="Extents" Class="double">[1820.0, 853.0]</P>
+          <P Name="ZoomFactor" Class="double">2.5</P>
+          <P Name="Offset" Class="double">[-205.56978787072543, -107.42116940512066]</P>
+          <P Name="SceneRectInView" Class="double">[-205.56978787072543, -107.42116940512066, 728.0, 341.2]</P>
+        </Object>
+        <Object ObjectID="9">
+          <P Name="IsActive" Class="logical">0</P>
+          <P Name="IsTabbed" Class="logical">0</P>
+          <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
+          <P Name="LoadSaveID" Class="char">6439</P>
+          <P Name="Extents" Class="double">[1820.0, 853.0]</P>
+          <P Name="ZoomFactor" Class="double">0.6</P>
+          <P Name="Offset" Class="double">[-126.69010416666674, 1032.6666666666665]</P>
+          <P Name="SceneRectInView" Class="double">[-126.69010416666674, 1032.6666666666665, 3033.3333333333335, 1421.6666666666667]</P>
+        </Object>
         <Object ObjectID="10">
+          <P Name="IsActive" Class="logical">0</P>
+          <P Name="IsTabbed" Class="logical">0</P>
+          <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
+          <P Name="LoadSaveID" Class="char">3409</P>
+          <P Name="Extents" Class="double">[1820.0, 853.0]</P>
+          <P Name="ZoomFactor" Class="double">2.5</P>
+          <P Name="Offset" Class="double">[638.98404496828925, 554.9766349304108]</P>
+          <P Name="SceneRectInView" Class="double">[638.98404496828925, 554.9766349304108, 728.0, 341.2]</P>
+        </Object>
+        <Object ObjectID="11">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -41761,7 +42486,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[-2298.565814393939, -2856.6060606060605]</P>
           <P Name="SceneRectInView" Class="double">[-2298.565814393939, -2856.6060606060605, 10478.787878787878, 4911.212121212121]</P>
         </Object>
-        <Object ObjectID="11">
+        <Object ObjectID="12">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -41771,7 +42496,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[370.176609848485, -436.0484848484848]</P>
           <P Name="SceneRectInView" Class="double">[370.176609848485, -436.0484848484848, 5206.30303030303, 2440.0969696969696]</P>
         </Object>
-        <Object ObjectID="12">
+        <Object ObjectID="13">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -41781,7 +42506,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[-1055.3776855468755, -60.684193993829922]</P>
           <P Name="SceneRectInView" Class="double">[-1055.3776855468755, -60.684193993829922, 7522.0678710937509, 4120.36838798766]</P>
         </Object>
-        <Object ObjectID="13">
+        <Object ObjectID="14">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -41791,7 +42516,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[-191.84801136363637, 157.4969696969697]</P>
           <P Name="SceneRectInView" Class="double">[-191.84801136363637, 157.4969696969697, 1456.0, 682.4]</P>
         </Object>
-        <Object ObjectID="14">
+        <Object ObjectID="15">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -41801,7 +42526,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[-1732.5452083610298, 1103.9096896183057]</P>
           <P Name="SceneRectInView" Class="double">[-1732.5452083610298, 1103.9096896183057, 6066.666666666667, 2843.3333333333335]</P>
         </Object>
-        <Object ObjectID="15">
+        <Object ObjectID="16">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -41811,7 +42536,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[-1107.4406738281255, 225.51279994419633]</P>
           <P Name="SceneRectInView" Class="double">[-1107.4406738281255, 225.51279994419633, 7579.0063476562509, 3552.1386893136164]</P>
         </Object>
-        <Object ObjectID="16">
+        <Object ObjectID="17">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -41821,7 +42546,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[1230.5314867408329, -236.65359284323796]</P>
           <P Name="SceneRectInView" Class="double">[1230.5314867408329, -236.65359284323796, 1820.0, 853.0]</P>
         </Object>
-        <Object ObjectID="17">
+        <Object ObjectID="18">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -41831,7 +42556,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[-212.0298295454545, 167.95454545454555]</P>
           <P Name="SceneRectInView" Class="double">[-212.0298295454545, 167.95454545454555, 1489.090909090909, 697.90909090909088]</P>
         </Object>
-        <Object ObjectID="18">
+        <Object ObjectID="19">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -41841,7 +42566,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[-774.78441166840878, -848.69323015711529]</P>
           <P Name="SceneRectInView" Class="double">[-774.78441166840878, -848.69323015711529, 2275.0, 1066.25]</P>
         </Object>
-        <Object ObjectID="19">
+        <Object ObjectID="20">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -41851,7 +42576,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[-23.821773373983717, -59.261106271776981]</P>
           <P Name="SceneRectInView" Class="double">[-23.821773373983717, -59.261106271776981, 886.54979674796743, 415.50932781649243]</P>
         </Object>
-        <Object ObjectID="20">
+        <Object ObjectID="21">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -41861,7 +42586,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[-363.75, 176.5]</P>
           <P Name="SceneRectInView" Class="double">[-363.75, 176.5, 2275.0, 1066.25]</P>
         </Object>
-        <Object ObjectID="21">
+        <Object ObjectID="22">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -41871,7 +42596,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[-405.97265625, -105.0]</P>
           <P Name="SceneRectInView" Class="double">[-405.97265625, -105.0, 1820.0, 853.0]</P>
         </Object>
-        <Object ObjectID="22">
+        <Object ObjectID="23">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -41881,7 +42606,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[0.0, 0.0]</P>
           <P Name="SceneRectInView" Class="double">[0.0, 0.0, 0.0, 0.0]</P>
         </Object>
-        <Object ObjectID="23">
+        <Object ObjectID="24">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -41891,7 +42616,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[-364.44010416666663, -84.714285714285666]</P>
           <P Name="SceneRectInView" Class="double">[-364.44010416666663, -84.714285714285666, 1733.3333333333333, 812.38095238095229]</P>
         </Object>
-        <Object ObjectID="24">
+        <Object ObjectID="25">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -41903,18 +42628,6 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
         </Object>
       </Array>
       <Array PropName="DockComponentsInfo" Type="Simulink.DockComponentInfo" Dimension="1*2">
-        <Object ObjectID="25">
-          <P Name="Type" Class="char">GLUE2:PropertyInspector</P>
-          <P Name="ID" Class="char">Property Inspector</P>
-          <P Name="Visible" Class="logical">0</P>
-          <P Name="CreateCallback" Class="char"/>
-          <P Name="UserData" Class="char"/>
-          <P Name="Floating" Class="logical">0</P>
-          <P Name="DockPosition" Class="char">Right</P>
-          <P Name="Width" Class="int32">640</P>
-          <P Name="Height" Class="int32">480</P>
-          <P Name="Minimized" Class="char">Unset</P>
-        </Object>
         <Object ObjectID="26">
           <P Name="Type" Class="char">Simulink:Editor:ReferencedFiles</P>
           <P Name="ID" Class="char">Referenced Files</P>
@@ -41928,8 +42641,20 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Height" Class="int32">480</P>
           <P Name="Minimized" Class="char">Unset</P>
         </Object>
+        <Object ObjectID="27">
+          <P Name="Type" Class="char">GLUE2:PropertyInspector</P>
+          <P Name="ID" Class="char">Property Inspector</P>
+          <P Name="Visible" Class="logical">0</P>
+          <P Name="CreateCallback" Class="char"/>
+          <P Name="UserData" Class="char"/>
+          <P Name="Floating" Class="logical">0</P>
+          <P Name="DockPosition" Class="char">Right</P>
+          <P Name="Width" Class="int32">640</P>
+          <P Name="Height" Class="int32">480</P>
+          <P Name="Minimized" Class="char">Unset</P>
+        </Object>
       </Array>
-      <P Name="WindowState" Class="char">AAAA/wAAAAD9AAAAAwAAAAAAAAE0AAADkvwCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAAAAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD8AAAAeQAAA5IAAAAAAP////oAAAABAgAAAAL7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABjAP////sAAACOAEwAaQBiAHIAYQByAHkAQgByAG8AdwBzAGUAcgAyACAATABpAGIAcgBhAHIAeQBCAHIAbwB3AHMAZQByAFMAdAB1AGQAaQBvAEMAbwBtAHAAbwBuAGUAbgB0AC8AQQByAGkAdABoAG0AZQB0AGkAYwBfAE8AcABlAHIAYQB0AGkAbwBuAHMAXwBMAGkAYgAAAAAA/////wAAAAAAAAAA+wAAAGAAUwBpAG0AdQBsAGkAbgBrADoARQBkAGkAdABvAHIAOgBSAGUAZgBlAHIAZQBuAGMAZQBkAEYAaQBsAGUAcwAvAFIAZQBmAGUAcgBlAG4AYwBlAGQAIABGAGkAbABlAHMAAAAAAP////8AAACMAP///wAAAAEAAAAAAAAAAPwCAAAAAfsAAABUAEcATABVAEUAMgA6AFAAcgBvAHAAZQByAHQAeQBJAG4AcwBwAGUAYwB0AG8AcgAvAFAAcgBvAHAAZQByAHQAeQAgAEkAbgBzAHAAZQBjAHQAbwByAAAAAAD/////AAABrAD///8AAAADAAAAAAAAAAD8AQAAAAH7/////wAAAAAA/////wAAAVkA////AAAHQgAAA5IAAAABAAAAAgAAAAEAAAAC/AAAAAA=</P>
+      <P Name="WindowState" Class="char">AAAA/wAAAAD9AAAAAwAAAAAAAAE0AAADkvwCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAAAAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD8AAAAeQAAA5IAAAAAAP////oAAAABAgAAAAL7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABjAP////sAAACOAEwAaQBiAHIAYQByAHkAQgByAG8AdwBzAGUAcgAyACAATABpAGIAcgBhAHIAeQBCAHIAbwB3AHMAZQByAFMAdAB1AGQAaQBvAEMAbwBtAHAAbwBuAGUAbgB0AC8AQQByAGkAdABoAG0AZQB0AGkAYwBfAE8AcABlAHIAYQB0AGkAbwBuAHMAXwBMAGkAYgAAAAAA/////wAAAAAAAAAA+wAAAGAAUwBpAG0AdQBsAGkAbgBrADoARQBkAGkAdABvAHIAOgBSAGUAZgBlAHIAZQBuAGMAZQBkAEYAaQBsAGUAcwAvAFIAZQBmAGUAcgBlAG4AYwBlAGQAIABGAGkAbABlAHMAAAAAAP////8AAACMAP///wAAAAEAAAAAAAAAAPwCAAAAAfsAAABUAEcATABVAEUAMgA6AFAAcgBvAHAAZQByAHQAeQBJAG4AcwBwAGUAYwB0AG8AcgAvAFAAcgBvAHAAZQByAHQAeQAgAEkAbgBzAHAAZQBjAHQAbwByAAAAAAD/////AAABrAD///8AAAADAAAAAAAAAAD8AQAAAAH7/////wAAAAAA/////wAAAVkA////AAAD1AAAA4kAAAABAAAAAgAAAAEAAAAC/AAAAAA=</P>
       <Array PropName="PersistedApps" Type="Cell" Dimension="0*1"/>
       <P Name="WindowUuid" Class="char">8226d480-cd55-4366-9edb-cf46370c24b6</P>
     </Object>
