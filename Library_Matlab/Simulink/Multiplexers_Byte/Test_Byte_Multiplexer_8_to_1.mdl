@@ -44,8 +44,8 @@ __MWOPC_PART_BEGIN__ /metadata/coreProperties.xml
   <dcterms:created xsi:type="dcterms:W3CDTF">2017-04-08T20:24:40Z</dcterms:created>
   <dc:creator>N</dc:creator>
   <cp:lastModifiedBy>Jozko Mrkvicka</cp:lastModifiedBy>
-  <dcterms:modified xsi:type="dcterms:W3CDTF">2024-10-20T07:40:38Z</dcterms:modified>
-  <cp:revision>15.2</cp:revision>
+  <dcterms:modified xsi:type="dcterms:W3CDTF">2025-03-01T07:55:11Z</dcterms:modified>
+  <cp:revision>15.3</cp:revision>
   <cp:version>R2023a</cp:version>
 </cp:coreProperties>
 
@@ -117,7 +117,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
     <ConfigManagerSettings>
       <P Name="ModifiedByFormat">%&lt;Auto&gt;</P>
       <P Name="ModifiedDateFormat">%&lt;Auto&gt;</P>
-      <P Name="ModelVersionFormat">%&lt;AutoIncrement:15.2&gt;</P>
+      <P Name="ModelVersionFormat">%&lt;AutoIncrement:15.3&gt;</P>
     </ConfigManagerSettings>
     <EditorSettings>
       <P Name="LibraryLinkDisplay">all</P>
@@ -1016,8 +1016,8 @@ __MWOPC_PART_BEGIN__ /simulink/hdlParams.xml
 __MWOPC_PART_BEGIN__ /simulink/modelDictionary.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <MF0 version="1.1" defaultPackage="slid" packageUris="http://schema.mathworks.com/mf0/slid/R2023a_20220628">
-  <System type="System" uuid="08aec4d4-91c1-4e0e-8ba9-16dc6939e1ee">
-    <Interface type="Interface" uuid="cbe2dfe3-26f6-4f05-8d5f-cf2d3e644ec4"/>
+  <System type="System" uuid="254dae22-b86d-4dbf-8626-89c7b1b6a7ec">
+    <Interface type="Interface" uuid="9ef0f2c6-b6ea-4a60-8134-fc75c78f32cc"/>
   </System>
 </MF0>
 __MWOPC_PART_BEGIN__ /simulink/plugins/SimscapeModelParametersPlugin.xml
@@ -1065,7 +1065,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
   <P Name="Location">[991, 0, 1920, 1080]</P>
   <P Name="Open">on</P>
   <P Name="ReportName">simulink-default.rpt</P>
-  <P Name="SIDHighWatermark">480</P>
+  <P Name="SIDHighWatermark">481</P>
   <Block BlockType="DataTypeConversion" Name="Data Type Conversion1" SID="396">
     <P Name="Position">[1235, 448, 1275, 472]</P>
     <P Name="ZOrder">686</P>
@@ -1175,10 +1175,10 @@ Converter</P>
     </InstanceData>
   </Block>
   <Block BlockType="Reference" Name="NOT_USED_Byte_Multiplexer_8_to_1" SID="357">
-    <PortCounts in="16" out="1"/>
+    <PortCounts in="16" out="2"/>
     <P Name="Position">[1450, 393, 1600, 642]</P>
     <P Name="ZOrder">638</P>
-    <P Name="LibraryVersion">15.22</P>
+    <P Name="LibraryVersion">15.31</P>
     <P Name="SourceBlock">Byte_Multiplexers_Lib/Byte_Mux_8</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -1297,9 +1297,14 @@ Converter</P>
     <P Name="Indices">1</P>
     <P Name="OutputSizes">1</P>
   </Block>
+  <Block BlockType="Terminator" Name="Terminator8" SID="481">
+    <P Name="Position">[1635, 445, 1655, 465]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="ShowName">off</P>
+  </Block>
   <Block BlockType="ToWorkspace" Name="To Workspace" SID="394">
     <PortCounts in="1"/>
-    <P Name="Position">[1735, 505, 1805, 535]</P>
+    <P Name="Position">[1745, 565, 1815, 595]</P>
     <P Name="ZOrder">684</P>
     <P Name="VariableName">Output_Vect</P>
     <P Name="MaxDataPoints">inf</P>
@@ -1307,34 +1312,27 @@ Converter</P>
   </Block>
   <Block BlockType="Reference" Name="bus_to_uint(byte)" SID="472">
     <PortCounts in="1" out="1"/>
-    <P Name="Position">[1630, 512, 1705, 528]</P>
+    <P Name="Position">[1635, 572, 1710, 588]</P>
     <P Name="ZOrder">6613</P>
-    <P Name="LibraryVersion">15.17</P>
+    <P Name="LibraryVersion">15.118</P>
     <P Name="SourceBlock">Miscellaneous/bus_to_uint(byte)</P>
-    <P Name="SourceType">SubSystem</P>
+    <P Name="SourceType"/>
     <InstanceData>
-      <P Name="ShowPortLabels">FromPortIcon</P>
-      <P Name="SystemSampleTime">-1</P>
       <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
       <P Name="RTWMemSecFuncExecute">Inherit from model</P>
       <P Name="RTWMemSecDataConstants">Inherit from model</P>
       <P Name="RTWMemSecDataInternal">Inherit from model</P>
       <P Name="RTWMemSecDataParameters">Inherit from model</P>
-      <P Name="VariantActivationTime">update diagram</P>
-      <P Name="AllowZeroVariantControls">off</P>
-      <P Name="PropagateVariantConditions">off</P>
       <P Name="ContentPreviewEnabled">off</P>
-      <P Name="Latency">0</P>
-      <P Name="AutoFrameSizeCalculation">off</P>
     </InstanceData>
   </Block>
   <Block BlockType="Reference" Name="uint_to_bus(byte)" SID="473">
     <PortCounts in="1" out="1"/>
     <P Name="Position">[1295, 517, 1370, 533]</P>
     <P Name="ZOrder">6614</P>
-    <P Name="LibraryVersion">15.17</P>
+    <P Name="LibraryVersion">15.118</P>
     <P Name="SourceBlock">Miscellaneous/uint_to_bus(byte)</P>
-    <P Name="SourceType">SubSystem</P>
+    <P Name="SourceType"/>
     <InstanceData>
       <P Name="ShowPortLabels">FromPortIcon</P>
       <P Name="SystemSampleTime">-1</P>
@@ -1355,9 +1353,9 @@ Converter</P>
     <PortCounts in="1" out="1"/>
     <P Name="Position">[1295, 557, 1370, 573]</P>
     <P Name="ZOrder">6615</P>
-    <P Name="LibraryVersion">15.17</P>
+    <P Name="LibraryVersion">15.118</P>
     <P Name="SourceBlock">Miscellaneous/uint_to_bus(byte)</P>
-    <P Name="SourceType">SubSystem</P>
+    <P Name="SourceType"/>
     <InstanceData>
       <P Name="ShowPortLabels">FromPortIcon</P>
       <P Name="SystemSampleTime">-1</P>
@@ -1378,9 +1376,9 @@ Converter</P>
     <PortCounts in="1" out="1"/>
     <P Name="Position">[1295, 597, 1370, 613]</P>
     <P Name="ZOrder">6616</P>
-    <P Name="LibraryVersion">15.17</P>
+    <P Name="LibraryVersion">15.118</P>
     <P Name="SourceBlock">Miscellaneous/uint_to_bus(byte)</P>
-    <P Name="SourceType">SubSystem</P>
+    <P Name="SourceType"/>
     <InstanceData>
       <P Name="ShowPortLabels">FromPortIcon</P>
       <P Name="SystemSampleTime">-1</P>
@@ -1401,9 +1399,9 @@ Converter</P>
     <PortCounts in="1" out="1"/>
     <P Name="Position">[1295, 637, 1370, 653]</P>
     <P Name="ZOrder">6617</P>
-    <P Name="LibraryVersion">15.17</P>
+    <P Name="LibraryVersion">15.118</P>
     <P Name="SourceBlock">Miscellaneous/uint_to_bus(byte)</P>
-    <P Name="SourceType">SubSystem</P>
+    <P Name="SourceType"/>
     <InstanceData>
       <P Name="ShowPortLabels">FromPortIcon</P>
       <P Name="SystemSampleTime">-1</P>
@@ -1424,9 +1422,9 @@ Converter</P>
     <PortCounts in="1" out="1"/>
     <P Name="Position">[1295, 677, 1370, 693]</P>
     <P Name="ZOrder">6618</P>
-    <P Name="LibraryVersion">15.17</P>
+    <P Name="LibraryVersion">15.118</P>
     <P Name="SourceBlock">Miscellaneous/uint_to_bus(byte)</P>
-    <P Name="SourceType">SubSystem</P>
+    <P Name="SourceType"/>
     <InstanceData>
       <P Name="ShowPortLabels">FromPortIcon</P>
       <P Name="SystemSampleTime">-1</P>
@@ -1447,9 +1445,9 @@ Converter</P>
     <PortCounts in="1" out="1"/>
     <P Name="Position">[1295, 717, 1370, 733]</P>
     <P Name="ZOrder">6619</P>
-    <P Name="LibraryVersion">15.17</P>
+    <P Name="LibraryVersion">15.118</P>
     <P Name="SourceBlock">Miscellaneous/uint_to_bus(byte)</P>
-    <P Name="SourceType">SubSystem</P>
+    <P Name="SourceType"/>
     <InstanceData>
       <P Name="ShowPortLabels">FromPortIcon</P>
       <P Name="SystemSampleTime">-1</P>
@@ -1470,9 +1468,9 @@ Converter</P>
     <PortCounts in="1" out="1"/>
     <P Name="Position">[1295, 757, 1370, 773]</P>
     <P Name="ZOrder">6620</P>
-    <P Name="LibraryVersion">15.17</P>
+    <P Name="LibraryVersion">15.118</P>
     <P Name="SourceBlock">Miscellaneous/uint_to_bus(byte)</P>
-    <P Name="SourceType">SubSystem</P>
+    <P Name="SourceType"/>
     <InstanceData>
       <P Name="ShowPortLabels">FromPortIcon</P>
       <P Name="SystemSampleTime">-1</P>
@@ -1493,9 +1491,9 @@ Converter</P>
     <PortCounts in="1" out="1"/>
     <P Name="Position">[1295, 797, 1370, 813]</P>
     <P Name="ZOrder">6621</P>
-    <P Name="LibraryVersion">15.17</P>
+    <P Name="LibraryVersion">15.118</P>
     <P Name="SourceBlock">Miscellaneous/uint_to_bus(byte)</P>
-    <P Name="SourceType">SubSystem</P>
+    <P Name="SourceType"/>
     <InstanceData>
       <P Name="ShowPortLabels">FromPortIcon</P>
       <P Name="SystemSampleTime">-1</P>
@@ -1513,8 +1511,8 @@ Converter</P>
     </InstanceData>
   </Block>
   <Line>
-    <P Name="ZOrder">1</P>
-    <P Name="Src">357#out:1</P>
+    <P Name="ZOrder">77</P>
+    <P Name="Src">357#out:2</P>
     <P Name="Dst">472#in:1</P>
   </Line>
   <Line>
@@ -1774,6 +1772,11 @@ Converter</P>
     <P Name="Points">[50, 0; 0, -175]</P>
     <P Name="Dst">357#in:16</P>
   </Line>
+  <Line>
+    <P Name="ZOrder">78</P>
+    <P Name="Src">357#out:1</P>
+    <P Name="Dst">481#in:1</P>
+  </Line>
 </System>
 
 __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
@@ -1801,8 +1804,8 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
         <P Name="LoadSaveID" Class="char">0</P>
         <P Name="Extents" Class="double">[889.0, 844.0]</P>
         <P Name="ZoomFactor" Class="double">1.0</P>
-        <P Name="Offset" Class="double">[978.57819454150433, 133.13198526493704]</P>
-        <P Name="SceneRectInView" Class="double">[978.57819454150433, 133.13198526493704, 889.0, 844.0]</P>
+        <P Name="Offset" Class="double">[978.57819454150422, 133.13198526493704]</P>
+        <P Name="SceneRectInView" Class="double">[978.57819454150422, 133.13198526493704, 889.0, 844.0]</P>
       </Object>
       <Array PropName="DockComponentsInfo" Type="Simulink.DockComponentInfo" Dimension="1*2">
         <Object ObjectID="6">

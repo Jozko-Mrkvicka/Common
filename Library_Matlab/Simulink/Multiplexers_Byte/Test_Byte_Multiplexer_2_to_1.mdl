@@ -44,8 +44,8 @@ __MWOPC_PART_BEGIN__ /metadata/coreProperties.xml
   <dcterms:created xsi:type="dcterms:W3CDTF">2017-04-08T20:24:40Z</dcterms:created>
   <dc:creator>N</dc:creator>
   <cp:lastModifiedBy>Jozko Mrkvicka</cp:lastModifiedBy>
-  <dcterms:modified xsi:type="dcterms:W3CDTF">2024-10-20T07:35:18Z</dcterms:modified>
-  <cp:revision>21.2</cp:revision>
+  <dcterms:modified xsi:type="dcterms:W3CDTF">2025-03-01T07:55:57Z</dcterms:modified>
+  <cp:revision>21.3</cp:revision>
   <cp:version>R2023a</cp:version>
 </cp:coreProperties>
 
@@ -117,7 +117,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
     <ConfigManagerSettings>
       <P Name="ModifiedByFormat">%&lt;Auto&gt;</P>
       <P Name="ModifiedDateFormat">%&lt;Auto&gt;</P>
-      <P Name="ModelVersionFormat">%&lt;AutoIncrement:21.2&gt;</P>
+      <P Name="ModelVersionFormat">%&lt;AutoIncrement:21.3&gt;</P>
     </ConfigManagerSettings>
     <EditorSettings>
       <P Name="LibraryLinkDisplay">all</P>
@@ -979,8 +979,8 @@ __MWOPC_PART_BEGIN__ /simulink/hdlParams.xml
 __MWOPC_PART_BEGIN__ /simulink/modelDictionary.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <MF0 version="1.1" defaultPackage="slid" packageUris="http://schema.mathworks.com/mf0/slid/R2023a_20220628">
-  <System type="System" uuid="e482c430-2c6e-4762-a7bf-1afed99a7097">
-    <Interface type="Interface" uuid="5b4875fd-181d-4836-ae8f-e334ed7fee5d"/>
+  <System type="System" uuid="f5bcc344-cb0a-4e4d-9931-9ed21d2b77d2">
+    <Interface type="Interface" uuid="76052e4e-3d28-4d4b-baaa-fb641e881bc7"/>
   </System>
 </MF0>
 __MWOPC_PART_BEGIN__ /simulink/plugins/SimscapeModelParametersPlugin.xml
@@ -1029,12 +1029,12 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
   <P Name="Open">on</P>
   <P Name="ZoomFactor">125</P>
   <P Name="ReportName">simulink-default.rpt</P>
-  <P Name="SIDHighWatermark">475</P>
+  <P Name="SIDHighWatermark">476</P>
   <Block BlockType="Reference" Name="Byte_Multiplexer_2_to_1" SID="355">
-    <PortCounts in="4" out="1"/>
+    <PortCounts in="4" out="2"/>
     <P Name="Position">[1455, 37, 1590, 98]</P>
     <P Name="ZOrder">637</P>
-    <P Name="LibraryVersion">15.22</P>
+    <P Name="LibraryVersion">15.31</P>
     <P Name="SourceBlock">Byte_Multiplexers_Lib/Byte_Mux_2</P>
     <P Name="SourceType">SubSystem</P>
     <InstanceData>
@@ -1147,9 +1147,14 @@ Converter</P>
     <P Name="Indices">2</P>
     <P Name="OutputSizes">1</P>
   </Block>
+  <Block BlockType="Terminator" Name="Terminator8" SID="476">
+    <P Name="Position">[1615, 45, 1635, 65]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="ShowName">off</P>
+  </Block>
   <Block BlockType="ToWorkspace" Name="To Workspace" SID="392">
     <PortCounts in="1"/>
-    <P Name="Position">[1710, 55, 1780, 85]</P>
+    <P Name="Position">[1715, 70, 1785, 100]</P>
     <P Name="ZOrder">682</P>
     <P Name="VariableName">Output_Vect</P>
     <P Name="MaxDataPoints">inf</P>
@@ -1157,34 +1162,27 @@ Converter</P>
   </Block>
   <Block BlockType="Reference" Name="bus_to_uint(byte)" SID="475">
     <PortCounts in="1" out="1"/>
-    <P Name="Position">[1610, 62, 1685, 78]</P>
+    <P Name="Position">[1615, 77, 1690, 93]</P>
     <P Name="ZOrder">6614</P>
-    <P Name="LibraryVersion">15.17</P>
+    <P Name="LibraryVersion">15.118</P>
     <P Name="SourceBlock">Miscellaneous/bus_to_uint(byte)</P>
-    <P Name="SourceType">SubSystem</P>
+    <P Name="SourceType"/>
     <InstanceData>
-      <P Name="ShowPortLabels">FromPortIcon</P>
-      <P Name="SystemSampleTime">-1</P>
       <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
       <P Name="RTWMemSecFuncExecute">Inherit from model</P>
       <P Name="RTWMemSecDataConstants">Inherit from model</P>
       <P Name="RTWMemSecDataInternal">Inherit from model</P>
       <P Name="RTWMemSecDataParameters">Inherit from model</P>
-      <P Name="VariantActivationTime">update diagram</P>
-      <P Name="AllowZeroVariantControls">off</P>
-      <P Name="PropagateVariantConditions">off</P>
       <P Name="ContentPreviewEnabled">off</P>
-      <P Name="Latency">0</P>
-      <P Name="AutoFrameSizeCalculation">off</P>
     </InstanceData>
   </Block>
   <Block BlockType="Reference" Name="uint_to_bus(byte)" SID="473">
     <PortCounts in="1" out="1"/>
     <P Name="Position">[1330, 67, 1405, 83]</P>
     <P Name="ZOrder">6612</P>
-    <P Name="LibraryVersion">15.17</P>
+    <P Name="LibraryVersion">15.118</P>
     <P Name="SourceBlock">Miscellaneous/uint_to_bus(byte)</P>
-    <P Name="SourceType">SubSystem</P>
+    <P Name="SourceType"/>
     <InstanceData>
       <P Name="ShowPortLabels">FromPortIcon</P>
       <P Name="SystemSampleTime">-1</P>
@@ -1205,9 +1203,9 @@ Converter</P>
     <PortCounts in="1" out="1"/>
     <P Name="Position">[1330, 112, 1405, 128]</P>
     <P Name="ZOrder">6613</P>
-    <P Name="LibraryVersion">15.17</P>
+    <P Name="LibraryVersion">15.118</P>
     <P Name="SourceBlock">Miscellaneous/uint_to_bus(byte)</P>
-    <P Name="SourceType">SubSystem</P>
+    <P Name="SourceType"/>
     <InstanceData>
       <P Name="ShowPortLabels">FromPortIcon</P>
       <P Name="SystemSampleTime">-1</P>
@@ -1236,8 +1234,8 @@ Converter</P>
     <P Name="Dst">355#in:4</P>
   </Line>
   <Line>
-    <P Name="ZOrder">3</P>
-    <P Name="Src">355#out:1</P>
+    <P Name="ZOrder">37</P>
+    <P Name="Src">355#out:2</P>
     <P Name="Dst">475#in:1</P>
   </Line>
   <Line>
@@ -1313,6 +1311,11 @@ Converter</P>
     <P Name="Src">475#out:1</P>
     <P Name="Dst">392#in:1</P>
   </Line>
+  <Line>
+    <P Name="ZOrder">38</P>
+    <P Name="Src">355#out:1</P>
+    <P Name="Dst">476#in:1</P>
+  </Line>
 </System>
 
 __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
@@ -1340,8 +1343,8 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
         <P Name="LoadSaveID" Class="char">0</P>
         <P Name="Extents" Class="double">[905.0, 844.0]</P>
         <P Name="ZoomFactor" Class="double">1.25</P>
-        <P Name="Offset" Class="double">[1319.9749107657406, -189.37376089555517]</P>
-        <P Name="SceneRectInView" Class="double">[1319.9749107657406, -189.37376089555517, 724.0, 675.2]</P>
+        <P Name="Offset" Class="double">[1090.2404114221276, -209.38212006555779]</P>
+        <P Name="SceneRectInView" Class="double">[1090.2404114221276, -209.38212006555779, 724.0, 675.2]</P>
       </Object>
       <Array PropName="DockComponentsInfo" Type="Simulink.DockComponentInfo" Dimension="1*2">
         <Object ObjectID="6">
